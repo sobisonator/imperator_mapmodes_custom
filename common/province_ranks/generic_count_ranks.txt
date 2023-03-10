@@ -1,0 +1,870 @@
+# A scale going from red, through yellow, to green, of 125 values.
+
+mapmode_generic_count_1 = {
+	rank_modifier = {}
+
+	color = rgb { 248 2 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_2 = {
+	rank_modifier = {}
+
+	color = rgb { 246 4 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_3 = {
+	rank_modifier = {}
+
+	color = rgb { 244 6 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_4 = {
+	rank_modifier = {}
+
+	color = rgb { 242 8 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_5 = {
+	rank_modifier = {}
+
+	color = rgb { 240 10 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_6 = {
+	rank_modifier = {}
+
+	color = rgb { 238 12 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_7 = {
+	rank_modifier = {}
+
+	color = rgb { 236 14 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_8 = {
+	rank_modifier = {}
+
+	color = rgb { 234 16 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_9 = {
+	rank_modifier = {}
+
+	color = rgb { 232 18 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_10 = {
+	rank_modifier = {}
+
+	color = rgb { 230 20 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_11 = {
+	rank_modifier = {}
+
+	color = rgb { 228 22 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_12 = {
+	rank_modifier = {}
+
+	color = rgb { 226 24 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_13 = {
+	rank_modifier = {}
+
+	color = rgb { 224 26 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_14 = {
+	rank_modifier = {}
+
+	color = rgb { 222 28 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_15 = {
+	rank_modifier = {}
+
+	color = rgb { 220 30 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_16 = {
+	rank_modifier = {}
+
+	color = rgb { 218 32 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_17 = {
+	rank_modifier = {}
+
+	color = rgb { 216 34 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_18 = {
+	rank_modifier = {}
+
+	color = rgb { 214 36 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_19 = {
+	rank_modifier = {}
+
+	color = rgb { 212 38 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_20 = {
+	rank_modifier = {}
+
+	color = rgb { 210 40 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_21 = {
+	rank_modifier = {}
+
+	color = rgb { 208 42 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_22 = {
+	rank_modifier = {}
+
+	color = rgb { 206 44 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_23 = {
+	rank_modifier = {}
+
+	color = rgb { 204 46 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_24 = {
+	rank_modifier = {}
+
+	color = rgb { 202 48 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_25 = {
+	rank_modifier = {}
+
+	color = rgb { 200 50 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_26 = {
+	rank_modifier = {}
+
+	color = rgb { 198 52 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_27 = {
+	rank_modifier = {}
+
+	color = rgb { 196 54 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_28 = {
+	rank_modifier = {}
+
+	color = rgb { 194 56 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_29 = {
+	rank_modifier = {}
+
+	color = rgb { 192 58 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_30 = {
+	rank_modifier = {}
+
+	color = rgb { 190 60 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_31 = {
+	rank_modifier = {}
+
+	color = rgb { 188 62 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_32 = {
+	rank_modifier = {}
+
+	color = rgb { 186 64 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_33 = {
+	rank_modifier = {}
+
+	color = rgb { 184 66 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_34 = {
+	rank_modifier = {}
+
+	color = rgb { 182 68 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_35 = {
+	rank_modifier = {}
+
+	color = rgb { 180 70 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_36 = {
+	rank_modifier = {}
+
+	color = rgb { 178 72 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_37 = {
+	rank_modifier = {}
+
+	color = rgb { 176 74 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_38 = {
+	rank_modifier = {}
+
+	color = rgb { 174 76 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_39 = {
+	rank_modifier = {}
+
+	color = rgb { 172 78 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_40 = {
+	rank_modifier = {}
+
+	color = rgb { 170 80 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_41 = {
+	rank_modifier = {}
+
+	color = rgb { 168 82 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_42 = {
+	rank_modifier = {}
+
+	color = rgb { 166 84 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_43 = {
+	rank_modifier = {}
+
+	color = rgb { 164 86 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_44 = {
+	rank_modifier = {}
+
+	color = rgb { 162 88 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_45 = {
+	rank_modifier = {}
+
+	color = rgb { 160 90 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_46 = {
+	rank_modifier = {}
+
+	color = rgb { 158 92 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_47 = {
+	rank_modifier = {}
+
+	color = rgb { 156 94 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_48 = {
+	rank_modifier = {}
+
+	color = rgb { 154 96 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_49 = {
+	rank_modifier = {}
+
+	color = rgb { 152 98 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_50 = {
+	rank_modifier = {}
+
+	color = rgb { 150 100 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_51 = {
+	rank_modifier = {}
+
+	color = rgb { 148 102 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_52 = {
+	rank_modifier = {}
+
+	color = rgb { 146 104 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_53 = {
+	rank_modifier = {}
+
+	color = rgb { 144 106 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_54 = {
+	rank_modifier = {}
+
+	color = rgb { 142 108 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_55 = {
+	rank_modifier = {}
+
+	color = rgb { 140 110 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_56 = {
+	rank_modifier = {}
+
+	color = rgb { 138 112 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_57 = {
+	rank_modifier = {}
+
+	color = rgb { 136 114 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_58 = {
+	rank_modifier = {}
+
+	color = rgb { 134 116 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_59 = {
+	rank_modifier = {}
+
+	color = rgb { 132 118 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_60 = {
+	rank_modifier = {}
+
+	color = rgb { 130 120 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_61 = {
+	rank_modifier = {}
+
+	color = rgb { 128 122 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_62 = {
+	rank_modifier = {}
+
+	color = rgb { 126 124 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_63 = {
+	rank_modifier = {}
+
+	color = rgb { 124 126 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_64 = {
+	rank_modifier = {}
+
+	color = rgb { 122 128 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_65 = {
+	rank_modifier = {}
+
+	color = rgb { 120 130 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_66 = {
+	rank_modifier = {}
+
+	color = rgb { 118 132 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_67 = {
+	rank_modifier = {}
+
+	color = rgb { 116 134 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_68 = {
+	rank_modifier = {}
+
+	color = rgb { 114 136 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_69 = {
+	rank_modifier = {}
+
+	color = rgb { 112 138 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_70 = {
+	rank_modifier = {}
+
+	color = rgb { 110 140 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_71 = {
+	rank_modifier = {}
+
+	color = rgb { 108 142 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_72 = {
+	rank_modifier = {}
+
+	color = rgb { 106 144 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_73 = {
+	rank_modifier = {}
+
+	color = rgb { 104 146 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_74 = {
+	rank_modifier = {}
+
+	color = rgb { 102 148 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_75 = {
+	rank_modifier = {}
+
+	color = rgb { 100 150 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_76 = {
+	rank_modifier = {}
+
+	color = rgb { 98 152 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_77 = {
+	rank_modifier = {}
+
+	color = rgb { 96 154 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_78 = {
+	rank_modifier = {}
+
+	color = rgb { 94 156 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_79 = {
+	rank_modifier = {}
+
+	color = rgb { 92 158 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_80 = {
+	rank_modifier = {}
+
+	color = rgb { 90 160 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_81 = {
+	rank_modifier = {}
+
+	color = rgb { 88 162 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_82 = {
+	rank_modifier = {}
+
+	color = rgb { 86 164 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_83 = {
+	rank_modifier = {}
+
+	color = rgb { 84 166 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_84 = {
+	rank_modifier = {}
+
+	color = rgb { 82 168 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_85 = {
+	rank_modifier = {}
+
+	color = rgb { 80 170 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_86 = {
+	rank_modifier = {}
+
+	color = rgb { 78 172 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_87 = {
+	rank_modifier = {}
+
+	color = rgb { 76 174 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_88 = {
+	rank_modifier = {}
+
+	color = rgb { 74 176 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_89 = {
+	rank_modifier = {}
+
+	color = rgb { 72 178 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_90 = {
+	rank_modifier = {}
+
+	color = rgb { 70 180 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_91 = {
+	rank_modifier = {}
+
+	color = rgb { 68 182 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_92 = {
+	rank_modifier = {}
+
+	color = rgb { 66 184 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_93 = {
+	rank_modifier = {}
+
+	color = rgb { 64 186 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_94 = {
+	rank_modifier = {}
+
+	color = rgb { 62 188 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_95 = {
+	rank_modifier = {}
+
+	color = rgb { 60 190 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_96 = {
+	rank_modifier = {}
+
+	color = rgb { 58 192 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_97 = {
+	rank_modifier = {}
+
+	color = rgb { 56 194 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_98 = {
+	rank_modifier = {}
+
+	color = rgb { 54 196 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_99 = {
+	rank_modifier = {}
+
+	color = rgb { 52 198 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_100 = {
+	rank_modifier = {}
+
+	color = rgb { 50 200 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_101 = {
+	rank_modifier = {}
+
+	color = rgb { 48 202 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_102 = {
+	rank_modifier = {}
+
+	color = rgb { 46 204 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_103 = {
+	rank_modifier = {}
+
+	color = rgb { 44 206 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_104 = {
+	rank_modifier = {}
+
+	color = rgb { 42 208 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_105 = {
+	rank_modifier = {}
+
+	color = rgb { 40 210 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_106 = {
+	rank_modifier = {}
+
+	color = rgb { 38 212 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_107 = {
+	rank_modifier = {}
+
+	color = rgb { 36 214 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_108 = {
+	rank_modifier = {}
+
+	color = rgb { 34 216 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_109 = {
+	rank_modifier = {}
+
+	color = rgb { 32 218 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_110 = {
+	rank_modifier = {}
+
+	color = rgb { 30 220 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_111 = {
+	rank_modifier = {}
+
+	color = rgb { 28 222 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_112 = {
+	rank_modifier = {}
+
+	color = rgb { 26 224 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_113 = {
+	rank_modifier = {}
+
+	color = rgb { 24 226 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_114 = {
+	rank_modifier = {}
+
+	color = rgb { 22 228 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_115 = {
+	rank_modifier = {}
+
+	color = rgb { 20 230 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_116 = {
+	rank_modifier = {}
+
+	color = rgb { 18 232 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_117 = {
+	rank_modifier = {}
+
+	color = rgb { 16 234 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_118 = {
+	rank_modifier = {}
+
+	color = rgb { 14 236 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_119 = {
+	rank_modifier = {}
+
+	color = rgb { 12 238 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_120 = {
+	rank_modifier = {}
+
+	color = rgb { 10 240 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_121 = {
+	rank_modifier = {}
+
+	color = rgb { 8 242 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_122 = {
+	rank_modifier = {}
+
+	color = rgb { 6 244 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_123 = {
+	rank_modifier = {}
+
+	color = rgb { 4 246 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}
+mapmode_generic_count_124 = {
+	rank_modifier = {}
+
+	color = rgb { 2 248 0}
+	is_established_city = no
+	holy_site_treasure_slots 3
+}

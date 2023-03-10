@@ -1,0 +1,1261 @@
+namespace = map
+
+map.999 = { # TEST
+  immediate = {
+    MAPMODE_enable_special_mapmode = {
+      mapmode = governorship_per_capita_wealth
+    }
+  }
+}
+
+map.11 = { # store the city ranks
+  hidden = yes
+  type = country_event
+
+  immediate = {
+    if = {
+      limit = {
+        NOT = {
+          has_global_variable = mapmode
+        }
+      }
+
+      every_province = {
+        limit = { is_inhabitable = yes }
+
+        if = {
+          limit = { rank = settlement }
+          set_variable = {
+            name = province_rank
+            value = 1
+          }
+        }
+
+        else_if = {
+          limit = { rank = city }
+          set_variable = {
+            name = province_rank
+            value = 1
+          }
+        }
+
+        else_if = {
+          limit = { rank = city_metropolis }
+          set_variable = {
+            name = province_rank
+            value = 2
+          }
+        }
+
+      }
+
+    }
+  }
+}
+
+map.100 = { # restore the city ranks
+  hidden = yes
+  type = country_event
+
+  immediate = {
+    if = {
+      limit = { has_global_variable = mapmode }
+      every_province = {
+        limit = { is_inhabitable = yes }
+
+        if = {
+          limit = { has_variable = province_rank var:province_rank = 0 }
+
+          set_city_status = settlement
+        }
+
+        else_if = {
+          limit = { has_variable = province_rank var:province_rank = 1 }
+
+          set_city_status = city
+        }
+
+        else_if = {
+          limit = { has_variable = province_rank var:province_rank = 2 }
+
+          set_city_status = city_metropolis
+        }
+
+      }
+
+      remove_global_variable = mapmode
+    }
+  }
+}
+
+map.1 = { # government types
+  hidden = yes
+  type = country_event
+
+  immediate = {
+    trigger_event = { id = map.11 }
+    trigger_event = { id = map.10 }
+  }
+}
+
+# we have to call a separate event because otherwise everything would fire before map.11 is finished and we won't be able to restore the trade goods later
+
+map.10 = { # government types
+  hidden = yes
+  type = country_event
+
+  immediate = {
+    every_province = {
+      limit = {
+        has_owner = no
+        is_inhabitable = yes
+      }
+      set_trade_goods = empty
+    }
+
+    every_country = {
+      if = {
+        limit = { government = aristocratic_republic }
+        every_owned_province = {
+          set_trade_goods = aristocratic_republic
+        }
+      }
+
+      else_if = {
+        limit = { government = theocratic_republic }
+        every_owned_province = {
+          set_trade_goods = theocratic_republic
+        }
+      }
+
+      else_if = {
+        limit = { government = oligarchic_republic }
+        every_owned_province = {
+          set_trade_goods = oligarchic_republic
+        }
+      }
+
+      else_if = {
+        limit = { government = democratic_republic }
+        every_owned_province = {
+          set_trade_goods = democratic_republic
+        }
+      }
+
+      else_if = {
+        limit = { government = plutocratic_republic }
+        every_owned_province = {
+          set_trade_goods = plutocratic_republic
+        }
+      }
+
+      else_if = {
+        limit = { government = despotic_monarchy }
+        every_owned_province = {
+          set_trade_goods = despotic_monarchy
+        }
+      }
+
+      else_if = {
+        limit = { government = aristocratic_monarchy }
+        every_owned_province = {
+          set_trade_goods = aristocratic_monarchy
+        }
+      }
+
+      else_if = {
+        limit = { government = stratocratic_monarchy }
+        every_owned_province = {
+          set_trade_goods = stratocratic_monarchy
+        }
+      }
+
+      else_if = {
+        limit = { government = theocratic_monarchy }
+        every_owned_province = {
+          set_trade_goods = theocratic_monarchy
+        }
+      }
+
+      else_if = {
+        limit = { government = plutocratic_monarchy }
+        every_owned_province = {
+          set_trade_goods = plutocratic_monarchy
+        }
+      }
+
+      else_if = {
+        limit = { government = imperium }
+        every_owned_province = {
+          set_trade_goods = imperium
+        }
+      }
+
+      else_if = {
+        limit = { government = imperial_cult }
+        every_owned_province = {
+          set_trade_goods = imperial_cult
+        }
+      }
+
+      else_if = {
+        limit = { government = tribal_chiefdom }
+        every_owned_province = {
+          set_trade_goods = tribal_chiefdom
+        }
+      }
+
+      else_if = {
+        limit = { government = tribal_kingdom }
+        every_owned_province = {
+          set_trade_goods = tribal_kingdom
+        }
+      }
+
+      else_if = {
+        limit = { government = tribal_federation }
+        every_owned_province = {
+          set_trade_goods = tribal_federation
+        }
+      }
+    }
+
+    set_global_variable = mapmode
+  }
+}
+
+map.2 = { # citizens
+  hidden = yes
+  type = country_event
+
+  immediate = {
+    trigger_event = { id = map.11 }
+    trigger_event = { id = map.20 }
+  }
+}
+
+map.20 = { # citizens
+  hidden = yes
+  type = country_event
+
+  immediate = {
+    every_province = {
+      limit = { is_inhabitable = yes }
+      if = {
+        limit = {
+          num_of_citizen = 0
+        }
+        set_trade_goods = citizens_0
+      }
+
+      else_if = {
+        limit = { num_of_citizen <= 1 }
+        set_trade_goods = citizens_1
+      }
+
+      else_if = {
+        limit = { num_of_citizen <= 2 }
+        set_trade_goods = citizens_2
+      }
+
+      else_if = {
+        limit = { num_of_citizen <= 3 }
+        set_trade_goods = citizens_3
+      }
+
+      else_if = {
+        limit = { num_of_citizen <= 4 }
+        set_trade_goods = citizens_4
+      }
+
+      else_if = {
+        limit = { num_of_citizen <= 5 }
+        set_trade_goods = citizens_5
+      }
+
+      else_if = {
+        limit = { num_of_citizen <= 6 }
+        set_trade_goods = citizens_6
+      }
+
+      else_if = {
+        limit = { num_of_citizen <= 7 }
+        set_trade_goods = citizens_7
+      }
+
+      else_if = {
+        limit = { num_of_citizen <= 8 }
+        set_trade_goods = citizens_8
+      }
+
+      else_if = {
+        limit = { num_of_citizen <= 9 }
+        set_trade_goods = citizens_9
+      }
+
+      else_if = {
+        limit = { num_of_citizen <= 10 }
+        set_trade_goods = citizens_10
+      }
+
+      else_if = {
+        limit = { num_of_citizen <= 11 }
+        set_trade_goods = citizens_11
+      }
+
+      else_if = {
+        limit = { num_of_citizen <= 12 }
+        set_trade_goods = citizens_12
+      }
+
+      else_if = {
+        limit = { num_of_citizen <= 13 }
+        set_trade_goods = citizens_13
+      }
+
+      else_if = {
+        limit = { num_of_citizen <= 14 }
+        set_trade_goods = citizens_14
+      }
+
+      else_if = {
+        limit = { num_of_citizen <= 15 }
+        set_trade_goods = citizens_15
+      }
+
+      else_if = {
+        limit = { num_of_citizen <= 16 }
+        set_trade_goods = citizens_16
+      }
+
+      else_if = {
+        limit = { num_of_citizen <= 17 }
+        set_trade_goods = citizens_17
+      }
+
+      else_if = {
+        limit = { num_of_citizen <= 18 }
+        set_trade_goods = citizens_18
+      }
+
+      else_if = {
+        limit = { num_of_citizen <= 19 }
+        set_trade_goods = citizens_19
+      }
+
+      else_if = {
+        limit = { num_of_citizen <= 20 }
+        set_trade_goods = citizens_20
+      }
+
+      else_if = {
+        limit = { num_of_citizen <= 25 }
+        set_trade_goods = citizens_25
+      }
+
+      else_if = {
+        limit = { num_of_citizen <= 30 }
+        set_trade_goods = citizens_30
+      }
+
+      else_if = {
+        limit = { num_of_citizen <= 35 }
+        set_trade_goods = citizens_35
+      }
+
+      else_if = {
+        limit = { num_of_citizen <= 40 }
+        set_trade_goods = citizens_40
+      }
+
+      else_if = {
+        limit = { num_of_citizen <= 45 }
+        set_trade_goods = citizens_45
+      }
+
+      else = {
+        set_trade_goods = citizens_50
+      }
+    }
+
+    set_global_variable = mapmode
+  }
+}
+
+map.3 = { # freemen
+  hidden = yes
+  type = country_event
+
+  immediate = {
+    trigger_event = { id = map.11 }
+    trigger_event = { id = map.30 }
+  }
+}
+
+map.30 = { # freemen
+  hidden = yes
+  type = country_event
+
+  immediate = {
+    every_province = {
+      limit = { is_inhabitable = yes }
+      if = {
+        limit = {
+          num_of_freemen = 0
+        }
+        set_trade_goods = freemen_0
+      }
+
+      else_if = {
+        limit = { num_of_freemen = 1 }
+        set_trade_goods = freemen_1
+      }
+
+      else_if = {
+        limit = { num_of_freemen = 2 }
+        set_trade_goods = freemen_2
+      }
+
+      else_if = {
+        limit = { num_of_freemen = 3 }
+        set_trade_goods = freemen_3
+      }
+
+      else_if = {
+        limit = { num_of_freemen = 4 }
+        set_trade_goods = freemen_4
+      }
+
+      else_if = {
+        limit = { num_of_freemen = 5 }
+        set_trade_goods = freemen_5
+      }
+
+      else_if = {
+        limit = { num_of_freemen = 6 }
+        set_trade_goods = freemen_6
+      }
+
+      else_if = {
+        limit = { num_of_freemen = 7 }
+        set_trade_goods = freemen_7
+      }
+
+      else_if = {
+        limit = { num_of_freemen = 8 }
+        set_trade_goods = freemen_8
+      }
+
+      else_if = {
+        limit = { num_of_freemen = 9 }
+        set_trade_goods = freemen_9
+      }
+
+      else_if = {
+        limit = { num_of_freemen = 10 }
+        set_trade_goods = freemen_10
+      }
+
+      else_if = {
+        limit = { num_of_freemen = 11 }
+        set_trade_goods = freemen_11
+      }
+
+      else_if = {
+        limit = { num_of_freemen = 12 }
+        set_trade_goods = freemen_12
+      }
+
+      else_if = {
+        limit = { num_of_freemen = 13 }
+        set_trade_goods = freemen_13
+      }
+
+      else_if = {
+        limit = { num_of_freemen = 14 }
+        set_trade_goods = freemen_14
+      }
+
+      else_if = {
+        limit = { num_of_freemen = 15 }
+        set_trade_goods = freemen_15
+      }
+
+      else_if = {
+        limit = { num_of_freemen = 16 }
+        set_trade_goods = freemen_16
+      }
+
+      else_if = {
+        limit = { num_of_freemen = 17 }
+        set_trade_goods = freemen_17
+      }
+
+      else_if = {
+        limit = { num_of_freemen = 18 }
+        set_trade_goods = freemen_18
+      }
+
+      else_if = {
+        limit = { num_of_freemen = 19 }
+        set_trade_goods = freemen_19
+      }
+
+      else_if = {
+        limit = { num_of_freemen = 20 }
+        set_trade_goods = freemen_20
+      }
+
+      else_if = {
+        limit = { num_of_freemen <= 25 }
+        set_trade_goods = freemen_25
+      }
+
+      else_if = {
+        limit = { num_of_freemen <= 30 }
+        set_trade_goods = freemen_30
+      }
+
+      else_if = {
+        limit = { num_of_freemen <= 35 }
+        set_trade_goods = freemen_35
+      }
+
+      else_if = {
+        limit = { num_of_freemen <= 40 }
+        set_trade_goods = freemen_40
+      }
+
+      else_if = {
+        limit = { num_of_freemen <= 45 }
+        set_trade_goods = freemen_45
+      }
+
+      else = {
+        set_trade_goods = citizens_50
+      }
+    }
+
+    set_global_variable = mapmode
+  }
+}
+
+map.4 = { # tribesmen
+  hidden = yes
+  type = country_event
+
+  immediate = {
+    trigger_event = { id = map.11 }
+    trigger_event = { id = map.40 }
+  }
+}
+
+map.40 = { # tribesmen
+  hidden = yes
+  type = country_event
+
+  immediate = {
+    every_province = {
+      limit = { is_inhabitable = yes }
+      if = {
+        limit = {
+          num_of_tribesmen = 0
+        }
+        set_trade_goods = tribesmen_0
+      }
+
+      else_if = {
+        limit = { num_of_tribesmen = 1 }
+        set_trade_goods = tribesmen_1
+      }
+
+      else_if = {
+        limit = { num_of_tribesmen = 2 }
+        set_trade_goods = tribesmen_2
+      }
+
+      else_if = {
+        limit = { num_of_tribesmen = 3 }
+        set_trade_goods = tribesmen_3
+      }
+
+      else_if = {
+        limit = { num_of_tribesmen = 4 }
+        set_trade_goods = tribesmen_4
+      }
+
+      else_if = {
+        limit = { num_of_tribesmen = 5 }
+        set_trade_goods = tribesmen_5
+      }
+
+      else_if = {
+        limit = { num_of_tribesmen = 6 }
+        set_trade_goods = tribesmen_6
+      }
+
+      else_if = {
+        limit = { num_of_tribesmen = 7 }
+        set_trade_goods = tribesmen_7
+      }
+
+      else_if = {
+        limit = { num_of_tribesmen = 8 }
+        set_trade_goods = tribesmen_8
+      }
+
+      else_if = {
+        limit = { num_of_tribesmen = 9 }
+        set_trade_goods = tribesmen_9
+      }
+
+      else_if = {
+        limit = { num_of_tribesmen = 10 }
+        set_trade_goods = tribesmen_10
+      }
+
+      else_if = {
+        limit = { num_of_tribesmen = 11 }
+        set_trade_goods = tribesmen_11
+      }
+
+      else_if = {
+        limit = { num_of_tribesmen = 12 }
+        set_trade_goods = tribesmen_12
+      }
+
+      else_if = {
+        limit = { num_of_tribesmen = 13 }
+        set_trade_goods = tribesmen_13
+      }
+
+      else_if = {
+        limit = { num_of_tribesmen = 14 }
+        set_trade_goods = tribesmen_14
+      }
+
+      else_if = {
+        limit = { num_of_tribesmen = 15 }
+        set_trade_goods = tribesmen_15
+      }
+
+      else_if = {
+        limit = { num_of_tribesmen = 16 }
+        set_trade_goods = tribesmen_16
+      }
+
+      else_if = {
+        limit = { num_of_tribesmen = 17 }
+        set_trade_goods = tribesmen_17
+      }
+
+      else_if = {
+        limit = { num_of_tribesmen = 18 }
+        set_trade_goods = tribesmen_18
+      }
+
+      else_if = {
+        limit = { num_of_tribesmen = 19 }
+        set_trade_goods = tribesmen_19
+      }
+
+      else_if = {
+        limit = { num_of_tribesmen = 20 }
+        set_trade_goods = tribesmen_20
+      }
+
+      else_if = {
+        limit = { num_of_tribesmen <= 25 }
+        set_trade_goods = tribesmen_25
+      }
+
+      else_if = {
+        limit = { num_of_tribesmen <= 30 }
+        set_trade_goods = tribesmen_30
+      }
+
+      else_if = {
+        limit = { num_of_tribesmen <= 35 }
+        set_trade_goods = tribesmen_35
+      }
+
+      else_if = {
+        limit = { num_of_tribesmen <= 40 }
+        set_trade_goods = tribesmen_40
+      }
+
+      else_if = {
+        limit = { num_of_tribesmen <= 45 }
+        set_trade_goods = tribesmen_45
+      }
+
+      else = {
+        set_trade_goods = citizens_50
+      }
+    }
+
+    set_global_variable = mapmode
+  }
+}
+
+map.5 = { # slaves
+  hidden = yes
+  type = country_event
+
+  immediate = {
+    trigger_event = { id = map.11 }
+    trigger_event = { id = map.50 }
+  }
+}
+
+map.50 = { # slaves
+  hidden = yes
+  type = country_event
+
+  immediate = {
+    every_province = {
+      limit = { is_inhabitable = yes }
+      if = {
+        limit = {
+          num_of_slaves = 0
+        }
+        set_trade_goods = slaves_0
+      }
+
+      else_if = {
+        limit = { num_of_slaves = 1 }
+        set_trade_goods = slaves_1
+      }
+
+      else_if = {
+        limit = { num_of_slaves = 2 }
+        set_trade_goods = slaves_2
+      }
+
+      else_if = {
+        limit = { num_of_slaves = 3 }
+        set_trade_goods = slaves_3
+      }
+
+      else_if = {
+        limit = { num_of_slaves = 4 }
+        set_trade_goods = slaves_4
+      }
+
+      else_if = {
+        limit = { num_of_slaves = 5 }
+        set_trade_goods = slaves_5
+      }
+
+      else_if = {
+        limit = { num_of_slaves = 6 }
+        set_trade_goods = slaves_6
+      }
+
+      else_if = {
+        limit = { num_of_slaves = 7 }
+        set_trade_goods = slaves_7
+      }
+
+      else_if = {
+        limit = { num_of_slaves = 8 }
+        set_trade_goods = slaves_8
+      }
+
+      else_if = {
+        limit = { num_of_slaves = 9 }
+        set_trade_goods = slaves_9
+      }
+
+      else_if = {
+        limit = { num_of_slaves = 10 }
+        set_trade_goods = slaves_10
+      }
+
+      else_if = {
+        limit = { num_of_slaves = 11 }
+        set_trade_goods = slaves_11
+      }
+
+      else_if = {
+        limit = { num_of_slaves = 12 }
+        set_trade_goods = slaves_12
+      }
+
+      else_if = {
+        limit = { num_of_slaves = 13 }
+        set_trade_goods = slaves_13
+      }
+
+      else_if = {
+        limit = { num_of_slaves = 14 }
+        set_trade_goods = slaves_14
+      }
+
+      else_if = {
+        limit = { num_of_slaves = 15 }
+        set_trade_goods = slaves_15
+      }
+
+      else_if = {
+        limit = { num_of_slaves = 16 }
+        set_trade_goods = slaves_16
+      }
+
+      else_if = {
+        limit = { num_of_slaves = 17 }
+        set_trade_goods = slaves_17
+      }
+
+      else_if = {
+        limit = { num_of_slaves = 18 }
+        set_trade_goods = slaves_18
+      }
+
+      else_if = {
+        limit = { num_of_slaves = 19 }
+        set_trade_goods = slaves_19
+      }
+
+      else_if = {
+        limit = { num_of_slaves = 20 }
+        set_trade_goods = slaves_20
+      }
+
+      else_if = {
+        limit = { num_of_slaves <= 25 }
+        set_trade_goods = slaves_25
+      }
+
+      else_if = {
+        limit = { num_of_slaves <= 30 }
+        set_trade_goods = slaves_30
+      }
+
+      else_if = {
+        limit = { num_of_slaves <= 35 }
+        set_trade_goods = slaves_35
+      }
+
+      else_if = {
+        limit = { num_of_slaves <= 40 }
+        set_trade_goods = slaves_40
+      }
+
+      else_if = {
+        limit = { num_of_slaves <= 45 }
+        set_trade_goods = slaves_45
+      }
+
+      else = {
+        set_trade_goods = citizens_50
+      }
+    }
+
+    set_global_variable = mapmode
+  }
+}
+
+map.6 = { # tech
+  hidden = yes
+  type = country_event
+
+  immediate = {
+    trigger_event = { id = map.11 }
+    trigger_event = { id = map.60 }
+  }
+}
+
+map.60 = { # tech
+  hidden = yes
+  type = country_event
+
+  immediate = {
+    every_province = {
+      limit = {
+        has_owner = no
+        is_inhabitable = yes
+      }
+      set_trade_goods = empty
+    }
+
+    every_country = {
+      if = {
+        limit = {
+          military_tech = 0
+        }
+        every_owned_province = {
+          set_trade_goods = tech_0
+        }
+      }
+
+      else_if = {
+        limit = { military_tech = 1 }
+        every_owned_province = {
+          set_trade_goods = tech_1
+        }
+      }
+
+      else_if = {
+        limit = { military_tech = 2 }
+        every_owned_province = {
+          set_trade_goods = tech_2
+        }
+      }
+
+      else_if = {
+        limit = { military_tech = 3 }
+        every_owned_province = {
+          set_trade_goods = tech_3
+        }
+      }
+
+      else_if = {
+        limit = { military_tech = 4 }
+        every_owned_province = {
+          set_trade_goods = tech_4
+        }
+      }
+
+      else_if = {
+        limit = { military_tech = 5 }
+        every_owned_province = {
+          set_trade_goods = tech_5
+        }
+      }
+
+      else_if = {
+        limit = { military_tech = 6 }
+        every_owned_province = {
+          set_trade_goods = tech_6
+        }
+      }
+
+      else_if = {
+        limit = { military_tech = 7 }
+        every_owned_province = {
+          set_trade_goods = tech_7
+        }
+      }
+
+      else_if = {
+        limit = { military_tech = 8 }
+        every_owned_province = {
+          set_trade_goods = tech_8
+        }
+      }
+
+      else_if = {
+        limit = { military_tech = 9 }
+        every_owned_province = {
+          set_trade_goods = tech_9
+        }
+      }
+
+      else_if = {
+        limit = { military_tech = 10 }
+        every_owned_province = {
+          set_trade_goods = tech_10
+        }
+      }
+
+      else_if = {
+        limit = { military_tech = 11 }
+        every_owned_province = {
+          set_trade_goods = tech_11
+        }
+      }
+
+      else_if = {
+        limit = { military_tech = 12 }
+        every_owned_province = {
+          set_trade_goods = tech_12
+        }
+      }
+
+      else_if = {
+        limit = { military_tech = 13 }
+        every_owned_province = {
+          set_trade_goods = tech_13
+        }
+      }
+
+      else_if = {
+        limit = { military_tech = 14 }
+        every_owned_province = {
+          set_trade_goods = tech_14
+        }
+      }
+
+      else_if = {
+        limit = { military_tech = 15 }
+        every_owned_province = {
+          set_trade_goods = tech_15
+        }
+      }
+
+      else_if = {
+        limit = { military_tech = 16 }
+        every_owned_province = {
+          set_trade_goods = tech_16
+        }
+      }
+
+      else_if = {
+        limit = { military_tech = 17 }
+        every_owned_province = {
+          set_trade_goods = tech_17
+        }
+      }
+
+      else_if = {
+        limit = { military_tech = 18 }
+        every_owned_province = {
+          set_trade_goods = tech_18
+        }
+      }
+
+      else_if = {
+        limit = { military_tech = 19 }
+        every_owned_province = {
+          set_trade_goods = tech_19
+        }
+      }
+
+      else_if = {
+        limit = { military_tech = 20 }
+        every_owned_province = {
+          set_trade_goods = tech_20
+        }
+      }
+    }
+
+    set_global_variable = mapmode
+  }
+}
+
+map.7 = { # strength
+  hidden = yes
+  type = country_event
+
+  immediate = {
+    trigger_event = { id = map.11 }
+    trigger_event = { id = map.70 }
+  }
+}
+
+map.70 = { # strength
+  hidden = yes
+  type = country_event
+
+  immediate = {
+    every_province = {
+      limit = {
+        has_owner = no
+        is_inhabitable = yes
+      }
+      set_trade_goods = empty
+    }
+
+    if = {
+      limit = { num_of_cohorts > 0 }
+
+      set_variable = {
+        name = much_weaker
+        value = this.num_of_cohorts
+      }
+
+      change_variable = {
+        name = much_weaker
+        divide = 3
+      }
+
+      set_variable = {
+        name = weaker
+        value = this.num_of_cohorts
+      }
+
+      change_variable = {
+        name = weaker
+        divide = 1.3
+      }
+
+      set_variable = {
+        name = equal
+        value = this.num_of_cohorts
+      }
+
+      set_variable = {
+        name = stronger
+        value = this.num_of_cohorts
+      }
+
+      change_variable = {
+        name = stronger
+        multiply = 1.3
+      }
+
+      set_variable = {
+        name = much_stronger
+        value = this.num_of_cohorts
+      }
+
+      change_variable = {
+        name = much_stronger
+        multiply = 3
+      }
+
+      every_country = {
+        if = {
+          limit = {
+            root = {
+              prev.num_of_cohorts <= var:much_weaker
+            }
+          }
+          every_owned_province = {
+            set_trade_goods = much_weaker
+          }
+        }
+
+        else_if = {
+          limit = {
+            root = {
+              prev.num_of_cohorts <= var:weaker
+            }
+          }
+          every_owned_province = {
+            set_trade_goods = weaker
+          }
+        }
+
+        else_if = {
+          limit = {
+            root = {
+              prev.num_of_cohorts >= var:much_stronger
+            }
+          }
+          every_owned_province = {
+            set_trade_goods = much_stronger
+          }
+        }
+
+        else_if = {
+          limit = {
+            root = {
+              prev.num_of_cohorts >= var:stronger
+            }
+          }
+          every_owned_province = {
+            set_trade_goods = stronger
+          }
+        }
+
+        else = {
+          every_owned_province = {
+            set_trade_goods = equal
+          }
+        }
+      }
+    }
+
+    else = {
+      every_country = {
+        limit = {
+          num_of_cohorts > 0
+        }
+        every_owned_province = {
+          set_trade_goods = stronger
+        }
+      }
+      every_country = {
+        limit = {
+          num_of_cohorts = 0
+        }
+        every_owned_province = {
+          set_trade_goods = equal
+        }
+      }
+    }
+
+    set_global_variable = mapmode
+  }
+}
+
+map.8 = { # war
+  hidden = yes
+  type = country_event
+
+  immediate = {
+    trigger_event = { id = map.11 }
+    trigger_event = { id = map.80 }
+
+  }
+}
+
+map.80 = { # war
+  hidden = yes
+  type = country_event
+
+  immediate = {
+    every_country = {
+      if = {
+        limit = { war = yes }
+        every_owned_province = {
+          set_trade_goods = war
+        }
+      }
+      else = {
+        every_owned_province = {
+          set_trade_goods = empty
+        }
+      }
+    }
+
+    every_province = {
+      limit = {
+        has_owner = no
+        is_inhabitable = yes
+       }
+      set_trade_goods = empty
+    }
+
+    set_global_variable = mapmode
+  }
+}
+
+map.9 = { # cities
+  hidden = yes
+  type = country_event
+
+  immediate = {
+    trigger_event = { id = map.11 }
+    trigger_event = { id = map.90 }
+  }
+}
+
+map.90 = { # cities
+  hidden = yes
+  type = country_event
+
+  immediate = {
+    every_province = {
+      limit = { is_inhabitable = yes }
+
+      if = {
+        limit = { has_province_rank = settlement}
+        set_trade_goods = settlement
+      }
+
+      else_if = {
+        limit = { has_province_rank = city}
+        set_trade_goods = city
+      }
+
+      else = {
+        set_trade_goods = metropolis
+      }
+    }
+
+    set_global_variable = mapmode
+  }
+}

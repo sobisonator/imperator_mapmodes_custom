@@ -1,0 +1,155 @@
+window = {
+	gfxtype = windowgfx
+	name = "replay_controller"
+	movable = no
+	parentanchor = top|right
+	position = { -3 0 }
+	size = {250 100}
+	alwaystransparent = yes
+
+	widget = {
+		size = { 46 45 }
+		position = { 25 3 }
+
+		# icon = {
+		# 	texture = "gfx/interface/topbar/top_bar_button_frame_small.dds"
+		# }
+
+		pause_button = {
+			name = "rewind_button"
+			size = { 42 42 }
+			texture = "gfx/interface/buttons/button_start.dds"
+			position = { 2 3 }
+			onclick = "[ReplayController.OnRewind]"
+			tooltip = "Go to Start"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_click"
+			shortcut = "top_bar_11"
+		}
+	}
+
+
+	widget = {
+		size = { 46 45 }
+		parentanchor = right
+		position = { -15 3 }
+
+		# icon = {
+		# 	texture = "gfx/interface/topbar/top_bar_button_frame_small.dds"
+		# }
+
+		pause_button = {
+			name = "to_end_button"
+			size = { 42 42 }
+			texture = "gfx/interface/buttons/button_end.dds"
+			position = { 2 3 }
+			onclick = "[ReplayController.OnToEnd]"
+			tooltip = "Go to End"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_click"
+			shortcut = "top_bar_12"
+		}
+	}
+
+	flowcontainer = {
+		position = { 0 61 }
+		parentanchor = right
+
+		widget = {
+			size = { 46 45 }
+
+			icon = {
+				texture = "gfx/interface/topbar/top_bar_button_frame_small.dds"
+			}
+
+			play_button = {
+				name = "max_backward_button"
+				size = { 42 42 }
+				texture = "gfx/interface/buttons/button_bb.dds"
+				position = { 2 3 }
+				onclick = "[ReplayController.OnMaxBackward]"
+				tooltip = "Rewind"
+				clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_click"
+				shortcut = "top_bar_1"
+			}
+		}
+
+		widget = {
+			size = { 5 0 }
+		}
+
+		widget = {
+			size = { 46 45 }
+
+			icon = {
+				texture = "gfx/interface/topbar/top_bar_button_frame_small.dds"
+			}
+
+			minus_button = {
+				name = "decelerate_button"
+				size = { 42 42 }
+				#texture = "gfx/interface/buttons/button_back.dds"
+				position = { 2 3 }
+				onclick = "[ReplayController.OnDecelerate]"
+				tooltip = "Decrease speed"
+				shortcut = "top_bar_2"
+			}
+		}
+
+		widget = {
+			size = { 46 45 }
+
+			icon = {
+				texture = "gfx/interface/topbar/top_bar_button_frame_small.dds"
+			}
+
+			pause_button = {
+				name = "stop_button"
+				size = { 42 42 }
+				position = { 2 3 }
+				onclick = "[ReplayController.OnStop]"
+				tooltip = "Stop"
+				shortcut = "pause"
+				clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_click"
+			}
+		}
+
+		widget = {
+			size = { 46 45 }
+
+			icon = {
+				texture = "gfx/interface/topbar/top_bar_button_frame_small.dds"
+			}
+
+			plus_button = {
+				name = "accelerate_button"
+				size = { 42 42 }
+				position = { 2 3 }
+				onclick = "[ReplayController.OnAccelerate]"
+				tooltip = "Increase speed"
+				shortcut = "top_bar_3"
+			}
+		}
+
+		widget = {
+			size = { 5 0 }
+		}
+
+		widget = {
+			size = { 46 45 }
+
+			icon = {
+				texture = "gfx/interface/topbar/top_bar_button_frame_small.dds"
+			}
+
+			play_button = {
+				name = "max_forward_button"
+				size = { 42 42 }
+				texture = "gfx/interface/buttons/button_ff.dds"
+				position = { 2 3 }
+				onclick = "[ReplayController.OnMaxForward]"
+				tooltip = "Fast forward"
+				clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_click"
+				shortcut = "top_bar_4"
+			}
+		}
+	}
+}

@@ -1,0 +1,127 @@
+
+tech_0 = {
+  category = 10
+
+  color = hsv { 0.0 0.9 0.01 }
+}
+
+tech_1 = {
+  category = 10
+
+  color = hsv { 0.0 0.9 0.05 }
+}
+
+tech_2 = {
+  category = 10
+
+  color = hsv { 0.0 0.9 0.1 }
+}
+
+tech_3 = {
+  category = 10
+
+  color = hsv { 0.0 0.9 0.15 }
+}
+
+tech_4 = {
+  category = 10
+
+  color = hsv { 0.0 0.9 0.20 }
+}
+
+tech_5 = {
+  category = 10
+
+  color = hsv { 0.0 0.9 0.25 }
+}
+
+tech_6 = {
+  category = 10
+
+  color = hsv { 0.0 0.9 0.30 }
+}
+
+tech_7 = {
+  category = 10
+
+  color = hsv { 0.0 0.9 0.35 }
+}
+
+tech_8 = {
+  category = 10
+
+  color = hsv { 0.0 0.9 0.40 }
+}
+
+tech_9 = {
+  category = 10
+
+  color = hsv { 0.0 0.9 0.45 }
+}
+
+tech_10 = {
+  category = 10
+
+  color = hsv { 0.0 0.9 0.51 }
+}
+
+
+tech_11 = {
+  category = 10
+
+  color = hsv { 0.0 0.9 0.55 }
+}
+
+tech_12 = {
+  category = 10
+
+  color = hsv { 0.0 0.9 0.60 }
+}
+
+tech_13 = {
+  category = 10
+
+  color = hsv { 0.0 0.9 0.65 }
+}
+
+tech_14 = {
+  category = 10
+
+  color = hsv { 0.0 0.9 0.70 }
+}
+
+tech_15 = {
+  category = 10
+
+  color = hsv { 0.0 0.9 0.75 }
+}
+
+tech_16 = {
+  category = 10
+
+  color = hsv { 0.0 0.9 0.80 }
+}
+
+tech_17 = {
+  category = 10
+
+  color = hsv { 0.0 0.9 0.85 }
+}
+
+tech_18 = {
+  category = 10
+
+  color = hsv { 0.0 0.9 0.90 }
+}
+
+tech_19 = {
+  category = 10
+
+  color = hsv { 0.0 0.9 0.95 }
+}
+
+tech_20 = {
+  category = 10
+
+  color = hsv { 0.0 0.9 1.0 }
+}

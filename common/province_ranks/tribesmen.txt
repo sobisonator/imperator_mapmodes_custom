@@ -1,0 +1,163 @@
+
+tribesmen_0 = {
+  category = 8
+
+  color = hsv { 0.24 0.9 0.01 }
+}
+
+tribesmen_1 = {
+  category = 8
+
+  color = hsv { 0.24 0.9 0.02 }
+}
+
+tribesmen_2 = {
+  category = 8
+
+  color = hsv { 0.24 0.9 0.04 }
+}
+
+tribesmen_3 = {
+  category = 8
+
+  color = hsv { 0.24 0.9 0.06 }
+}
+
+tribesmen_4 = {
+  category = 8
+
+  color = hsv { 0.24 0.9 0.08 }
+}
+
+tribesmen_5 = {
+  category = 8
+
+  color = hsv { 0.24 0.9 0.1 }
+}
+
+tribesmen_6 = {
+  category = 8
+
+  color = hsv { 0.24 0.9 0.12 }
+}
+
+tribesmen_7 = {
+  category = 8
+
+  color = hsv { 0.24 0.9 0.14 }
+}
+
+tribesmen_8 = {
+  category = 8
+
+  color = hsv { 0.24 0.9 0.16 }
+}
+
+tribesmen_9 = {
+  category = 8
+
+  color = hsv { 0.24 0.9 0.18 }
+}
+
+tribesmen_10 = {
+  category = 8
+
+  color = hsv { 0.24 0.9 0.2 }
+}
+
+
+tribesmen_11 = {
+  category = 8
+
+  color = hsv { 0.24 0.9 0.22 }
+}
+
+tribesmen_12 = {
+  category = 8
+
+  color = hsv { 0.24 0.9 0.24 }
+}
+
+tribesmen_13 = {
+  category = 8
+
+  color = hsv { 0.24 0.9 0.26 }
+}
+
+tribesmen_14 = {
+  category = 8
+
+  color = hsv { 0.24 0.9 0.28 }
+}
+
+tribesmen_15 = {
+  category = 8
+
+  color = hsv { 0.24 0.9 0.3 }
+}
+
+tribesmen_16 = {
+  category = 8
+
+  color = hsv { 0.24 0.9 0.32 }
+}
+
+tribesmen_17 = {
+  category = 8
+
+  color = hsv { 0.24 0.9 0.34 }
+}
+
+tribesmen_18 = {
+  category = 8
+
+  color = hsv { 0.24 0.9 0.36 }
+}
+
+tribesmen_19 = {
+  category = 8
+
+  color = hsv { 0.24 0.9 0.38 }
+}
+
+tribesmen_20 = {
+  category = 8
+
+  color = hsv { 0.24 0.9 0.4 }
+}
+
+tribesmen_25 = {
+  category = 8
+
+  color = hsv { 0.24 0.9 0.5 }
+}
+
+tribesmen_30 = {
+  category = 8
+
+  color = hsv { 0.24 0.9 0.6 }
+}
+
+tribesmen_35 = {
+  category = 8
+
+  color = hsv { 0.24 0.9 0.7 }
+}
+
+tribesmen_40 = {
+  category = 8
+
+  color = hsv { 0.24 0.9 0.8 }
+}
+
+tribesmen_45 = {
+  category = 8
+
+  color = hsv { 0.24 0.9 0.9 }
+}
+
+tribesmen_50 = {
+  category = 8
+
+  color = hsv { 0.24 0.9 1.0 }
+}

@@ -1,0 +1,163 @@
+
+slaves_0 = {
+  category = 9
+
+  color = hsv { 0.14 0.9 0.01 }
+}
+
+slaves_1 = {
+  category = 9
+
+  color = hsv { 0.14 0.9 0.02 }
+}
+
+slaves_2 = {
+  category = 9
+
+  color = hsv { 0.14 0.9 0.04 }
+}
+
+slaves_3 = {
+  category = 9
+
+  color = hsv { 0.14 0.9 0.06 }
+}
+
+slaves_4 = {
+  category = 9
+
+  color = hsv { 0.14 0.9 0.08 }
+}
+
+slaves_5 = {
+  category = 9
+
+  color = hsv { 0.14 0.9 0.1 }
+}
+
+slaves_6 = {
+  category = 9
+
+  color = hsv { 0.14 0.9 0.12 }
+}
+
+slaves_7 = {
+  category = 9
+
+  color = hsv { 0.14 0.9 0.14 }
+}
+
+slaves_8 = {
+  category = 9
+
+  color = hsv { 0.14 0.9 0.16 }
+}
+
+slaves_9 = {
+  category = 9
+
+  color = hsv { 0.14 0.9 0.18 }
+}
+
+slaves_10 = {
+  category = 9
+
+  color = hsv { 0.14 0.9 0.2 }
+}
+
+
+slaves_11 = {
+  category = 9
+
+  color = hsv { 0.14 0.9 0.22 }
+}
+
+slaves_12 = {
+  category = 9
+
+  color = hsv { 0.14 0.9 0.24 }
+}
+
+slaves_13 = {
+  category = 9
+
+  color = hsv { 0.14 0.9 0.26 }
+}
+
+slaves_14 = {
+  category = 9
+
+  color = hsv { 0.14 0.9 0.28 }
+}
+
+slaves_15 = {
+  category = 9
+
+  color = hsv { 0.14 0.9 0.3 }
+}
+
+slaves_16 = {
+  category = 9
+
+  color = hsv { 0.14 0.9 0.32 }
+}
+
+slaves_17 = {
+  category = 9
+
+  color = hsv { 0.14 0.9 0.34 }
+}
+
+slaves_18 = {
+  category = 9
+
+  color = hsv { 0.14 0.9 0.36 }
+}
+
+slaves_19 = {
+  category = 9
+
+  color = hsv { 0.14 0.9 0.38 }
+}
+
+slaves_20 = {
+  category = 9
+
+  color = hsv { 0.14 0.9 0.4 }
+}
+
+slaves_25 = {
+  category = 9
+
+  color = hsv { 0.14 0.9 0.5 }
+}
+
+slaves_30 = {
+  category = 9
+
+  color = hsv { 0.14 0.9 0.6 }
+}
+
+slaves_35 = {
+  category = 9
+
+  color = hsv { 0.14 0.9 0.7 }
+}
+
+slaves_40 = {
+  category = 9
+
+  color = hsv { 0.14 0.9 0.8 }
+}
+
+slaves_45 = {
+  category = 9
+
+  color = hsv { 0.14 0.9 0.9 }
+}
+
+slaves_50 = {
+  category = 9
+
+  color = hsv { 0.14 0.9 1.0 }
+}

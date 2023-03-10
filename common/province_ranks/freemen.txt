@@ -1,0 +1,163 @@
+
+freemen_0 = {
+  category = 7
+
+  color = hsv { 0.08 0.9 0.01 }
+}
+
+freemen_1 = {
+  category = 7
+
+  color = hsv { 0.08 0.9 0.02 }
+}
+
+freemen_2 = {
+  category = 7
+
+  color = hsv { 0.08 0.9 0.04 }
+}
+
+freemen_3 = {
+  category = 7
+
+  color = hsv { 0.08 0.9 0.06 }
+}
+
+freemen_4 = {
+  category = 7
+
+  color = hsv { 0.08 0.9 0.08 }
+}
+
+freemen_5 = {
+  category = 7
+
+  color = hsv { 0.08 0.9 0.1 }
+}
+
+freemen_6 = {
+  category = 7
+
+  color = hsv { 0.08 0.9 0.12 }
+}
+
+freemen_7 = {
+  category = 7
+
+  color = hsv { 0.08 0.9 0.14 }
+}
+
+freemen_8 = {
+  category = 7
+
+  color = hsv { 0.08 0.9 0.16 }
+}
+
+freemen_9 = {
+  category = 7
+
+  color = hsv { 0.08 0.9 0.18 }
+}
+
+freemen_10 = {
+  category = 7
+
+  color = hsv { 0.08 0.9 0.2 }
+}
+
+
+freemen_11 = {
+  category = 7
+
+  color = hsv { 0.08 0.9 0.22 }
+}
+
+freemen_12 = {
+  category = 7
+
+  color = hsv { 0.08 0.9 0.24 }
+}
+
+freemen_13 = {
+  category = 7
+
+  color = hsv { 0.08 0.9 0.26 }
+}
+
+freemen_14 = {
+  category = 7
+
+  color = hsv { 0.08 0.9 0.28 }
+}
+
+freemen_15 = {
+  category = 7
+
+  color = hsv { 0.08 0.9 0.3 }
+}
+
+freemen_16 = {
+  category = 7
+
+  color = hsv { 0.08 0.9 0.32 }
+}
+
+freemen_17 = {
+  category = 7
+
+  color = hsv { 0.08 0.9 0.34 }
+}
+
+freemen_18 = {
+  category = 7
+
+  color = hsv { 0.08 0.9 0.36 }
+}
+
+freemen_19 = {
+  category = 7
+
+  color = hsv { 0.08 0.9 0.38 }
+}
+
+freemen_20 = {
+  category = 7
+
+  color = hsv { 0.08 0.9 0.4 }
+}
+
+freemen_25 = {
+  category = 7
+
+  color = hsv { 0.08 0.9 0.5 }
+}
+
+freemen_30 = {
+  category = 7
+
+  color = hsv { 0.08 0.9 0.6 }
+}
+
+freemen_35 = {
+  category = 7
+
+  color = hsv { 0.08 0.9 0.7 }
+}
+
+freemen_40 = {
+  category = 7
+
+  color = hsv { 0.08 0.9 0.8 }
+}
+
+freemen_45 = {
+  category = 7
+
+  color = hsv { 0.08 0.9 0.9 }
+}
+
+freemen_50 = {
+  category = 7
+
+  color = hsv { 0.08 0.9 1.0 }
+}

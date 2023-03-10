@@ -1,0 +1,1256 @@
+types IngameTopbar
+{
+	type topbar_tab_button = container {
+
+		button = {
+			name = "button"
+			position = { 0 0 }
+			gfxtype = updownframedbuttongfx
+			effectname = "NoHighlight"
+			upframe = 1
+			downframe = 2
+			overframe = 3
+			framesize = { 32 32 }
+			parentanchor = top|left
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_click"
+			oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+		}
+
+		widget = {
+			state = {
+				name = _show
+				start_sound = {soundeffect = "event:/SFX/Ambience/2DMapEmitters/Nature/sfx_amb_base_wind"}
+			}
+		}
+	}
+}
+
+types Mapmodestuff
+{
+	type mapmodebutton = button {
+		shaderfile = "gfx/FX/pdxgui_pushbutton.shader"
+		gfxtype = togglepushbuttongfx
+		effectname = "NoHighlight"
+
+		upframe = 1
+		uphoverframe = 2
+		uppressedframe = 3
+		downframe = 4
+		downhoverframe = 5
+		downpressedframe = 6
+
+		clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_map_mode"
+		oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+
+		block "visibility"
+		{
+			visible = "[CanChangeMapMode]"
+			enabled = "[CanChangeMapMode]"
+		}
+	}
+}
+
+template minimap_view
+{
+	### MAP ACTIONS ROW 1
+	container = {
+		name = "minimap_view_1"
+
+		container = {
+			name = "actual_map"
+
+			mini_map = {
+				position = { -17 -2 }
+				name = "mini_map"
+				parentanchor = bottom|right
+				widgetanchor = bottom|right
+				texture = "gfx/interface/minimap/minimap.dds"
+			}
+
+			container = {
+				position = { 0 -50 }
+				widget = {
+					position = { 0 0 }
+					size = { 418 210 }
+					parentanchor = bottom|right
+					widgetanchor = bottom|right
+					using = small_window_columns_type
+					#alwaystransparent = no
+				}
+
+				icon = {
+					texture = "gfx/interface/tiles/small_window_title_header_corners.dds"
+					spriteType = Corneredtiled
+					shaderfile = "gfx/FX/pdxgui_default.shader"
+					size = { 100% 54 }
+					spriteborder = { 10 20 }
+					position = { 1 -114 }
+					datacontext = "[GetScriptedGui('t_mapmodes')]"
+					visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+					alwaystransparent = no
+				}
+
+				icon = {
+					texture = "gfx/interface/tiles/small_window_title_header_corners.dds"
+					spriteType = Corneredtiled
+					shaderfile = "gfx/FX/pdxgui_default.shader"
+					size = { 100% 54 }
+					spriteborder = { 10 20 }
+					position = { 1 -72 }
+					datacontext = "[GetScriptedGui('t_mapmodes')]"
+					visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+					alwaystransparent = no
+				}
+
+				icon = {
+					texture = "gfx/interface/tiles/small_window_title_header_corners.dds"
+					spriteType = Corneredtiled
+					shaderfile = "gfx/FX/pdxgui_default.shader"
+					size = { 100% 54 }
+					spriteborder = { 10 20 }
+					position = { 1 -32 }
+					alwaystransparent = no
+				}
+
+				icon = {
+					texture = "gfx/interface/tiles/small_window_title_header_corners.dds"
+					spriteType = Corneredtiled
+					shaderfile = "gfx/FX/pdxgui_default.shader"
+					size = { 100% 42 }
+					spriteborder = { 10 20 }
+					position = { 1 10 }
+					alwaystransparent = no
+				}
+			}
+		}
+	}
+}
+
+template toolbar
+{
+	flowcontainer = {
+		name = "Mapmode_empty_slots"
+		direction = horizontal
+		position = { 42 2 }
+		spacing = 1
+
+		icon = {
+			size = { 45 37 }
+			spriteType = Corneredtiled
+			spriteborder = { 10 10 }
+			texture = "gfx/interface/tiles/sharp_dent_tiles.dds"
+		}
+		icon = {
+			size = { 45 37 }
+			spriteType = Corneredtiled
+			spriteborder = { 10 10 }
+			texture = "gfx/interface/tiles/sharp_dent_tiles.dds"
+		}
+		icon = {
+			size = { 45 37 }
+			spriteType = Corneredtiled
+			spriteborder = { 10 10 }
+			texture = "gfx/interface/tiles/sharp_dent_tiles.dds"
+		}
+		icon = {
+			size = { 45 37 }
+			spriteType = Corneredtiled
+			spriteborder = { 10 10 }
+			texture = "gfx/interface/tiles/sharp_dent_tiles.dds"
+		}
+		icon = {
+			size = { 45 37 }
+			spriteType = Corneredtiled
+			spriteborder = { 10 10 }
+			texture = "gfx/interface/tiles/sharp_dent_tiles.dds"
+		}
+		icon = {
+			size = { 45 37 }
+			spriteType = Corneredtiled
+			spriteborder = { 10 10 }
+			texture = "gfx/interface/tiles/sharp_dent_tiles.dds"
+		}
+		icon = {
+			size = { 45 37 }
+			spriteType = Corneredtiled
+			spriteborder = { 10 10 }
+			texture = "gfx/interface/tiles/sharp_dent_tiles.dds"
+		}
+		icon = {
+			size = { 45 37 }
+			spriteType = Corneredtiled
+			spriteborder = { 10 10 }
+			texture = "gfx/interface/tiles/sharp_dent_tiles.dds"
+		}
+	}
+
+	flowcontainer = {
+		name = "mapactions_row_1"
+		position = { 42 2 }
+		spacing = 1
+
+		dragdroptarget = {
+			dragdropid = "quick_access"
+			dragdropargs = "0"
+			size = { 45 37 }
+
+			button = {
+        datacontext = "[GetScriptedGui('t_tradegoods')]"
+        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+				size = { 45 37 }
+				name = "quick_action_1"
+				framesize = { 45 37 }
+				shortcut = map_mode_1
+				texture = "[GetQuickAccessBar.QuickActionIcon('0')]"
+				onclick = "[GetQuickAccessBar.QuickActionApply('0')]"
+				onrightclick = "[GetQuickAccessBar.DropSlot('0')]"
+				tooltip = "[GetQuickAccessBar.QuickActionDesc('0')]"
+			}
+		}
+
+		dragdroptarget = {
+			dragdropid = "quick_access"
+			dragdropargs = "1"
+			size = { 45 37 }
+			#icon = {
+			#	texture = "gfx/interface/icons/minimap/placeholder_slot.dds"
+			#	size = { 100% 100% }
+			#}
+			button = {
+        datacontext = "[GetScriptedGui('t_tradegoods')]"
+        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+				size = { 45 37 }
+				name = "quick_action_2"
+				framesize = { 45 37 }
+				shortcut = map_mode_2
+				texture = "[GetQuickAccessBar.QuickActionIcon('1')]"
+				onclick = "[GetQuickAccessBar.QuickActionApply('1')]"
+				onrightclick = "[GetQuickAccessBar.DropSlot('1')]"
+				tooltip = "[GetQuickAccessBar.QuickActionDesc('1')]"
+			}
+		}
+
+		dragdroptarget = {
+			dragdropid = "quick_access"
+			dragdropargs = "2"
+			size = { 45 37 }
+			#icon = {
+			#	texture = "gfx/interface/icons/minimap/placeholder_slot.dds"
+			#	size = { 100% 100% }
+			#}
+			button = {
+        datacontext = "[GetScriptedGui('t_tradegoods')]"
+        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+				size = { 45 37 }
+				name = "quick_action_3"
+				shortcut = map_mode_3
+				framesize = { 45 37 }
+				texture = "[GetQuickAccessBar.QuickActionIcon('2')]"
+				onclick = "[GetQuickAccessBar.QuickActionApply('2')]"
+				tooltip = "[GetQuickAccessBar.QuickActionDesc('2')]"
+				onrightclick = "[GetQuickAccessBar.DropSlot('2')]"
+			}
+		}
+		dragdroptarget = {
+			dragdropid = "quick_access"
+			dragdropargs = "3"
+			size = { 45 37 }
+			#icon = {
+			#	texture = "gfx/interface/icons/minimap/placeholder_slot.dds"
+			#	size = { 100% 100% }
+			#}
+			button = {
+        datacontext = "[GetScriptedGui('t_tradegoods')]"
+        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+				size = { 45 37 }
+				name = "quick_action_4"
+				shortcut = map_mode_4
+				framesize = { 45 37 }
+				texture = "[GetQuickAccessBar.QuickActionIcon('3')]"
+				onclick = "[GetQuickAccessBar.QuickActionApply('3')]"
+				tooltip = "[GetQuickAccessBar.QuickActionDesc('3')]"
+				onrightclick = "[GetQuickAccessBar.DropSlot('3')]"
+			}
+		}
+		dragdroptarget = {
+			dragdropid = "quick_access"
+			dragdropargs = "4"
+
+			size = { 45 37 }
+			#icon = {
+			#	texture = "gfx/interface/icons/minimap/placeholder_slot.dds"
+			#	size = { 100% 100% }
+			#}
+			button = {
+        datacontext = "[GetScriptedGui('t_tradegoods')]"
+        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+				size = { 45 37 }
+				name = "quick_action_5"
+				shortcut = map_mode_5
+				framesize = { 45 37 }
+				texture = "[GetQuickAccessBar.QuickActionIcon('4')]"
+				onclick = "[GetQuickAccessBar.QuickActionApply('4')]"
+				tooltip = "[GetQuickAccessBar.QuickActionDesc('4')]"
+				onrightclick = "[GetQuickAccessBar.DropSlot('4')]"
+			}
+		}
+		dragdroptarget = {
+			dragdropid = "quick_access"
+			dragdropargs = "5"
+
+			size = { 45 37 }
+			#icon = {
+			#	texture = "gfx/interface/icons/minimap/placeholder_slot.dds"
+			#	size = { 100% 100% }
+			#}
+			button = {
+        datacontext = "[GetScriptedGui('t_tradegoods')]"
+        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+				size = { 45 37 }
+				name = "quick_action_6"
+				shortcut = map_mode_6
+				framesize = { 45 37 }
+				texture = "[GetQuickAccessBar.QuickActionIcon('5')]"
+				onclick = "[GetQuickAccessBar.QuickActionApply('5')]"
+				tooltip = "[GetQuickAccessBar.QuickActionDesc('5')]"
+				onrightclick = "[GetQuickAccessBar.DropSlot('5')]"
+			}
+		}
+		dragdroptarget = {
+			dragdropid = "quick_access"
+
+			dragdropargs = "6"
+			size = { 45 37 }
+			#icon = {
+			#	texture = "gfx/interface/icons/minimap/placeholder_slot.dds"
+			#	size = { 100% 100% }
+			#}
+			button = {
+        datacontext = "[GetScriptedGui('t_tradegoods')]"
+        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+				size = { 45 37 }
+				name = "quick_action_7"
+				shortcut = map_mode_7
+				framesize = { 45 37 }
+				texture = "[GetQuickAccessBar.QuickActionIcon('6')]"
+				onclick = "[GetQuickAccessBar.QuickActionApply('6')]"
+				tooltip = "[GetQuickAccessBar.QuickActionDesc('6')]"
+				onrightclick = "[GetQuickAccessBar.DropSlot('6')]"
+			}
+		}
+		dragdroptarget = {
+			dragdropid = "quick_access"
+			dragdropargs = "7"
+
+			size = { 45 37 }
+			#icon = {
+			#	texture = "gfx/interface/icons/minimap/placeholder_slot.dds"
+			#	size = { 100% 100% }
+			#}
+			button = {
+        datacontext = "[GetScriptedGui('t_tradegoods')]"
+        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+				size = { 45 37 }
+				name = "quick_action_1"
+				shortcut = map_mode_8
+				framesize = { 45 37 }
+				texture = "[GetQuickAccessBar.QuickActionIcon('7')]"
+				onclick = "[GetQuickAccessBar.QuickActionApply('7')]"
+				tooltip = "[GetQuickAccessBar.QuickActionDesc('7')]"
+				onrightclick = "[GetQuickAccessBar.DropSlot('7')]"
+			}
+		}
+	}
+
+	settings_button = {
+
+		name = "select map modes"
+		onclick = "[OnSelectMapModes]"
+		shortcut = "map_mode_10"
+		tooltip = "CONFIGURE_MAP_MODES"
+	}
+}
+
+template toolbar2
+{
+	flowcontainer = {
+		alwaystransparent = yes
+		name = "mapactions_row_1"
+		position = { 42 400 }
+		spacing = 1
+
+		dragdroptarget = {
+			dragdropid = "quick_access"
+			dragdropargs = "0"
+			size = { 45 37 }
+
+			button = {
+				datacontext = "[GetScriptedGui('t_tradegoods')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+				size = { 45 37 }
+				name = "quick_action_1"
+				framesize = { 45 37 }
+				shortcut = map_mode_1
+				#texture = "[GetQuickAccessBar.QuickActionIcon('0')]"
+				onclick = "[GetQuickAccessBar.QuickActionApply('0')]"
+				onrightclick = "[GetQuickAccessBar.DropSlot('0')]"
+				tooltip = "[GetQuickAccessBar.QuickActionDesc('0')]"
+			}
+		}
+
+		dragdroptarget = {
+			dragdropid = "quick_access"
+			dragdropargs = "1"
+			size = { 45 37 }
+			#icon = {
+			#	#texture = "gfx/interface/icons/minimap/placeholder_slot.dds"
+			#	size = { 100% 100% }
+			#}
+			button = {
+        datacontext = "[GetScriptedGui('t_tradegoods')]"
+        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+				size = { 45 37 }
+				name = "quick_action_2"
+				framesize = { 45 37 }
+				shortcut = map_mode_2
+				#texture = "[GetQuickAccessBar.QuickActionIcon('1')]"
+				onclick = "[GetQuickAccessBar.QuickActionApply('1')]"
+				onrightclick = "[GetQuickAccessBar.DropSlot('1')]"
+				tooltip = "[GetQuickAccessBar.QuickActionDesc('1')]"
+			}
+		}
+
+		dragdroptarget = {
+			dragdropid = "quick_access"
+			dragdropargs = "2"
+			size = { 45 37 }
+			#icon = {
+			#	#texture = "gfx/interface/icons/minimap/placeholder_slot.dds"
+			#	size = { 100% 100% }
+			#}
+			button = {
+        datacontext = "[GetScriptedGui('t_tradegoods')]"
+        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+				size = { 45 37 }
+				name = "quick_action_3"
+				shortcut = map_mode_3
+				framesize = { 45 37 }
+				#texture = "[GetQuickAccessBar.QuickActionIcon('2')]"
+				onclick = "[GetQuickAccessBar.QuickActionApply('2')]"
+				tooltip = "[GetQuickAccessBar.QuickActionDesc('2')]"
+				onrightclick = "[GetQuickAccessBar.DropSlot('2')]"
+			}
+		}
+		dragdroptarget = {
+			dragdropid = "quick_access"
+			dragdropargs = "3"
+			size = { 45 37 }
+			#icon = {
+			#	#texture = "gfx/interface/icons/minimap/placeholder_slot.dds"
+			#	size = { 100% 100% }
+			#}
+			button = {
+        datacontext = "[GetScriptedGui('t_tradegoods')]"
+        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+				size = { 45 37 }
+				name = "quick_action_4"
+				shortcut = map_mode_4
+				framesize = { 45 37 }
+				#texture = "[GetQuickAccessBar.QuickActionIcon('3')]"
+				onclick = "[GetQuickAccessBar.QuickActionApply('3')]"
+				tooltip = "[GetQuickAccessBar.QuickActionDesc('3')]"
+				onrightclick = "[GetQuickAccessBar.DropSlot('3')]"
+			}
+		}
+		dragdroptarget = {
+			dragdropid = "quick_access"
+			dragdropargs = "4"
+
+			size = { 45 37 }
+			#icon = {
+			#	#texture = "gfx/interface/icons/minimap/placeholder_slot.dds"
+			#	size = { 100% 100% }
+			#}
+			button = {
+        datacontext = "[GetScriptedGui('t_tradegoods')]"
+        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+				size = { 45 37 }
+				name = "quick_action_5"
+				shortcut = map_mode_5
+				framesize = { 45 37 }
+				#texture = "[GetQuickAccessBar.QuickActionIcon('4')]"
+				onclick = "[GetQuickAccessBar.QuickActionApply('4')]"
+				tooltip = "[GetQuickAccessBar.QuickActionDesc('4')]"
+				onrightclick = "[GetQuickAccessBar.DropSlot('4')]"
+			}
+		}
+		dragdroptarget = {
+			dragdropid = "quick_access"
+			dragdropargs = "5"
+
+			size = { 45 37 }
+			#icon = {
+			#	#texture = "gfx/interface/icons/minimap/placeholder_slot.dds"
+			#	size = { 100% 100% }
+			#}
+			button = {
+        datacontext = "[GetScriptedGui('t_tradegoods')]"
+        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+				size = { 45 37 }
+				name = "quick_action_6"
+				shortcut = map_mode_6
+				framesize = { 45 37 }
+				#texture = "[GetQuickAccessBar.QuickActionIcon('5')]"
+				onclick = "[GetQuickAccessBar.QuickActionApply('5')]"
+				tooltip = "[GetQuickAccessBar.QuickActionDesc('5')]"
+				onrightclick = "[GetQuickAccessBar.DropSlot('5')]"
+			}
+		}
+		dragdroptarget = {
+			dragdropid = "quick_access"
+
+			dragdropargs = "6"
+			size = { 45 37 }
+			#icon = {
+			#	#texture = "gfx/interface/icons/minimap/placeholder_slot.dds"
+			#	size = { 100% 100% }
+			#}
+			button = {
+        datacontext = "[GetScriptedGui('t_tradegoods')]"
+        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+				size = { 45 37 }
+				name = "quick_action_7"
+				shortcut = map_mode_7
+				framesize = { 45 37 }
+				#texture = "[GetQuickAccessBar.QuickActionIcon('6')]"
+				onclick = "[GetQuickAccessBar.QuickActionApply('6')]"
+				tooltip = "[GetQuickAccessBar.QuickActionDesc('6')]"
+				onrightclick = "[GetQuickAccessBar.DropSlot('6')]"
+			}
+		}
+		dragdroptarget = {
+			dragdropid = "quick_access"
+			dragdropargs = "7"
+
+			size = { 45 37 }
+			#icon = {
+			#	#texture = "gfx/interface/icons/minimap/placeholder_slot.dds"
+			#	size = { 100% 100% }
+			#}
+			button = {
+        datacontext = "[GetScriptedGui('t_tradegoods')]"
+        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+				size = { 45 37 }
+				name = "quick_action_1"
+				shortcut = map_mode_8
+				framesize = { 45 37 }
+				#texture = "[GetQuickAccessBar.QuickActionIcon('7')]"
+				onclick = "[GetQuickAccessBar.QuickActionApply('7')]"
+				tooltip = "[GetQuickAccessBar.QuickActionDesc('7')]"
+				onrightclick = "[GetQuickAccessBar.DropSlot('7')]"
+			}
+		}
+	}
+}
+
+### old
+
+template map_modes
+{
+	### MAPMODES ROW 1
+	flowcontainer = {
+		name = "mapmodes_row_1"
+		position = { 24 1 }
+
+
+		mapmodebutton = {
+      datacontext = "[GetScriptedGui('t_tradegoods')]"
+      onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			texture = "gfx/interface/minimap/terrain.dds"
+			framesize = { 45 37 }
+
+
+			down = "[IsMapMode('terrain')]"
+
+			name = "map_mode_terrain_button"
+			onclick = "[SetMapMode('terrain')]"
+			shortcut = "map_mode_1"
+			tooltip = "MAPMODE_TERRAIN"
+		}
+
+		mapmodebutton = {
+      datacontext = "[GetScriptedGui('t_tradegoods')]"
+      onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+
+			texture = "gfx/interface/minimap/simple_terrain.dds"
+			framesize = { 45 37 }
+
+			down = "[IsMapMode('simple_terrain')]"
+
+			name = "simple_terrain"
+			onclick = "[SetMapMode('simple_terrain')]"
+			shortcut = "map_mode_2"
+			tooltip = "simple_terrain_MAPMODE_DESC"
+		}
+		mapmodebutton = {
+      datacontext = "[GetScriptedGui('t_tradegoods')]"
+      onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+
+			texture = "gfx/interface/minimap/political.dds"
+			framesize = { 45 37 }
+
+			down = "[IsMapMode('political')]"
+
+
+			name = "political"
+			onclick = "[SetMapMode('political')]"
+			shortcut = "map_mode_3"
+			tooltip = "MAPMODE_POLITICAL"
+		}
+		mapmodebutton = {
+      datacontext = "[GetScriptedGui('t_tradegoods')]"
+      onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+
+			texture = "gfx/interface/minimap/culture.dds"
+			framesize = { 45 37 }
+
+			down = "[IsMapMode('culture')]"
+
+
+			name = "culture"
+			onclick = "[SetMapMode('culture')]"
+			shortcut = "map_mode_4"
+			tooltip = "culture_MAPMODE_DESC"
+		}
+		mapmodebutton = {
+      datacontext = "[GetScriptedGui('t_tradegoods')]"
+      onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+
+			texture = "gfx/interface/minimap/religion.dds"
+			framesize = { 45 37 }
+
+			down = "[IsMapMode('religion')]"
+
+			name = "religion"
+			onclick = "[SetMapMode('religion')]"
+			shortcut = "map_mode_5"
+			tooltip = "religion_MAPMODE_DESC"
+		}
+		mapmodebutton = {
+      datacontext = "[GetScriptedGui('t_tradegoods')]"
+      onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+
+			texture = "gfx/interface/minimap/area.dds"
+			framesize = { 45 37 }
+
+
+			down = "[IsMapMode('area')]"
+
+
+			name = "area"
+			onclick = "[SetMapMode('area')]"
+			shortcut = "map_mode_6"
+			tooltip = "area_MAPMODE_DESC"
+		}
+		mapmodebutton = {
+      datacontext = "[GetScriptedGui('t_tradegoods')]"
+      onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+			texture = "gfx/interface/minimap/tradegoods.dds"
+			framesize = { 45 37 }
+
+			down = "[IsMapMode('tradegoods')]"
+
+
+			name = "trade_goods"
+			onclick = "[SetMapMode('tradegoods')]"
+			shortcut = "map_mode_7"
+			tooltip = "tradegoods_MAPMODE_DESC"
+		}
+		mapmodebutton = {
+      datacontext = "[GetScriptedGui('t_tradegoods')]"
+      onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+			texture = "gfx/interface/minimap/population.dds"
+			framesize = { 45 37 }
+
+			down = "[IsMapMode('population')]"
+
+
+			name = "population"
+			onclick = "[SetMapMode('population')]"
+			shortcut = "map_mode_8"
+			tooltip = "population_MAPMODE_DESC"
+		}
+		mapmodebutton = {
+      datacontext = "[GetScriptedGui('t_tradegoods')]"
+      onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+			texture = "gfx/interface/minimap/diplomacy.dds"
+			framesize = { 45 37 }
+
+			down = "[IsMapMode('diplomacy')]"
+
+			name = "diplomacy"
+			onclick = "[SetMapMode('diplomacy')]"
+			shortcut = "map_mode_9"
+			tooltip = "diplomacy_MAPMODE_DESC"
+		}
+	}
+
+	### MAPMODES ROW 2
+	flowcontainer = {
+		name = "mapmodes_row_2"
+		position = { 24 42 }
+
+
+		mapmodebutton = {
+			datacontext = "[GetScriptedGui('t_tradegoods')]"
+			onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+			texture = "gfx/interface/minimap/barbarian_power.dds"
+			framesize = { 45 37 }
+
+
+			down = "[IsMapMode('barbarian_power')]"
+
+
+			name = "map_mode_barbarian_button"
+			onclick = "[SetMapMode('barbarian_power')]"
+			shortcut = "map_mode_10"
+			tooltip = "barbarian_power_MAPMODE_DESC"
+		}
+
+		mapmodebutton = {
+      datacontext = "[GetScriptedGui('t_tradegoods')]"
+      onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+			texture = "gfx/interface/minimap/trade_routes.dds"
+			framesize = { 45 37 }
+
+			down = "[IsMapMode('trade_routes')]"
+
+
+
+			name = "map_mode_trade_routes_button"
+			onclick = "[SetMapMode('trade_routes')]"
+			shortcut = "map_mode_11"
+			tooltip = "trade_routes_MAPMODE_DESC"
+		}
+
+		mapmodebutton = {
+      datacontext = "[GetScriptedGui('t_tradegoods')]"
+      onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+			texture = "gfx/interface/minimap/players.dds"
+			framesize = { 45 37 }
+
+			down = "[IsMapMode('players')]"
+
+
+			name = "map_mode_players_button"
+			onclick = "[SetMapMode('players')]"
+			shortcut = "map_mode_12"
+			tooltip = "MAPMODE_PLAYERS"
+		}
+
+
+		mapmodebutton = {
+      datacontext = "[GetScriptedGui('t_tradegoods')]"
+      onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+			texture = "gfx/interface/minimap/fortifications.dds"
+			framesize = { 45 37 }
+
+			down = "[IsMapMode('fortifications')]"
+
+
+			name = "map_mode_fortifications_button"
+			onclick = "[SetMapMode('fortifications')]"
+			shortcut = "map_mode_13"
+			tooltip = "fortifications_MAPMODE_DESC"
+		}
+
+
+		mapmodebutton = {
+      datacontext = "[GetScriptedGui('t_tradegoods')]"
+      onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+			texture = "gfx/interface/minimap/region.dds"
+			framesize = { 45 37 }
+
+			down = "[IsMapMode('region')]"
+
+			name = "region"
+			onclick = "[SetMapMode('region')]"
+			shortcut = "map_mode_14"
+			tooltip = "region_MAPMODE_DESC"
+		}
+
+		mapmodebutton = {
+      datacontext = "[GetScriptedGui('t_tradegoods')]"
+      onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+			texture = "gfx/interface/minimap/supply.dds"
+			framesize = { 45 37 }
+
+			down = "[IsMapMode('supply')]"
+
+			name = "map_mode_supply_button"
+			onclick = "[SetMapMode('supply')]"
+			shortcut = "map_mode_15"
+			tooltip = "supply_MAPMODE_DESC"
+		}
+
+		mapmodebutton = {
+      datacontext = "[GetScriptedGui('t_tradegoods')]"
+      onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+			texture = "gfx/interface/minimap/civilization.dds"
+			framesize = { 45 37 }
+
+			down = "[IsMapMode('civilization')]"
+
+			name = "map_mode_civ_button"
+			onclick = "[SetMapMode('civilization')]"
+			shortcut = "map_mode_16"
+			tooltip = "civilization_MAPMODE_DESC"
+		}
+
+		mapmodebutton = {
+      datacontext = "[GetScriptedGui('t_tradegoods')]"
+      onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			texture = "gfx/interface/minimap/opinion.dds"
+			framesize = { 45 37 }
+			size = { 45 37 }
+
+			down = "[IsMapMode('opinion')]"
+
+			name = "opinion"
+			onclick = "[SetMapMode('opinion')]"
+			tooltip = "opinion_MAPMODE_DESC"
+			shortcut = "map_mode_17"
+		}
+		mapmodebutton = {
+      datacontext = "[GetScriptedGui('t_tradegoods')]"
+      onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			texture = "gfx/interface/minimap/unrest_loyalty.dds"
+			framesize = { 45 37 }
+
+			down = "[IsMapMode('unrest_loyalty')]"
+
+			name = "unrest_loyalty"
+			onclick = "[SetMapMode('unrest_loyalty')]"
+			tooltip = "unrest_loyalty_MAPMODE_DESC"
+			shortcut = "map_mode_18"
+		}
+	}
+
+	flowcontainer = {
+		name = "mapmodes_row_3"
+		position = { 24 83 }
+		visible = "[Not(IsGamePaused)]"
+
+		mapmodebutton = {
+			datacontext = "[GetScriptedGui('t_government')]"
+			onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			onclick = "[OnPause]"
+			down = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+			texture = "gfx/buttons/government.dds"
+			framesize = { 45 37 }
+
+			tooltip = "t_government"
+		}
+
+		mapmodebutton = {
+			datacontext = "[GetScriptedGui('t_cities')]"
+			down = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			onclick = "[OnPause]"
+
+
+			texture = "gfx/buttons/cities.dds"
+			framesize = { 45 37 }
+
+			tooltip = "t_cities"
+		}
+
+		mapmodebutton = {
+			datacontext = "[GetScriptedGui('t_citizens')]"
+			onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			down = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			onclick = "[OnPause]"
+
+			texture = "gfx/buttons/citizens.dds"
+			framesize = { 45 37 }
+
+			tooltip = "t_citizens"
+		}
+
+		mapmodebutton = {
+			datacontext = "[GetScriptedGui('t_freemen')]"
+			down = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			onclick = "[OnPause]"
+
+
+			texture = "gfx/buttons/freemen.dds"
+			framesize = { 45 37 }
+
+			tooltip = "t_freemen"
+		}
+
+		mapmodebutton = {
+			datacontext = "[GetScriptedGui('t_tribesmen')]"
+			down = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			onclick = "[OnPause]"
+
+
+			texture = "gfx/buttons/tribesmen.dds"
+			framesize = { 45 37 }
+
+			tooltip = "t_tribesmen"
+		}
+
+		mapmodebutton = {
+			datacontext = "[GetScriptedGui('t_slaves')]"
+			down = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			onclick = "[OnPause]"
+
+
+			texture = "gfx/buttons/slaves.dds"
+			framesize = { 45 37 }
+
+			tooltip = "t_slaves"
+		}
+
+		mapmodebutton = {
+			datacontext = "[GetScriptedGui('t_tech')]"
+			down = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			onclick = "[OnPause]"
+
+
+			texture = "gfx/buttons/tech.dds"
+			framesize = { 45 37 }
+
+			tooltip = "t_tech"
+		}
+
+		mapmodebutton = {
+			datacontext = "[GetScriptedGui('t_strength')]"
+			down = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			onclick = "[OnPause]"
+
+
+			texture = "gfx/buttons/strength.dds"
+			framesize = { 45 37 }
+
+			tooltip = "t_strength"
+		}
+
+		mapmodebutton = {
+			datacontext = "[GetScriptedGui('t_war')]"
+			down = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			onclick = "[OnPause]"
+
+
+			texture = "gfx/buttons/war.dds"
+			framesize = { 45 37 }
+
+			tooltip = "t_war"
+		}
+	}
+
+	flowcontainer = {
+		name = "mapmodes_row_4"
+		position = { 24 83 }
+		visible = "[IsGamePaused]"
+
+		mapmodebutton = {
+			datacontext = "[GetScriptedGui('t_government')]"
+			onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			down = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+			texture = "gfx/buttons/government.dds"
+			framesize = { 45 37 }
+
+			tooltip = "#t Government Type"
+
+			mapmodebutton = {
+				onclick = "[SetMapMode('tradegoods')]"
+				datacontext = "[GetScriptedGui('t_government')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+				texture = "gfx/buttons/update.dds"
+				framesize = { 45 37 }
+
+				tooltip = "#t Click again, please"
+				onclick = "[PdxGuiWidget.Hide]"
+			}
+		}
+
+		mapmodebutton = {
+			datacontext = "[GetScriptedGui('t_cities')]"
+			down = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+
+			texture = "gfx/buttons/cities.dds"
+			framesize = { 45 37 }
+
+			tooltip = "#t Cities"
+
+			mapmodebutton = {
+				onclick = "[SetMapMode('tradegoods')]"
+				datacontext = "[GetScriptedGui('t_cities')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+				texture = "gfx/buttons/update.dds"
+				framesize = { 45 37 }
+
+				tooltip = "#t Click again, please"
+				onclick = "[PdxGuiWidget.Hide]"
+			}
+		}
+
+		mapmodebutton = {
+			datacontext = "[GetScriptedGui('t_citizens')]"
+			onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			down = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+			texture = "gfx/buttons/citizens.dds"
+			framesize = { 45 37 }
+
+			tooltip = "#t Citizens"
+
+			mapmodebutton = {
+				onclick = "[SetMapMode('tradegoods')]"
+				datacontext = "[GetScriptedGui('t_citizens')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+				texture = "gfx/buttons/update.dds"
+				framesize = { 45 37 }
+
+				tooltip = "#t Click again, please"
+				onclick = "[PdxGuiWidget.Hide]"
+			}
+		}
+
+		mapmodebutton = {
+			datacontext = "[GetScriptedGui('t_freemen')]"
+			down = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+
+			texture = "gfx/buttons/freemen.dds"
+			framesize = { 45 37 }
+
+			tooltip = "#t Freemen"
+
+			mapmodebutton = {
+				onclick = "[SetMapMode('tradegoods')]"
+				datacontext = "[GetScriptedGui('t_freemen')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+				texture = "gfx/buttons/update.dds"
+				framesize = { 45 37 }
+
+				tooltip = "#t Click again, please"
+				onclick = "[PdxGuiWidget.Hide]"
+			}
+		}
+
+		mapmodebutton = {
+			datacontext = "[GetScriptedGui('t_tribesmen')]"
+			down = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+
+			texture = "gfx/buttons/tribesmen.dds"
+			framesize = { 45 37 }
+
+			tooltip = "#t Tribesmen"
+
+			mapmodebutton = {
+				onclick = "[SetMapMode('tradegoods')]"
+				datacontext = "[GetScriptedGui('t_tribesmen')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+				texture = "gfx/buttons/update.dds"
+				framesize = { 45 37 }
+
+				tooltip = "#t Click again, please"
+				onclick = "[PdxGuiWidget.Hide]"
+			}
+		}
+
+		mapmodebutton = {
+			datacontext = "[GetScriptedGui('t_slaves')]"
+			down = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+
+			texture = "gfx/buttons/slaves.dds"
+			framesize = { 45 37 }
+
+			tooltip = "#t Slaves"
+
+			mapmodebutton = {
+				onclick = "[SetMapMode('tradegoods')]"
+				datacontext = "[GetScriptedGui('t_slaves')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+				texture = "gfx/buttons/update.dds"
+				framesize = { 45 37 }
+
+				tooltip = "#t Click again, please"
+				onclick = "[PdxGuiWidget.Hide]"
+			}
+		}
+
+		mapmodebutton = {
+			datacontext = "[GetScriptedGui('t_tech')]"
+			down = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+
+			texture = "gfx/buttons/tech.dds"
+			framesize = { 45 37 }
+
+			tooltip = "#t Military Tech"
+
+			mapmodebutton = {
+				onclick = "[SetMapMode('tradegoods')]"
+				datacontext = "[GetScriptedGui('t_tech')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+				texture = "gfx/buttons/update.dds"
+				framesize = { 45 37 }
+
+				tooltip = "#t Click again, please"
+				onclick = "[PdxGuiWidget.Hide]"
+			}
+		}
+
+		mapmodebutton = {
+			datacontext = "[GetScriptedGui('t_strength')]"
+			down = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+
+			texture = "gfx/buttons/strength.dds"
+			framesize = { 45 37 }
+
+			tooltip = "#t Relative Army Size"
+
+			mapmodebutton = {
+				onclick = "[SetMapMode('tradegoods')]"
+				datacontext = "[GetScriptedGui('t_strength')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+				texture = "gfx/buttons/update.dds"
+				framesize = { 45 37 }
+
+				tooltip = "#t Click again, please"
+				onclick = "[PdxGuiWidget.Hide]"
+			}
+		}
+
+		mapmodebutton = {
+			datacontext = "[GetScriptedGui('t_war')]"
+			down = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+			onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+
+			texture = "gfx/buttons/war.dds"
+			framesize = { 45 37 }
+
+			tooltip = "#t Countries at War"
+
+			mapmodebutton = {
+				onclick = "[SetMapMode('tradegoods')]"
+				datacontext = "[GetScriptedGui('t_war')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
+
+				texture = "gfx/buttons/update.dds"
+				framesize = { 45 37 }
+
+				tooltip = "#t Click again, please"
+				onclick = "[PdxGuiWidget.Hide]"
+			}
+		}
+	}
+}
+
+template map_actions
+{
+	### MAP ACTIONS ROW 1
+	flowcontainer = {
+		name = "mapactions_row_1"
+		position = { 24 0 }
+
+
+		button = {
+			name = "find_province"
+			onclick = "[OnFindProvince]"
+			shortcut = "find_province"
+
+			gfxtype = framedbuttongfx
+			effectname = "NoHighlight"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+			oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+			visible = "[CanChangeMapMode]"
+
+			upframe = 1
+			overframe = 2
+			downframe = 3
+			texture = "gfx/interface/minimap/minimap_find_province.dds"
+			framesize = { 45 37 }
+
+			tooltip = "MAPACTION_FIND_PROVINCE"
+		}
+
+		button = {
+			name = "go_to_capital"
+			onclick = "[GoToCapital]"
+			shortcut = "go_to_capital"
+
+			gfxtype = framedbuttongfx
+			effectname = "NoHighlight"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+			oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+			visible = "[CanChangeMapMode]"
+
+			upframe = 1
+			overframe = 2
+			downframe = 3
+			texture = "gfx/interface/minimap/minimap_go_to_capital.dds"
+			framesize = { 45 37 }
+
+			tooltip = "MAPACTION_GO_TO_CAPITAL"
+		}
+	}
+}
+
+template top_bar_button_spacing
+{
+	position = { 0 -8 }
+}
+
+template top_bar_button_shade_spacing
+{
+	position = { -3 -12 }
+	texture = "gfx/interface/topbar/top_bar_button_frame_big.dds"
+	alpha = 0.7
+}

@@ -1,0 +1,165 @@
+### government types
+
+aristocratic_republic = {
+  category = 5
+
+  color = hsv { 0.65 0.75 0.8 }
+}
+
+theocratic_republic = {
+  category = 5
+
+  color = hsv { 0.51 0.48 0.95 }
+}
+
+oligarchic_republic = {
+  category = 5
+
+  color = hsv { 0.43 0.7 0.85 }
+}
+
+democratic_republic = {
+  category = 5
+
+  color = hsv { 0.58 0.85 0.7 }
+}
+
+plutocratic_republic = {
+  category = 5
+
+  color = hsv { 0.54 0.77 0.95 }
+}
+
+
+
+aristocratic_monarchy = {
+  category = 5
+
+  color = hsv { 0.76 0.6 0.48 }
+}
+
+despotic_monarchy = {
+  category = 5
+
+  color = hsv { 0.82 0.58 0.56 }
+}
+
+stratocratic_monarchy = {
+  category = 5
+
+  color = hsv { 0.86 0.65 0.78 }
+}
+
+theocratic_monarchy = {
+  category = 5
+
+  color = hsv { 0.76 0.6 0.95 }
+}
+
+plutocratic_monarchy = {
+  category = 5
+
+  color = hsv { 0.74 0.62 0.82 }
+}
+
+
+
+imperium = {
+  category = 5
+
+  color = hsv { 0.86 0.73 0.74 }
+}
+
+imperial_cult = {
+  category = 5
+
+  color = hsv { 0.88 0.7 0.87 }
+}
+
+
+
+tribal_chiefdom = {
+  category = 5
+
+  color = hsv { 0.25 0.62 0.7 }
+}
+
+tribal_kingdom = {
+  category = 5
+
+  color = hsv { 0.32 0.48 0.52 }
+}
+
+tribal_federation = {
+  category = 5
+
+  color = hsv { 0.4 0.7 0.65 }
+}
+
+
+empty = {
+  category = 5
+
+  color = { 0.5 0.5 0.5 }
+}
+
+### war
+
+war = {
+  category = 11
+
+  color = hsv { 0.0 0.8 0.4 }
+}
+
+### strength
+
+much_weaker = {
+  category = 12
+
+  color = hsv { 0.24 0.6 0.8 }
+}
+
+
+weaker = {
+  category = 12
+
+  color = hsv { 0.23 0.85 0.6 }
+}
+
+equal = {
+  category = 12
+
+  color = hsv { 0.15 1.0 0.65 }
+}
+
+stronger = {
+  category = 12
+
+  color = hsv { 0.09 0.92 0.6 }
+}
+
+much_stronger = {
+  category = 12
+
+  color = hsv { 0.0 0.72 0.58 }
+}
+
+###
+
+settlement = {
+  category = 12
+
+  color = hsv { 0.1 0.3 0.35 }
+}
+
+city = {
+  category = 12
+
+  color = hsv { 0.1 0.6 0.75 }
+}
+
+metropolis = {
+  category = 12
+
+  color = hsv { 0.06 1.0 0.6 }
+}
