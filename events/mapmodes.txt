@@ -3,7 +3,7 @@ namespace = map
 map.999 = { # TEST
   immediate = {
     MAPMODE_enable_special_mapmode = {
-      mapmode = governorship_per_capita_wealth
+      mapmode = governorship_total_wealth
     }
   }
 }

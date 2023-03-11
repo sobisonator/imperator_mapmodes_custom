@@ -1,870 +1,4588 @@
-# A scale going from red, through yellow, to green, of 125 values.
-
-mapmode_generic_count_1 = {
-	rank_modifier = {}
-
-	color = rgb { 248 2 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_2 = {
-	rank_modifier = {}
-
-	color = rgb { 246 4 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_3 = {
-	rank_modifier = {}
-
-	color = rgb { 244 6 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_4 = {
-	rank_modifier = {}
-
-	color = rgb { 242 8 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_5 = {
-	rank_modifier = {}
-
-	color = rgb { 240 10 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_6 = {
-	rank_modifier = {}
-
-	color = rgb { 238 12 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_7 = {
-	rank_modifier = {}
-
-	color = rgb { 236 14 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_8 = {
-	rank_modifier = {}
-
-	color = rgb { 234 16 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_9 = {
-	rank_modifier = {}
-
-	color = rgb { 232 18 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_10 = {
-	rank_modifier = {}
-
-	color = rgb { 230 20 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_11 = {
-	rank_modifier = {}
-
-	color = rgb { 228 22 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_12 = {
-	rank_modifier = {}
-
-	color = rgb { 226 24 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_13 = {
-	rank_modifier = {}
-
-	color = rgb { 224 26 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_14 = {
-	rank_modifier = {}
-
-	color = rgb { 222 28 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_15 = {
-	rank_modifier = {}
-
-	color = rgb { 220 30 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_16 = {
-	rank_modifier = {}
-
-	color = rgb { 218 32 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_17 = {
-	rank_modifier = {}
-
-	color = rgb { 216 34 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_18 = {
-	rank_modifier = {}
-
-	color = rgb { 214 36 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_19 = {
-	rank_modifier = {}
-
-	color = rgb { 212 38 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_20 = {
-	rank_modifier = {}
-
-	color = rgb { 210 40 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_21 = {
-	rank_modifier = {}
-
-	color = rgb { 208 42 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_22 = {
-	rank_modifier = {}
-
-	color = rgb { 206 44 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_23 = {
-	rank_modifier = {}
-
-	color = rgb { 204 46 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_24 = {
-	rank_modifier = {}
-
-	color = rgb { 202 48 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_25 = {
-	rank_modifier = {}
-
-	color = rgb { 200 50 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_26 = {
-	rank_modifier = {}
-
-	color = rgb { 198 52 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_27 = {
-	rank_modifier = {}
-
-	color = rgb { 196 54 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_28 = {
-	rank_modifier = {}
-
-	color = rgb { 194 56 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_29 = {
-	rank_modifier = {}
-
-	color = rgb { 192 58 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_30 = {
-	rank_modifier = {}
-
-	color = rgb { 190 60 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_31 = {
-	rank_modifier = {}
-
-	color = rgb { 188 62 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_32 = {
-	rank_modifier = {}
-
-	color = rgb { 186 64 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_33 = {
-	rank_modifier = {}
-
-	color = rgb { 184 66 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_34 = {
-	rank_modifier = {}
-
-	color = rgb { 182 68 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_35 = {
-	rank_modifier = {}
-
-	color = rgb { 180 70 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_36 = {
-	rank_modifier = {}
-
-	color = rgb { 178 72 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_37 = {
-	rank_modifier = {}
-
-	color = rgb { 176 74 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_38 = {
-	rank_modifier = {}
-
-	color = rgb { 174 76 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_39 = {
-	rank_modifier = {}
-
-	color = rgb { 172 78 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_40 = {
-	rank_modifier = {}
-
-	color = rgb { 170 80 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_41 = {
-	rank_modifier = {}
-
-	color = rgb { 168 82 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_42 = {
-	rank_modifier = {}
-
-	color = rgb { 166 84 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_43 = {
-	rank_modifier = {}
-
-	color = rgb { 164 86 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_44 = {
-	rank_modifier = {}
-
-	color = rgb { 162 88 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_45 = {
-	rank_modifier = {}
-
-	color = rgb { 160 90 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_46 = {
-	rank_modifier = {}
-
-	color = rgb { 158 92 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_47 = {
-	rank_modifier = {}
-
-	color = rgb { 156 94 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_48 = {
-	rank_modifier = {}
-
-	color = rgb { 154 96 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_49 = {
-	rank_modifier = {}
-
-	color = rgb { 152 98 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_50 = {
-	rank_modifier = {}
-
-	color = rgb { 150 100 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_51 = {
-	rank_modifier = {}
-
-	color = rgb { 148 102 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_52 = {
-	rank_modifier = {}
-
-	color = rgb { 146 104 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_53 = {
-	rank_modifier = {}
-
-	color = rgb { 144 106 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_54 = {
-	rank_modifier = {}
-
-	color = rgb { 142 108 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_55 = {
-	rank_modifier = {}
-
-	color = rgb { 140 110 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_56 = {
-	rank_modifier = {}
-
-	color = rgb { 138 112 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_57 = {
-	rank_modifier = {}
-
-	color = rgb { 136 114 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_58 = {
-	rank_modifier = {}
-
-	color = rgb { 134 116 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_59 = {
-	rank_modifier = {}
-
-	color = rgb { 132 118 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_60 = {
-	rank_modifier = {}
-
-	color = rgb { 130 120 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_61 = {
-	rank_modifier = {}
-
-	color = rgb { 128 122 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_62 = {
-	rank_modifier = {}
-
-	color = rgb { 126 124 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_63 = {
-	rank_modifier = {}
-
-	color = rgb { 124 126 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_64 = {
-	rank_modifier = {}
-
-	color = rgb { 122 128 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_65 = {
-	rank_modifier = {}
-
-	color = rgb { 120 130 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_66 = {
-	rank_modifier = {}
-
-	color = rgb { 118 132 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_67 = {
-	rank_modifier = {}
-
-	color = rgb { 116 134 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_68 = {
-	rank_modifier = {}
-
-	color = rgb { 114 136 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_69 = {
-	rank_modifier = {}
-
-	color = rgb { 112 138 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_70 = {
-	rank_modifier = {}
-
-	color = rgb { 110 140 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_71 = {
-	rank_modifier = {}
-
-	color = rgb { 108 142 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_72 = {
-	rank_modifier = {}
-
-	color = rgb { 106 144 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_73 = {
-	rank_modifier = {}
-
-	color = rgb { 104 146 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_74 = {
-	rank_modifier = {}
-
-	color = rgb { 102 148 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_75 = {
-	rank_modifier = {}
-
-	color = rgb { 100 150 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_76 = {
-	rank_modifier = {}
-
-	color = rgb { 98 152 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_77 = {
-	rank_modifier = {}
-
-	color = rgb { 96 154 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_78 = {
-	rank_modifier = {}
-
-	color = rgb { 94 156 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_79 = {
-	rank_modifier = {}
-
-	color = rgb { 92 158 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_80 = {
-	rank_modifier = {}
-
-	color = rgb { 90 160 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_81 = {
-	rank_modifier = {}
-
-	color = rgb { 88 162 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_82 = {
-	rank_modifier = {}
-
-	color = rgb { 86 164 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_83 = {
-	rank_modifier = {}
-
-	color = rgb { 84 166 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_84 = {
-	rank_modifier = {}
-
-	color = rgb { 82 168 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_85 = {
-	rank_modifier = {}
-
-	color = rgb { 80 170 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_86 = {
-	rank_modifier = {}
-
-	color = rgb { 78 172 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_87 = {
-	rank_modifier = {}
-
-	color = rgb { 76 174 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_88 = {
-	rank_modifier = {}
-
-	color = rgb { 74 176 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_89 = {
-	rank_modifier = {}
-
-	color = rgb { 72 178 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_90 = {
-	rank_modifier = {}
-
-	color = rgb { 70 180 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_91 = {
-	rank_modifier = {}
-
-	color = rgb { 68 182 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_92 = {
-	rank_modifier = {}
-
-	color = rgb { 66 184 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_93 = {
-	rank_modifier = {}
-
-	color = rgb { 64 186 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_94 = {
-	rank_modifier = {}
-
-	color = rgb { 62 188 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_95 = {
-	rank_modifier = {}
-
-	color = rgb { 60 190 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_96 = {
-	rank_modifier = {}
-
-	color = rgb { 58 192 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_97 = {
-	rank_modifier = {}
-
-	color = rgb { 56 194 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_98 = {
-	rank_modifier = {}
-
-	color = rgb { 54 196 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_99 = {
-	rank_modifier = {}
-
-	color = rgb { 52 198 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_100 = {
-	rank_modifier = {}
-
-	color = rgb { 50 200 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_101 = {
-	rank_modifier = {}
-
-	color = rgb { 48 202 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_102 = {
-	rank_modifier = {}
-
-	color = rgb { 46 204 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_103 = {
-	rank_modifier = {}
-
-	color = rgb { 44 206 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_104 = {
-	rank_modifier = {}
-
-	color = rgb { 42 208 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_105 = {
-	rank_modifier = {}
-
-	color = rgb { 40 210 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_106 = {
-	rank_modifier = {}
-
-	color = rgb { 38 212 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_107 = {
-	rank_modifier = {}
-
-	color = rgb { 36 214 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_108 = {
-	rank_modifier = {}
-
-	color = rgb { 34 216 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_109 = {
-	rank_modifier = {}
-
-	color = rgb { 32 218 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_110 = {
-	rank_modifier = {}
-
-	color = rgb { 30 220 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_111 = {
-	rank_modifier = {}
-
-	color = rgb { 28 222 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_112 = {
-	rank_modifier = {}
-
-	color = rgb { 26 224 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_113 = {
-	rank_modifier = {}
-
-	color = rgb { 24 226 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_114 = {
-	rank_modifier = {}
-
-	color = rgb { 22 228 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_115 = {
-	rank_modifier = {}
-
-	color = rgb { 20 230 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_116 = {
-	rank_modifier = {}
-
-	color = rgb { 18 232 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_117 = {
-	rank_modifier = {}
-
-	color = rgb { 16 234 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_118 = {
-	rank_modifier = {}
-
-	color = rgb { 14 236 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_119 = {
-	rank_modifier = {}
-
-	color = rgb { 12 238 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_120 = {
-	rank_modifier = {}
-
-	color = rgb { 10 240 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_121 = {
-	rank_modifier = {}
-
-	color = rgb { 8 242 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_122 = {
-	rank_modifier = {}
-
-	color = rgb { 6 244 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_123 = {
-	rank_modifier = {}
-
-	color = rgb { 4 246 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
-}
-mapmode_generic_count_124 = {
-	rank_modifier = {}
-
-	color = rgb { 2 248 0}
-	is_established_city = no
-	holy_site_treasure_slots 3
+mapmode_generic_count_settlement_1 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.008 0.008 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_2 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.016 0.016 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_3 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.024 0.024 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_4 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.032 0.032 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_5 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.04 0.04 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_6 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.048 0.048 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_7 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.056 0.056 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_8 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.064 0.064 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_9 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.072 0.072 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_10 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.08 0.08 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_11 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.088 0.088 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_12 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.096 0.096 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_13 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.104 0.104 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_14 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.112 0.112 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_15 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.12 0.12 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_16 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.128 0.128 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_17 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.136 0.136 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_18 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.144 0.144 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_19 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.152 0.152 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_20 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.16 0.16 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_21 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.168 0.168 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_22 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.176 0.176 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_23 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.184 0.184 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_24 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.192 0.192 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_25 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.2 0.2 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_26 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.208 0.208 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_27 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.216 0.216 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_28 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.224 0.224 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_29 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.232 0.232 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_30 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.24 0.24 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_31 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.248 0.248 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_32 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.256 0.256 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_33 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.264 0.264 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_34 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.272 0.272 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_35 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.28 0.28 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_36 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.288 0.288 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_37 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.296 0.296 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_38 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.304 0.304 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_39 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.312 0.312 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_40 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.32 0.32 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_41 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.328 0.328 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_42 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.336 0.336 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_43 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.344 0.344 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_44 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.352 0.352 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_45 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.36 0.36 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_46 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.368 0.368 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_47 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.376 0.376 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_48 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.384 0.384 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_49 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.392 0.392 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_50 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.4 0.4 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_51 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.408 0.408 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_52 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.416 0.416 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_53 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.424 0.424 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_54 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.432 0.432 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_55 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.44 0.44 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_56 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.448 0.448 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_57 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.456 0.456 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_58 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.464 0.464 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_59 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.472 0.472 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_60 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.48 0.48 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_61 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.488 0.488 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_62 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.496 0.496 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_63 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.504 0.504 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_64 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.512 0.512 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_65 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.52 0.52 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_66 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.528 0.528 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_67 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.536 0.536 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_68 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.544 0.544 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_69 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.552 0.552 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_70 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.56 0.56 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_71 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.568 0.568 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_72 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.576 0.576 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_73 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.584 0.584 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_74 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.592 0.592 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_75 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.6 0.6 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_76 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.608 0.608 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_77 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.616 0.616 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_78 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.624 0.624 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_79 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.632 0.632 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_80 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.64 0.64 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_81 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.648 0.648 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_82 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.656 0.656 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_83 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.664 0.664 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_84 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.672 0.672 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_85 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.68 0.68 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_86 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.688 0.688 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_87 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.696 0.696 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_88 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.704 0.704 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_89 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.712 0.712 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_90 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.72 0.72 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_91 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.728 0.728 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_92 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.736 0.736 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_93 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.744 0.744 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_94 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.752 0.752 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_95 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.76 0.76 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_96 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.768 0.768 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_97 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.776 0.776 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_98 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.784 0.784 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_99 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.792 0.792 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_100 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.8 0.8 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_101 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.808 0.808 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_102 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.816 0.816 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_103 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.824 0.824 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_104 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.832 0.832 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_105 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.84 0.84 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_106 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.848 0.848 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_107 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.856 0.856 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_108 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.864 0.864 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_109 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.872 0.872 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_110 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.88 0.88 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_111 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.888 0.888 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_112 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.896 0.896 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_113 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.904 0.904 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_114 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.912 0.912 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_115 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.92 0.92 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_116 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.928 0.928 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_117 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.936 0.936 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_118 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.944 0.944 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_119 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.952 0.952 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_120 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.96 0.96 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_121 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.968 0.968 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_122 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.976 0.976 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_123 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.984 0.984 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_settlement_124 = {
+		rank_modifier = {
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_migration_attraction = -3
+		local_pop_promotion_speed_modifier = -0.25
+		local_ship_recruit_speed = -0.5
+	}
+
+	color = hsv { 0.3 0.992 0.992 }
+	is_established_city = no
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_1 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.008 0.008 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_2 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.016 0.016 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_3 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.024 0.024 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_4 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.032 0.032 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_5 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.04 0.04 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_6 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.048 0.048 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_7 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.056 0.056 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_8 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.064 0.064 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_9 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.072 0.072 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_10 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.08 0.08 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_11 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.088 0.088 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_12 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.096 0.096 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_13 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.104 0.104 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_14 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.112 0.112 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_15 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.12 0.12 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_16 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.128 0.128 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_17 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.136 0.136 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_18 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.144 0.144 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_19 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.152 0.152 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_20 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.16 0.16 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_21 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.168 0.168 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_22 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.176 0.176 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_23 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.184 0.184 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_24 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.192 0.192 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_25 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.2 0.2 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_26 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.208 0.208 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_27 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.216 0.216 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_28 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.224 0.224 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_29 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.232 0.232 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_30 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.24 0.24 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_31 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.248 0.248 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_32 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.256 0.256 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_33 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.264 0.264 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_34 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.272 0.272 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_35 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.28 0.28 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_36 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.288 0.288 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_37 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.296 0.296 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_38 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.304 0.304 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_39 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.312 0.312 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_40 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.32 0.32 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_41 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.328 0.328 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_42 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.336 0.336 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_43 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.344 0.344 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_44 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.352 0.352 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_45 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.36 0.36 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_46 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.368 0.368 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_47 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.376 0.376 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_48 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.384 0.384 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_49 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.392 0.392 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_50 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.4 0.4 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_51 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.408 0.408 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_52 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.416 0.416 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_53 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.424 0.424 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_54 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.432 0.432 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_55 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.44 0.44 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_56 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.448 0.448 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_57 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.456 0.456 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_58 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.464 0.464 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_59 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.472 0.472 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_60 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.48 0.48 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_61 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.488 0.488 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_62 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.496 0.496 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_63 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.504 0.504 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_64 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.512 0.512 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_65 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.52 0.52 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_66 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.528 0.528 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_67 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.536 0.536 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_68 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.544 0.544 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_69 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.552 0.552 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_70 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.56 0.56 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_71 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.568 0.568 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_72 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.576 0.576 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_73 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.584 0.584 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_74 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.592 0.592 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_75 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.6 0.6 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_76 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.608 0.608 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_77 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.616 0.616 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_78 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.624 0.624 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_79 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.632 0.632 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_80 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.64 0.64 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_81 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.648 0.648 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_82 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.656 0.656 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_83 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.664 0.664 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_84 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.672 0.672 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_85 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.68 0.68 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_86 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.688 0.688 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_87 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.696 0.696 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_88 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.704 0.704 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_89 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.712 0.712 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_90 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.72 0.72 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_91 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.728 0.728 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_92 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.736 0.736 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_93 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.744 0.744 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_94 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.752 0.752 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_95 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.76 0.76 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_96 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.768 0.768 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_97 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.776 0.776 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_98 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.784 0.784 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_99 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.792 0.792 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_100 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.8 0.8 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_101 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.808 0.808 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_102 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.816 0.816 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_103 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.824 0.824 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_104 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.832 0.832 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_105 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.84 0.84 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_106 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.848 0.848 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_107 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.856 0.856 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_108 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.864 0.864 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_109 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.872 0.872 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_110 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.88 0.88 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_111 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.888 0.888 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_112 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.896 0.896 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_113 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.904 0.904 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_114 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.912 0.912 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_115 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.92 0.92 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_116 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.928 0.928 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_117 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.936 0.936 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_118 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.944 0.944 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_119 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.952 0.952 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_120 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.96 0.96 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_121 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.968 0.968 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_122 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.976 0.976 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_123 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.984 0.984 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_124 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 22 
+		base_resources = 1
+	}
+
+	color = hsv { 0.3 0.992 0.992 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_1 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.008 0.008 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_2 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.016 0.016 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_3 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.024 0.024 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_4 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.032 0.032 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_5 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.04 0.04 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_6 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.048 0.048 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_7 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.056 0.056 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_8 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.064 0.064 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_9 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.072 0.072 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_10 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.08 0.08 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_11 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.088 0.088 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_12 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.096 0.096 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_13 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.104 0.104 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_14 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.112 0.112 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_15 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.12 0.12 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_16 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.128 0.128 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_17 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.136 0.136 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_18 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.144 0.144 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_19 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.152 0.152 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_20 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.16 0.16 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_21 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.168 0.168 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_22 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.176 0.176 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_23 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.184 0.184 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_24 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.192 0.192 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_25 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.2 0.2 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_26 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.208 0.208 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_27 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.216 0.216 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_28 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.224 0.224 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_29 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.232 0.232 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_30 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.24 0.24 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_31 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.248 0.248 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_32 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.256 0.256 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_33 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.264 0.264 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_34 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.272 0.272 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_35 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.28 0.28 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_36 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.288 0.288 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_37 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.296 0.296 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_38 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.304 0.304 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_39 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.312 0.312 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_40 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.32 0.32 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_41 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.328 0.328 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_42 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.336 0.336 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_43 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.344 0.344 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_44 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.352 0.352 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_45 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.36 0.36 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_46 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.368 0.368 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_47 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.376 0.376 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_48 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.384 0.384 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_49 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.392 0.392 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_50 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.4 0.4 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_51 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.408 0.408 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_52 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.416 0.416 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_53 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.424 0.424 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_54 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.432 0.432 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_55 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.44 0.44 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_56 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.448 0.448 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_57 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.456 0.456 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_58 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.464 0.464 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_59 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.472 0.472 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_60 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.48 0.48 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_61 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.488 0.488 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_62 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.496 0.496 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_63 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.504 0.504 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_64 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.512 0.512 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_65 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.52 0.52 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_66 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.528 0.528 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_67 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.536 0.536 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_68 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.544 0.544 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_69 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.552 0.552 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_70 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.56 0.56 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_71 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.568 0.568 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_72 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.576 0.576 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_73 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.584 0.584 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_74 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.592 0.592 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_75 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.6 0.6 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_76 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.608 0.608 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_77 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.616 0.616 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_78 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.624 0.624 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_79 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.632 0.632 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_80 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.64 0.64 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_81 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.648 0.648 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_82 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.656 0.656 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_83 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.664 0.664 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_84 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.672 0.672 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_85 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.68 0.68 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_86 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.688 0.688 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_87 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.696 0.696 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_88 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.704 0.704 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_89 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.712 0.712 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_90 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.72 0.72 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_91 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.728 0.728 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_92 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.736 0.736 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_93 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.744 0.744 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_94 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.752 0.752 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_95 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.76 0.76 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_96 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.768 0.768 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_97 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.776 0.776 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_98 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.784 0.784 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_99 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.792 0.792 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_100 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.8 0.8 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_101 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.808 0.808 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_102 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.816 0.816 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_103 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.824 0.824 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_104 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.832 0.832 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_105 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.84 0.84 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_106 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.848 0.848 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_107 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.856 0.856 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_108 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.864 0.864 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_109 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.872 0.872 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_110 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.88 0.88 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_111 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.888 0.888 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_112 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.896 0.896 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_113 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.904 0.904 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_114 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.912 0.912 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_115 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.92 0.92 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_116 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.928 0.928 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_117 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.936 0.936 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_118 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.944 0.944 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_119 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.952 0.952 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_120 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.96 0.96 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_121 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.968 0.968 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_122 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.976 0.976 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_123 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.984 0.984 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+mapmode_generic_count_city_metropolis_124 = {
+		rank_modifier = {
+		local_building_slot = 10 # Same as settlement
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+	}
+
+	color = hsv { 0.3 0.992 0.992 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
 }

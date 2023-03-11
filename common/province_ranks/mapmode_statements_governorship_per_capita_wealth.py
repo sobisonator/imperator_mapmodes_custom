@@ -8,8 +8,11 @@ def print_mapmode_statement(i,r):
     print(loc)
 
 i = 1
-r = 0.001
+r = 0.01
 while i < 125:
     print_mapmode_statement(i,round(r,3))
-    r = r + 0.004
+    if r >= 0.02:
+        r = r * 1.03
+    elif r < 0.02:
+        r = r + 0.001
     i = i+1

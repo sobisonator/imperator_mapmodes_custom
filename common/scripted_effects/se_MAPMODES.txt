@@ -7,747 +7,747 @@ MAPMODE_enable_mapmode_governorship_total_wealth = {
 	every_country = {
 		every_governorships = {
          if = {
-				limit = { WEALTH_governorship_total < 1 }
+				limit = { WEALTH_governorship_total_adjusted < 1 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_1"
+					script = "set_city_status = mapmode_generic_count_settlement_1"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 2 }
+				limit = { WEALTH_governorship_total_adjusted < 2 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_2"
+					script = "set_city_status = mapmode_generic_count_settlement_2"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 3 }
+				limit = { WEALTH_governorship_total_adjusted < 3 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_3"
+					script = "set_city_status = mapmode_generic_count_settlement_3"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 4 }
+				limit = { WEALTH_governorship_total_adjusted < 4 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_4"
+					script = "set_city_status = mapmode_generic_count_settlement_4"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 5 }
+				limit = { WEALTH_governorship_total_adjusted < 5 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_5"
+					script = "set_city_status = mapmode_generic_count_settlement_5"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 6 }
+				limit = { WEALTH_governorship_total_adjusted < 6 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_6"
+					script = "set_city_status = mapmode_generic_count_settlement_6"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 7 }
+				limit = { WEALTH_governorship_total_adjusted < 7 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_7"
+					script = "set_city_status = mapmode_generic_count_settlement_7"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 8 }
+				limit = { WEALTH_governorship_total_adjusted < 8 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_8"
+					script = "set_city_status = mapmode_generic_count_settlement_8"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 9 }
+				limit = { WEALTH_governorship_total_adjusted < 9 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_9"
+					script = "set_city_status = mapmode_generic_count_settlement_9"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 10 }
+				limit = { WEALTH_governorship_total_adjusted < 10 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_10"
+					script = "set_city_status = mapmode_generic_count_settlement_10"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 11 }
+				limit = { WEALTH_governorship_total_adjusted < 11 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_11"
+					script = "set_city_status = mapmode_generic_count_settlement_11"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 12 }
+				limit = { WEALTH_governorship_total_adjusted < 12 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_12"
+					script = "set_city_status = mapmode_generic_count_settlement_12"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 13 }
+				limit = { WEALTH_governorship_total_adjusted < 13 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_13"
+					script = "set_city_status = mapmode_generic_count_settlement_13"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 14 }
+				limit = { WEALTH_governorship_total_adjusted < 14 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_14"
+					script = "set_city_status = mapmode_generic_count_settlement_14"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 15 }
+				limit = { WEALTH_governorship_total_adjusted < 15 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_15"
+					script = "set_city_status = mapmode_generic_count_settlement_15"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 16 }
+				limit = { WEALTH_governorship_total_adjusted < 16 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_16"
+					script = "set_city_status = mapmode_generic_count_settlement_16"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 16 }
+				limit = { WEALTH_governorship_total_adjusted < 16 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_17"
+					script = "set_city_status = mapmode_generic_count_settlement_17"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 17 }
+				limit = { WEALTH_governorship_total_adjusted < 17 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_18"
+					script = "set_city_status = mapmode_generic_count_settlement_18"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 17 }
+				limit = { WEALTH_governorship_total_adjusted < 17 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_19"
+					script = "set_city_status = mapmode_generic_count_settlement_19"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 18 }
+				limit = { WEALTH_governorship_total_adjusted < 18 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_20"
+					script = "set_city_status = mapmode_generic_count_settlement_20"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 19 }
+				limit = { WEALTH_governorship_total_adjusted < 19 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_21"
+					script = "set_city_status = mapmode_generic_count_settlement_21"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 20 }
+				limit = { WEALTH_governorship_total_adjusted < 20 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_22"
+					script = "set_city_status = mapmode_generic_count_settlement_22"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 21 }
+				limit = { WEALTH_governorship_total_adjusted < 21 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_23"
+					script = "set_city_status = mapmode_generic_count_settlement_23"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 21 }
+				limit = { WEALTH_governorship_total_adjusted < 21 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_24"
+					script = "set_city_status = mapmode_generic_count_settlement_24"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 22 }
+				limit = { WEALTH_governorship_total_adjusted < 22 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_25"
+					script = "set_city_status = mapmode_generic_count_settlement_25"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 23 }
+				limit = { WEALTH_governorship_total_adjusted < 23 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_26"
+					script = "set_city_status = mapmode_generic_count_settlement_26"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 24 }
+				limit = { WEALTH_governorship_total_adjusted < 24 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_27"
+					script = "set_city_status = mapmode_generic_count_settlement_27"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 25 }
+				limit = { WEALTH_governorship_total_adjusted < 25 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_28"
+					script = "set_city_status = mapmode_generic_count_settlement_28"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 26 }
+				limit = { WEALTH_governorship_total_adjusted < 26 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_29"
+					script = "set_city_status = mapmode_generic_count_settlement_29"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 27 }
+				limit = { WEALTH_governorship_total_adjusted < 27 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_30"
+					script = "set_city_status = mapmode_generic_count_settlement_30"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 28 }
+				limit = { WEALTH_governorship_total_adjusted < 28 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_31"
+					script = "set_city_status = mapmode_generic_count_settlement_31"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 29 }
+				limit = { WEALTH_governorship_total_adjusted < 29 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_32"
+					script = "set_city_status = mapmode_generic_count_settlement_32"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 31 }
+				limit = { WEALTH_governorship_total_adjusted < 31 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_33"
+					script = "set_city_status = mapmode_generic_count_settlement_33"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 32 }
+				limit = { WEALTH_governorship_total_adjusted < 32 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_34"
+					script = "set_city_status = mapmode_generic_count_settlement_34"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 33 }
+				limit = { WEALTH_governorship_total_adjusted < 33 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_35"
+					script = "set_city_status = mapmode_generic_count_settlement_35"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 35 }
+				limit = { WEALTH_governorship_total_adjusted < 35 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_36"
+					script = "set_city_status = mapmode_generic_count_settlement_36"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 36 }
+				limit = { WEALTH_governorship_total_adjusted < 36 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_37"
+					script = "set_city_status = mapmode_generic_count_settlement_37"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 37 }
+				limit = { WEALTH_governorship_total_adjusted < 37 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_38"
+					script = "set_city_status = mapmode_generic_count_settlement_38"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 39 }
+				limit = { WEALTH_governorship_total_adjusted < 39 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_39"
+					script = "set_city_status = mapmode_generic_count_settlement_39"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 41 }
+				limit = { WEALTH_governorship_total_adjusted < 41 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_40"
+					script = "set_city_status = mapmode_generic_count_settlement_40"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 42 }
+				limit = { WEALTH_governorship_total_adjusted < 42 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_41"
+					script = "set_city_status = mapmode_generic_count_settlement_41"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 44 }
+				limit = { WEALTH_governorship_total_adjusted < 44 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_42"
+					script = "set_city_status = mapmode_generic_count_settlement_42"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 46 }
+				limit = { WEALTH_governorship_total_adjusted < 46 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_43"
+					script = "set_city_status = mapmode_generic_count_settlement_43"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 47 }
+				limit = { WEALTH_governorship_total_adjusted < 47 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_44"
+					script = "set_city_status = mapmode_generic_count_settlement_44"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 49 }
+				limit = { WEALTH_governorship_total_adjusted < 49 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_45"
+					script = "set_city_status = mapmode_generic_count_settlement_45"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 51 }
+				limit = { WEALTH_governorship_total_adjusted < 51 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_46"
+					script = "set_city_status = mapmode_generic_count_settlement_46"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 53 }
+				limit = { WEALTH_governorship_total_adjusted < 53 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_47"
+					script = "set_city_status = mapmode_generic_count_settlement_47"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 56 }
+				limit = { WEALTH_governorship_total_adjusted < 56 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_48"
+					script = "set_city_status = mapmode_generic_count_settlement_48"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 58 }
+				limit = { WEALTH_governorship_total_adjusted < 58 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_49"
+					script = "set_city_status = mapmode_generic_count_settlement_49"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 60 }
+				limit = { WEALTH_governorship_total_adjusted < 60 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_50"
+					script = "set_city_status = mapmode_generic_count_settlement_50"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 63 }
+				limit = { WEALTH_governorship_total_adjusted < 63 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_51"
+					script = "set_city_status = mapmode_generic_count_settlement_51"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 65 }
+				limit = { WEALTH_governorship_total_adjusted < 65 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_52"
+					script = "set_city_status = mapmode_generic_count_settlement_52"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 68 }
+				limit = { WEALTH_governorship_total_adjusted < 68 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_53"
+					script = "set_city_status = mapmode_generic_count_settlement_53"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 71 }
+				limit = { WEALTH_governorship_total_adjusted < 71 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_54"
+					script = "set_city_status = mapmode_generic_count_settlement_54"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 73 }
+				limit = { WEALTH_governorship_total_adjusted < 73 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_55"
+					script = "set_city_status = mapmode_generic_count_settlement_55"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 76 }
+				limit = { WEALTH_governorship_total_adjusted < 76 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_56"
+					script = "set_city_status = mapmode_generic_count_settlement_56"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 79 }
+				limit = { WEALTH_governorship_total_adjusted < 79 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_57"
+					script = "set_city_status = mapmode_generic_count_settlement_57"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 83 }
+				limit = { WEALTH_governorship_total_adjusted < 83 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_58"
+					script = "set_city_status = mapmode_generic_count_settlement_58"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 86 }
+				limit = { WEALTH_governorship_total_adjusted < 86 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_59"
+					script = "set_city_status = mapmode_generic_count_settlement_59"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 89 }
+				limit = { WEALTH_governorship_total_adjusted < 89 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_60"
+					script = "set_city_status = mapmode_generic_count_settlement_60"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 93 }
+				limit = { WEALTH_governorship_total_adjusted < 93 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_61"
+					script = "set_city_status = mapmode_generic_count_settlement_61"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 97 }
+				limit = { WEALTH_governorship_total_adjusted < 97 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_62"
+					script = "set_city_status = mapmode_generic_count_settlement_62"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 101 }
+				limit = { WEALTH_governorship_total_adjusted < 101 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_63"
+					script = "set_city_status = mapmode_generic_count_settlement_63"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 105 }
+				limit = { WEALTH_governorship_total_adjusted < 105 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_64"
+					script = "set_city_status = mapmode_generic_count_settlement_64"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 109 }
+				limit = { WEALTH_governorship_total_adjusted < 109 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_65"
+					script = "set_city_status = mapmode_generic_count_settlement_65"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 113 }
+				limit = { WEALTH_governorship_total_adjusted < 113 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_66"
+					script = "set_city_status = mapmode_generic_count_settlement_66"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 118 }
+				limit = { WEALTH_governorship_total_adjusted < 118 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_67"
+					script = "set_city_status = mapmode_generic_count_settlement_67"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 122 }
+				limit = { WEALTH_governorship_total_adjusted < 122 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_68"
+					script = "set_city_status = mapmode_generic_count_settlement_68"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 127 }
+				limit = { WEALTH_governorship_total_adjusted < 127 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_69"
+					script = "set_city_status = mapmode_generic_count_settlement_69"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 133 }
+				limit = { WEALTH_governorship_total_adjusted < 133 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_70"
+					script = "set_city_status = mapmode_generic_count_settlement_70"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 138 }
+				limit = { WEALTH_governorship_total_adjusted < 138 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_71"
+					script = "set_city_status = mapmode_generic_count_settlement_71"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 143 }
+				limit = { WEALTH_governorship_total_adjusted < 143 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_72"
+					script = "set_city_status = mapmode_generic_count_settlement_72"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 149 }
+				limit = { WEALTH_governorship_total_adjusted < 149 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_73"
+					script = "set_city_status = mapmode_generic_count_settlement_73"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 155 }
+				limit = { WEALTH_governorship_total_adjusted < 155 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_74"
+					script = "set_city_status = mapmode_generic_count_settlement_74"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 161 }
+				limit = { WEALTH_governorship_total_adjusted < 161 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_75"
+					script = "set_city_status = mapmode_generic_count_settlement_75"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 168 }
+				limit = { WEALTH_governorship_total_adjusted < 168 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_76"
+					script = "set_city_status = mapmode_generic_count_settlement_76"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 175 }
+				limit = { WEALTH_governorship_total_adjusted < 175 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_77"
+					script = "set_city_status = mapmode_generic_count_settlement_77"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 182 }
+				limit = { WEALTH_governorship_total_adjusted < 182 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_78"
+					script = "set_city_status = mapmode_generic_count_settlement_78"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 189 }
+				limit = { WEALTH_governorship_total_adjusted < 189 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_79"
+					script = "set_city_status = mapmode_generic_count_settlement_79"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 196 }
+				limit = { WEALTH_governorship_total_adjusted < 196 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_80"
+					script = "set_city_status = mapmode_generic_count_settlement_80"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 204 }
+				limit = { WEALTH_governorship_total_adjusted < 204 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_81"
+					script = "set_city_status = mapmode_generic_count_settlement_81"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 212 }
+				limit = { WEALTH_governorship_total_adjusted < 212 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_82"
+					script = "set_city_status = mapmode_generic_count_settlement_82"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 221 }
+				limit = { WEALTH_governorship_total_adjusted < 221 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_83"
+					script = "set_city_status = mapmode_generic_count_settlement_83"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 230 }
+				limit = { WEALTH_governorship_total_adjusted < 230 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_84"
+					script = "set_city_status = mapmode_generic_count_settlement_84"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 239 }
+				limit = { WEALTH_governorship_total_adjusted < 239 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_85"
+					script = "set_city_status = mapmode_generic_count_settlement_85"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 249 }
+				limit = { WEALTH_governorship_total_adjusted < 249 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_86"
+					script = "set_city_status = mapmode_generic_count_settlement_86"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 259 }
+				limit = { WEALTH_governorship_total_adjusted < 259 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_87"
+					script = "set_city_status = mapmode_generic_count_settlement_87"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 269 }
+				limit = { WEALTH_governorship_total_adjusted < 269 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_88"
+					script = "set_city_status = mapmode_generic_count_settlement_88"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 280 }
+				limit = { WEALTH_governorship_total_adjusted < 280 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_89"
+					script = "set_city_status = mapmode_generic_count_settlement_89"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 291 }
+				limit = { WEALTH_governorship_total_adjusted < 291 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_90"
+					script = "set_city_status = mapmode_generic_count_settlement_90"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 303 }
+				limit = { WEALTH_governorship_total_adjusted < 303 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_91"
+					script = "set_city_status = mapmode_generic_count_settlement_91"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 315 }
+				limit = { WEALTH_governorship_total_adjusted < 315 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_92"
+					script = "set_city_status = mapmode_generic_count_settlement_92"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 327 }
+				limit = { WEALTH_governorship_total_adjusted < 327 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_93"
+					script = "set_city_status = mapmode_generic_count_settlement_93"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 340 }
+				limit = { WEALTH_governorship_total_adjusted < 340 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_94"
+					script = "set_city_status = mapmode_generic_count_settlement_94"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 354 }
+				limit = { WEALTH_governorship_total_adjusted < 354 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_95"
+					script = "set_city_status = mapmode_generic_count_settlement_95"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 368 }
+				limit = { WEALTH_governorship_total_adjusted < 368 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_96"
+					script = "set_city_status = mapmode_generic_count_settlement_96"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 383 }
+				limit = { WEALTH_governorship_total_adjusted < 383 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_97"
+					script = "set_city_status = mapmode_generic_count_settlement_97"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 398 }
+				limit = { WEALTH_governorship_total_adjusted < 398 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_98"
+					script = "set_city_status = mapmode_generic_count_settlement_98"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 414 }
+				limit = { WEALTH_governorship_total_adjusted < 414 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_99"
+					script = "set_city_status = mapmode_generic_count_settlement_99"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 431 }
+				limit = { WEALTH_governorship_total_adjusted < 431 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_100"
+					script = "set_city_status = mapmode_generic_count_settlement_100"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 448 }
+				limit = { WEALTH_governorship_total_adjusted < 448 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_101"
+					script = "set_city_status = mapmode_generic_count_settlement_101"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 466 }
+				limit = { WEALTH_governorship_total_adjusted < 466 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_102"
+					script = "set_city_status = mapmode_generic_count_settlement_102"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 485 }
+				limit = { WEALTH_governorship_total_adjusted < 485 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_103"
+					script = "set_city_status = mapmode_generic_count_settlement_103"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 504 }
+				limit = { WEALTH_governorship_total_adjusted < 504 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_104"
+					script = "set_city_status = mapmode_generic_count_settlement_104"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 524 }
+				limit = { WEALTH_governorship_total_adjusted < 524 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_105"
+					script = "set_city_status = mapmode_generic_count_settlement_105"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 545 }
+				limit = { WEALTH_governorship_total_adjusted < 545 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_106"
+					script = "set_city_status = mapmode_generic_count_settlement_106"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 567 }
+				limit = { WEALTH_governorship_total_adjusted < 567 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_107"
+					script = "set_city_status = mapmode_generic_count_settlement_107"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 590 }
+				limit = { WEALTH_governorship_total_adjusted < 590 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_108"
+					script = "set_city_status = mapmode_generic_count_settlement_108"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 614 }
+				limit = { WEALTH_governorship_total_adjusted < 614 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_109"
+					script = "set_city_status = mapmode_generic_count_settlement_109"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 638 }
+				limit = { WEALTH_governorship_total_adjusted < 638 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_110"
+					script = "set_city_status = mapmode_generic_count_settlement_110"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 664 }
+				limit = { WEALTH_governorship_total_adjusted < 664 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_111"
+					script = "set_city_status = mapmode_generic_count_settlement_111"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 690 }
+				limit = { WEALTH_governorship_total_adjusted < 690 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_112"
+					script = "set_city_status = mapmode_generic_count_settlement_112"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 718 }
+				limit = { WEALTH_governorship_total_adjusted < 718 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_113"
+					script = "set_city_status = mapmode_generic_count_settlement_113"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 747 }
+				limit = { WEALTH_governorship_total_adjusted < 747 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_114"
+					script = "set_city_status = mapmode_generic_count_settlement_114"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 776 }
+				limit = { WEALTH_governorship_total_adjusted < 776 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_115"
+					script = "set_city_status = mapmode_generic_count_settlement_115"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 808 }
+				limit = { WEALTH_governorship_total_adjusted < 808 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_116"
+					script = "set_city_status = mapmode_generic_count_settlement_116"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 840 }
+				limit = { WEALTH_governorship_total_adjusted < 840 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_117"
+					script = "set_city_status = mapmode_generic_count_settlement_117"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 874 }
+				limit = { WEALTH_governorship_total_adjusted < 874 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_118"
+					script = "set_city_status = mapmode_generic_count_settlement_118"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 908 }
+				limit = { WEALTH_governorship_total_adjusted < 908 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_119"
+					script = "set_city_status = mapmode_generic_count_settlement_119"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 945 }
+				limit = { WEALTH_governorship_total_adjusted < 945 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_120"
+					script = "set_city_status = mapmode_generic_count_settlement_120"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 983 }
+				limit = { WEALTH_governorship_total_adjusted < 983 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_121"
+					script = "set_city_status = mapmode_generic_count_settlement_121"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 1022 }
+				limit = { WEALTH_governorship_total_adjusted < 1022 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_122"
+					script = "set_city_status = mapmode_generic_count_settlement_122"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 1063 }
+				limit = { WEALTH_governorship_total_adjusted < 1063 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_123"
+					script = "set_city_status = mapmode_generic_count_settlement_123"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_total < 1105 }
+				limit = { WEALTH_governorship_total_adjusted < 1105 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_124"
+					script = "set_city_status = mapmode_generic_count_settlement_124"
 				}
 			}
 		}
@@ -758,1493 +758,747 @@ MAPMODE_enable_mapmode_governorship_per_capita_wealth = {
 	every_country = {
 		every_governorships = {
          if = {
-				limit = { WEALTH_governorship_per_capita < 0.001 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_1"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.002 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_2"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.003 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_3"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.004 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_4"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.005 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_5"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.006 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_6"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.007 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_7"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.008 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_8"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.009 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_9"
-				}
-			}
-         else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.01 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_10"
+					script = "set_city_status = mapmode_generic_count_settlement_1"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.011 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_11"
+					script = "set_city_status = mapmode_generic_count_settlement_2"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.012 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_12"
+					script = "set_city_status = mapmode_generic_count_settlement_3"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.013 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_13"
+					script = "set_city_status = mapmode_generic_count_settlement_4"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.014 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_14"
+					script = "set_city_status = mapmode_generic_count_settlement_5"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.015 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_15"
+					script = "set_city_status = mapmode_generic_count_settlement_6"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.016 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_16"
+					script = "set_city_status = mapmode_generic_count_settlement_7"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.017 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_17"
+					script = "set_city_status = mapmode_generic_count_settlement_8"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.018 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_18"
+					script = "set_city_status = mapmode_generic_count_settlement_9"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.019 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_19"
+					script = "set_city_status = mapmode_generic_count_settlement_10"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.02 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_20"
+					script = "set_city_status = mapmode_generic_count_settlement_11"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.021 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_21"
+					script = "set_city_status = mapmode_generic_count_settlement_12"
+				}
+			}
+         else_if = {
+				limit = { WEALTH_governorship_per_capita < 0.021 }
+				run_script_in_every_governorship_province = {
+					script = "set_city_status = mapmode_generic_count_settlement_13"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.022 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_22"
+					script = "set_city_status = mapmode_generic_count_settlement_14"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.023 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_23"
+					script = "set_city_status = mapmode_generic_count_settlement_15"
+				}
+			}
+         else_if = {
+				limit = { WEALTH_governorship_per_capita < 0.023 }
+				run_script_in_every_governorship_province = {
+					script = "set_city_status = mapmode_generic_count_settlement_16"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.024 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_24"
+					script = "set_city_status = mapmode_generic_count_settlement_17"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.025 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_25"
+					script = "set_city_status = mapmode_generic_count_settlement_18"
+				}
+			}
+         else_if = {
+				limit = { WEALTH_governorship_per_capita < 0.025 }
+				run_script_in_every_governorship_province = {
+					script = "set_city_status = mapmode_generic_count_settlement_19"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.026 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_26"
+					script = "set_city_status = mapmode_generic_count_settlement_20"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.027 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_27"
+					script = "set_city_status = mapmode_generic_count_settlement_21"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.028 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_28"
+					script = "set_city_status = mapmode_generic_count_settlement_22"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.029 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_29"
+					script = "set_city_status = mapmode_generic_count_settlement_23"
+				}
+			}
+         else_if = {
+				limit = { WEALTH_governorship_per_capita < 0.029 }
+				run_script_in_every_governorship_province = {
+					script = "set_city_status = mapmode_generic_count_settlement_24"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.03 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_30"
+					script = "set_city_status = mapmode_generic_count_settlement_25"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.031 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_31"
+					script = "set_city_status = mapmode_generic_count_settlement_26"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.032 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_32"
+					script = "set_city_status = mapmode_generic_count_settlement_27"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.033 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_33"
+					script = "set_city_status = mapmode_generic_count_settlement_28"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.034 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_34"
+					script = "set_city_status = mapmode_generic_count_settlement_29"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.035 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_35"
+					script = "set_city_status = mapmode_generic_count_settlement_30"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.036 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_36"
+					script = "set_city_status = mapmode_generic_count_settlement_31"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.037 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_37"
+					script = "set_city_status = mapmode_generic_count_settlement_32"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.038 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_38"
+					script = "set_city_status = mapmode_generic_count_settlement_33"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.039 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_39"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.04 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_40"
+					script = "set_city_status = mapmode_generic_count_settlement_34"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.041 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_41"
+					script = "set_city_status = mapmode_generic_count_settlement_35"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.042 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_42"
+					script = "set_city_status = mapmode_generic_count_settlement_36"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.043 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_43"
+					script = "set_city_status = mapmode_generic_count_settlement_37"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.044 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_44"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.045 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_45"
+					script = "set_city_status = mapmode_generic_count_settlement_38"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.046 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_46"
+					script = "set_city_status = mapmode_generic_count_settlement_39"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.047 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_47"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.048 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_48"
+					script = "set_city_status = mapmode_generic_count_settlement_40"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.049 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_49"
+					script = "set_city_status = mapmode_generic_count_settlement_41"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.05 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_50"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.051 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_51"
+					script = "set_city_status = mapmode_generic_count_settlement_42"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.052 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_52"
+					script = "set_city_status = mapmode_generic_count_settlement_43"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.053 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_53"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.054 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_54"
+					script = "set_city_status = mapmode_generic_count_settlement_44"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.055 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_55"
+					script = "set_city_status = mapmode_generic_count_settlement_45"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.056 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_56"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.057 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_57"
+					script = "set_city_status = mapmode_generic_count_settlement_46"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.058 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_58"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.059 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_59"
+					script = "set_city_status = mapmode_generic_count_settlement_47"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.06 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_60"
+					script = "set_city_status = mapmode_generic_count_settlement_48"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.061 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_61"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.062 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_62"
+					script = "set_city_status = mapmode_generic_count_settlement_49"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.063 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_63"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.064 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_64"
+					script = "set_city_status = mapmode_generic_count_settlement_50"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.065 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_65"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.066 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_66"
+					script = "set_city_status = mapmode_generic_count_settlement_51"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.067 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_67"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.068 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_68"
+					script = "set_city_status = mapmode_generic_count_settlement_52"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.069 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_69"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.07 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_70"
+					script = "set_city_status = mapmode_generic_count_settlement_53"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.071 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_71"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.072 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_72"
+					script = "set_city_status = mapmode_generic_count_settlement_54"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.073 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_73"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.074 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_74"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.075 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_75"
+					script = "set_city_status = mapmode_generic_count_settlement_55"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.076 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_76"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.077 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_77"
+					script = "set_city_status = mapmode_generic_count_settlement_56"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.078 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_78"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.079 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_79"
+					script = "set_city_status = mapmode_generic_count_settlement_57"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.08 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_80"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.081 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_81"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.082 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_82"
+					script = "set_city_status = mapmode_generic_count_settlement_58"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.083 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_83"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.084 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_84"
+					script = "set_city_status = mapmode_generic_count_settlement_59"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.085 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_85"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.086 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_86"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.087 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_87"
+					script = "set_city_status = mapmode_generic_count_settlement_60"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.088 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_88"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.089 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_89"
+					script = "set_city_status = mapmode_generic_count_settlement_61"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.09 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_90"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.091 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_91"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.092 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_92"
+					script = "set_city_status = mapmode_generic_count_settlement_62"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.093 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_93"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.094 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_94"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.095 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_95"
+					script = "set_city_status = mapmode_generic_count_settlement_63"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.096 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_96"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.097 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_97"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.098 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_98"
+					script = "set_city_status = mapmode_generic_count_settlement_64"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.099 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_99"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.1 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_100"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.101 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_101"
+					script = "set_city_status = mapmode_generic_count_settlement_65"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.102 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_102"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.103 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_103"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.104 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_104"
+					script = "set_city_status = mapmode_generic_count_settlement_66"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.105 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_105"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.106 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_106"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.107 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_107"
+					script = "set_city_status = mapmode_generic_count_settlement_67"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.108 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_108"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.109 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_109"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.11 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_110"
+					script = "set_city_status = mapmode_generic_count_settlement_68"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.111 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_111"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.112 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_112"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.113 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_113"
+					script = "set_city_status = mapmode_generic_count_settlement_69"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.114 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_114"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.115 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_115"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.116 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_116"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.117 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_117"
+					script = "set_city_status = mapmode_generic_count_settlement_70"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.118 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_118"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.119 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_119"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.12 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_120"
+					script = "set_city_status = mapmode_generic_count_settlement_71"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.121 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_121"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.122 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_122"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.123 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_123"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.124 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_124"
-				}
-			}
-
-= RESTART: G:\Documents\Paradox Interactive\Imperator\mod\mapmodes_custom\common\province_ranks\mapmode_statements_governorship_per_capita_wealth.py
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.001 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_1"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.005 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_2"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.009 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_3"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.013 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_4"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.017 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_5"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.021 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_6"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.025 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_7"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.029 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_8"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.033 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_9"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.037 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_10"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.041 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_11"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.045 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_12"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.049 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_13"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.053 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_14"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.057 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_15"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.061 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_16"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.065 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_17"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.069 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_18"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.073 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_19"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.077 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_20"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.081 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_21"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.085 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_22"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.089 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_23"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.093 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_24"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.097 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_25"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.101 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_26"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.105 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_27"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.109 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_28"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.113 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_29"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.117 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_30"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.121 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_31"
+					script = "set_city_status = mapmode_generic_count_settlement_72"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.125 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_32"
+					script = "set_city_status = mapmode_generic_count_settlement_73"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.129 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_33"
+					script = "set_city_status = mapmode_generic_count_settlement_74"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.133 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_34"
+					script = "set_city_status = mapmode_generic_count_settlement_75"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.137 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_35"
+					script = "set_city_status = mapmode_generic_count_settlement_76"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.141 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_36"
+					script = "set_city_status = mapmode_generic_count_settlement_77"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.145 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_37"
+					script = "set_city_status = mapmode_generic_count_settlement_78"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.149 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_38"
+					script = "set_city_status = mapmode_generic_count_settlement_79"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.153 }
+				limit = { WEALTH_governorship_per_capita < 0.154 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_39"
+					script = "set_city_status = mapmode_generic_count_settlement_80"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.157 }
+				limit = { WEALTH_governorship_per_capita < 0.158 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_40"
+					script = "set_city_status = mapmode_generic_count_settlement_81"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.161 }
+				limit = { WEALTH_governorship_per_capita < 0.163 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_41"
+					script = "set_city_status = mapmode_generic_count_settlement_82"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.165 }
+				limit = { WEALTH_governorship_per_capita < 0.168 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_42"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.169 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_43"
+					script = "set_city_status = mapmode_generic_count_settlement_83"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.173 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_44"
+					script = "set_city_status = mapmode_generic_count_settlement_84"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.177 }
+				limit = { WEALTH_governorship_per_capita < 0.178 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_45"
+					script = "set_city_status = mapmode_generic_count_settlement_85"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.181 }
+				limit = { WEALTH_governorship_per_capita < 0.184 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_46"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.185 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_47"
+					script = "set_city_status = mapmode_generic_count_settlement_86"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.189 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_48"
+					script = "set_city_status = mapmode_generic_count_settlement_87"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.193 }
+				limit = { WEALTH_governorship_per_capita < 0.195 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_49"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.197 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_50"
+					script = "set_city_status = mapmode_generic_count_settlement_88"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.201 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_51"
+					script = "set_city_status = mapmode_generic_count_settlement_89"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.205 }
+				limit = { WEALTH_governorship_per_capita < 0.207 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_52"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.209 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_53"
+					script = "set_city_status = mapmode_generic_count_settlement_90"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.213 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_54"
+					script = "set_city_status = mapmode_generic_count_settlement_91"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.217 }
+				limit = { WEALTH_governorship_per_capita < 0.219 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_55"
+					script = "set_city_status = mapmode_generic_count_settlement_92"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.221 }
+				limit = { WEALTH_governorship_per_capita < 0.226 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_56"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.225 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_57"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.229 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_58"
+					script = "set_city_status = mapmode_generic_count_settlement_93"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.233 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_59"
+					script = "set_city_status = mapmode_generic_count_settlement_94"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.237 }
+				limit = { WEALTH_governorship_per_capita < 0.24 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_60"
+					script = "set_city_status = mapmode_generic_count_settlement_95"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.241 }
+				limit = { WEALTH_governorship_per_capita < 0.247 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_61"
+					script = "set_city_status = mapmode_generic_count_settlement_96"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.245 }
+				limit = { WEALTH_governorship_per_capita < 0.254 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_62"
+					script = "set_city_status = mapmode_generic_count_settlement_97"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.249 }
+				limit = { WEALTH_governorship_per_capita < 0.262 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_63"
+					script = "set_city_status = mapmode_generic_count_settlement_98"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.253 }
+				limit = { WEALTH_governorship_per_capita < 0.27 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_64"
+					script = "set_city_status = mapmode_generic_count_settlement_99"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.257 }
+				limit = { WEALTH_governorship_per_capita < 0.278 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_65"
+					script = "set_city_status = mapmode_generic_count_settlement_100"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.261 }
+				limit = { WEALTH_governorship_per_capita < 0.286 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_66"
+					script = "set_city_status = mapmode_generic_count_settlement_101"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.265 }
+				limit = { WEALTH_governorship_per_capita < 0.295 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_67"
+					script = "set_city_status = mapmode_generic_count_settlement_102"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.269 }
+				limit = { WEALTH_governorship_per_capita < 0.303 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_68"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.273 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_69"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.277 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_70"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.281 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_71"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.285 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_72"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.289 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_73"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.293 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_74"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.297 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_75"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.301 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_76"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.305 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_77"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.309 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_78"
+					script = "set_city_status = mapmode_generic_count_settlement_103"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.313 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_79"
+					script = "set_city_status = mapmode_generic_count_settlement_104"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.317 }
+				limit = { WEALTH_governorship_per_capita < 0.322 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_80"
+					script = "set_city_status = mapmode_generic_count_settlement_105"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.321 }
+				limit = { WEALTH_governorship_per_capita < 0.332 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_81"
+					script = "set_city_status = mapmode_generic_count_settlement_106"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.325 }
+				limit = { WEALTH_governorship_per_capita < 0.342 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_82"
+					script = "set_city_status = mapmode_generic_count_settlement_107"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.329 }
+				limit = { WEALTH_governorship_per_capita < 0.352 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_83"
+					script = "set_city_status = mapmode_generic_count_settlement_108"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.333 }
+				limit = { WEALTH_governorship_per_capita < 0.362 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_84"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.337 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_85"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.341 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_86"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.345 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_87"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.349 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_88"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.353 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_89"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.357 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_90"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.361 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_91"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.365 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_92"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.369 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_93"
+					script = "set_city_status = mapmode_generic_count_settlement_109"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.373 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_94"
+					script = "set_city_status = mapmode_generic_count_settlement_110"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.377 }
+				limit = { WEALTH_governorship_per_capita < 0.384 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_95"
+					script = "set_city_status = mapmode_generic_count_settlement_111"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.381 }
+				limit = { WEALTH_governorship_per_capita < 0.396 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_96"
+					script = "set_city_status = mapmode_generic_count_settlement_112"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.385 }
+				limit = { WEALTH_governorship_per_capita < 0.408 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_97"
+					script = "set_city_status = mapmode_generic_count_settlement_113"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.389 }
+				limit = { WEALTH_governorship_per_capita < 0.42 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_98"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.393 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_99"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.397 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_100"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.401 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_101"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.405 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_102"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.409 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_103"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.413 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_104"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.417 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_105"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.421 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_106"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.425 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_107"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.429 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_108"
+					script = "set_city_status = mapmode_generic_count_settlement_114"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.433 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_109"
+					script = "set_city_status = mapmode_generic_count_settlement_115"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.437 }
+				limit = { WEALTH_governorship_per_capita < 0.446 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_110"
+					script = "set_city_status = mapmode_generic_count_settlement_116"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.441 }
+				limit = { WEALTH_governorship_per_capita < 0.459 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_111"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.445 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_112"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.449 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_113"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.453 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_114"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.457 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_115"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.461 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_116"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.465 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_117"
-				}
-			}
-         else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.469 }
-				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_118"
+					script = "set_city_status = mapmode_generic_count_settlement_117"
 				}
 			}
          else_if = {
 				limit = { WEALTH_governorship_per_capita < 0.473 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_119"
+					script = "set_city_status = mapmode_generic_count_settlement_118"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.477 }
+				limit = { WEALTH_governorship_per_capita < 0.487 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_120"
+					script = "set_city_status = mapmode_generic_count_settlement_119"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.481 }
+				limit = { WEALTH_governorship_per_capita < 0.502 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_121"
+					script = "set_city_status = mapmode_generic_count_settlement_120"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.485 }
+				limit = { WEALTH_governorship_per_capita < 0.517 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_122"
+					script = "set_city_status = mapmode_generic_count_settlement_121"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.489 }
+				limit = { WEALTH_governorship_per_capita < 0.532 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_123"
+					script = "set_city_status = mapmode_generic_count_settlement_122"
 				}
 			}
          else_if = {
-				limit = { WEALTH_governorship_per_capita < 0.493 }
+				limit = { WEALTH_governorship_per_capita < 0.548 }
 				run_script_in_every_governorship_province = {
-					script = "set_city_status = mapmode_generic_count_124"
+					script = "set_city_status = mapmode_generic_count_settlement_123"
+				}
+			}
+         else_if = {
+				limit = { WEALTH_governorship_per_capita < 0.564 }
+				run_script_in_every_governorship_province = {
+					script = "set_city_status = mapmode_generic_count_settlement_124"
 				}
 			}
 		}
