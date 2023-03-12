@@ -5,7 +5,7 @@ map.999 = { # TEST
   type = country_event
   immediate = {
     MAPMODE_enable_special_mapmode = {
-      mapmode = governorship_per_capita_wealth
+      mapmode = federation_customs_unions
     }
   }
 }

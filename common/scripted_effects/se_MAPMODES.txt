@@ -2271,6 +2271,204 @@ MAPMODE_enable_mapmode_governorship_per_capita_wealth = {
 	}
 }
 
+MAPMODE_enable_mapmode_federation_customs_unions = {
+	set_local_variable = { # Get a new unique colour for each set of provinces in a different federation
+		name = next_colour
+		value = 0
+	}
+	set_local_variable = {
+		name = current_federation
+		value = 0
+	}
+	every_province = {
+		MAPMODE_set_city_status = {
+			mapmode_type = mapmode_generic_count
+			number = 15
+		}
+	}
+	every_federation_country = {
+		every_owned_province = {
+			limit = {
+				governorship = {
+					has_variable = federation_customs_union
+				}
+			}
+			MAPMODE_set_city_status = {
+				mapmode_type = mapmode_colour
+				number = 3
+			}
+		}
+	}
+}
+
+MAPMODE_enable_mapmode_trade_zones = {
+	set_local_variable = { # Get a new unique colour for each set of provinces in a different federation
+		name = next_colour
+		value = 0
+	}
+	set_local_variable = {
+		name = current_tradezone
+		value = 0
+	}
+	every_province = {
+		if = {
+			limit = { india_tradezone = { PROVINCE = yes } }
+			MAPMODE_set_city_status = {
+				mapmode_type = mapmode_colour
+				number = 1
+			}
+		}
+			else_if = {
+			limit = { east_north_america_tradezone = { PROVINCE = yes } }
+			MAPMODE_set_city_status = {
+				mapmode_type = mapmode_colour
+				number = 2
+			}
+		}
+	else_if = {
+			limit = { west_north_america_tradezone = { PROVINCE = yes } }
+			MAPMODE_set_city_status = {
+				mapmode_type = mapmode_colour
+				number = 3
+			}
+		}
+	else_if = {
+			limit = { caribbean_tradezone = { PROVINCE = yes } }
+			MAPMODE_set_city_status = {
+				mapmode_type = mapmode_colour
+				number = 4
+			}
+		}
+	else_if = {
+			limit = { west_south_america_tradezone = { PROVINCE = yes } }
+			MAPMODE_set_city_status = {
+				mapmode_type = mapmode_colour
+				number = 5
+			}
+		}
+	else_if = {
+			limit = { east_south_america_tradezone = { PROVINCE = yes } }
+			MAPMODE_set_city_status = {
+				mapmode_type = mapmode_colour
+				number = 6
+			}
+		}
+	else_if = {
+			limit = { south_east_asia_tradezone = { PROVINCE = yes } }
+			MAPMODE_set_city_status = {
+				mapmode_type = mapmode_colour
+				number = 7
+			}
+		}
+	else_if = {
+			limit = { indo_china_tradezone = { PROVINCE = yes } }
+			MAPMODE_set_city_status = {
+				mapmode_type = mapmode_colour
+				number = 8
+			}
+		}
+	else_if = {
+			limit = { yellow_sea_tradezone = { PROVINCE = yes } }
+			MAPMODE_set_city_status = {
+				mapmode_type = mapmode_colour
+				number = 9
+			}
+		}
+	else_if = {
+			limit = { southern_africa_tradezone = { PROVINCE = yes } }
+			MAPMODE_set_city_status = {
+				mapmode_type = mapmode_colour
+				number = 10
+			}
+		}
+	else_if = {
+			limit = { west_africa_tradezone = { PROVINCE = yes } }
+			MAPMODE_set_city_status = {
+				mapmode_type = mapmode_colour
+				number = 11
+			}
+		}
+	else_if = {
+			limit = { east_africa_tradezone = { PROVINCE = yes } }
+			MAPMODE_set_city_status = {
+				mapmode_type = mapmode_colour
+				number = 12
+			}
+		}
+	else_if = {
+			limit = { middle_east_tradezone = { PROVINCE = yes } }
+			MAPMODE_set_city_status = {
+				mapmode_type = mapmode_colour
+				number = 13
+			}
+		}
+	else_if = {
+			limit = { western_steppe_tradezone = { PROVINCE = yes } }
+			MAPMODE_set_city_status = {
+				mapmode_type = mapmode_colour
+				number = 14
+			}
+		}
+	else_if = {
+			limit = { eastern_steppe_tradezone = { PROVINCE = yes } }
+			MAPMODE_set_city_status = {
+				mapmode_type = mapmode_colour
+				number = 15
+			}
+		}
+	else_if = {
+			limit = { upper_yangtzi_tradezone = { PROVINCE = yes } }
+			MAPMODE_set_city_status = {
+				mapmode_type = mapmode_colour
+				number = 16
+			}
+		}
+	else_if = {
+			limit = { atlantic_seaboard_tradezone = { PROVINCE = yes } }
+			MAPMODE_set_city_status = {
+				mapmode_type = mapmode_colour
+				number = 17
+			}
+		}
+	else_if = {
+			limit = { central_europe_tradezone = { PROVINCE = yes } }
+			MAPMODE_set_city_status = {
+				mapmode_type = mapmode_colour
+				number = 18
+			}
+		}
+	else_if = {
+			limit = { west_mediterranean_tradezone = { PROVINCE = yes } }
+			MAPMODE_set_city_status = {
+				mapmode_type = mapmode_colour
+				number = 19
+			}
+		}
+	else_if = {
+			limit = { baltic_tradezone = { PROVINCE = yes } }
+			MAPMODE_set_city_status = {
+				mapmode_type = mapmode_generic_count
+				number = 10
+			}
+		}
+	else_if = {
+			limit = { east_europe_tradezone = { PROVINCE = yes } }
+			MAPMODE_set_city_status = {
+				mapmode_type = mapmode_generic_count
+				number = 60
+			}
+		}
+	else_if = {
+			limit = { east_mediterranean_tradezone = { PROVINCE = yes } }
+			MAPMODE_set_city_status = {
+				mapmode_type = mapmode_generic_count
+				number = 120
+			}
+		}		
+	}
+}
+
+
 run_script_in_every_governorship_province = {
 	every_governorship_state = {
 		every_state_province = {
