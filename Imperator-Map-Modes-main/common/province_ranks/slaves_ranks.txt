@@ -1,0 +1,1323 @@
+﻿
+city_metropolis_slaves_0 = {
+	rank_modifier = {
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_building_slot = 4
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+		base_resources = 1
+		local_state_trade_routes = 1
+		local_nobles_desired_pop_ratio = 0.1
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.3
+		local_slaves_desired_pop_ratio = 0.05
+	}
+	color = hsv { 0.14 0.9 0.01 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+
+city_slaves_0 = {
+	rank_modifier = {
+		local_population_capacity = 22 
+		local_building_slot = 2
+		local_nobles_desired_pop_ratio = 0.15
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.4
+		local_slaves_desired_pop_ratio = 0.15
+	}
+	color = hsv { 0.14 0.9 0.01 }
+	is_established_city = yes
+	holy_site_treasure_slots = 2
+}
+
+settlement_slaves_0 = {
+	rank_modifier = {
+		local_citizen_desired_pop_ratio = 0.025
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_output_modifier = -0.15
+		local_pop_promotion_speed_modifier = -0.25
+		local_goods_from_slaves = -5
+		local_country_civilization_value = -5
+		local_migration_attraction = -3
+		local_ship_recruit_speed = -0.5
+	}
+	color = hsv { 0.14 0.9 0.01 }
+	holy_site_treasure_slots = 1
+}
+
+city_metropolis_slaves_1 = {
+	rank_modifier = {
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_building_slot = 4
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+		base_resources = 1
+		local_state_trade_routes = 1
+		local_nobles_desired_pop_ratio = 0.1
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.3
+		local_slaves_desired_pop_ratio = 0.05
+	}
+	color = hsv { 0.14 0.9 0.03 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+
+city_slaves_1 = {
+	rank_modifier = {
+		local_population_capacity = 22 
+		local_building_slot = 2
+		local_nobles_desired_pop_ratio = 0.15
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.4
+		local_slaves_desired_pop_ratio = 0.15
+	}
+	color = hsv { 0.14 0.9 0.03 }
+	is_established_city = yes
+	holy_site_treasure_slots = 2
+}
+
+settlement_slaves_1 = {
+	rank_modifier = {
+		local_citizen_desired_pop_ratio = 0.025
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_output_modifier = -0.15
+		local_pop_promotion_speed_modifier = -0.25
+		local_goods_from_slaves = -5
+		local_country_civilization_value = -5
+		local_migration_attraction = -3
+		local_ship_recruit_speed = -0.5
+	}
+	color = hsv { 0.14 0.9 0.03 }
+	holy_site_treasure_slots = 1
+}
+
+city_metropolis_slaves_2 = {
+	rank_modifier = {
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_building_slot = 4
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+		base_resources = 1
+		local_state_trade_routes = 1
+		local_nobles_desired_pop_ratio = 0.1
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.3
+		local_slaves_desired_pop_ratio = 0.05
+	}
+	color = hsv { 0.14 0.9 0.05 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+
+city_slaves_2 = {
+	rank_modifier = {
+		local_population_capacity = 22 
+		local_building_slot = 2
+		local_nobles_desired_pop_ratio = 0.15
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.4
+		local_slaves_desired_pop_ratio = 0.15
+	}
+	color = hsv { 0.14 0.9 0.05 }
+	is_established_city = yes
+	holy_site_treasure_slots = 2
+}
+
+settlement_slaves_2 = {
+	rank_modifier = {
+		local_citizen_desired_pop_ratio = 0.025
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_output_modifier = -0.15
+		local_pop_promotion_speed_modifier = -0.25
+		local_goods_from_slaves = -5
+		local_country_civilization_value = -5
+		local_migration_attraction = -3
+		local_ship_recruit_speed = -0.5
+	}
+	color = hsv { 0.14 0.9 0.05 }
+	holy_site_treasure_slots = 1
+}
+
+city_metropolis_slaves_3 = {
+	rank_modifier = {
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_building_slot = 4
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+		base_resources = 1
+		local_state_trade_routes = 1
+		local_nobles_desired_pop_ratio = 0.1
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.3
+		local_slaves_desired_pop_ratio = 0.05
+	}
+	color = hsv { 0.14 0.9 0.07 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+
+city_slaves_3 = {
+	rank_modifier = {
+		local_population_capacity = 22 
+		local_building_slot = 2
+		local_nobles_desired_pop_ratio = 0.15
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.4
+		local_slaves_desired_pop_ratio = 0.15
+	}
+	color = hsv { 0.14 0.9 0.07 }
+	is_established_city = yes
+	holy_site_treasure_slots = 2
+}
+
+settlement_slaves_3 = {
+	rank_modifier = {
+		local_citizen_desired_pop_ratio = 0.025
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_output_modifier = -0.15
+		local_pop_promotion_speed_modifier = -0.25
+		local_goods_from_slaves = -5
+		local_country_civilization_value = -5
+		local_migration_attraction = -3
+		local_ship_recruit_speed = -0.5
+	}
+	color = hsv { 0.14 0.9 0.07 }
+	holy_site_treasure_slots = 1
+}
+
+city_metropolis_slaves_4 = {
+	rank_modifier = {
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_building_slot = 4
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+		base_resources = 1
+		local_state_trade_routes = 1
+		local_nobles_desired_pop_ratio = 0.1
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.3
+		local_slaves_desired_pop_ratio = 0.05
+	}
+	color = hsv { 0.14 0.9 0.09 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+
+city_slaves_4 = {
+	rank_modifier = {
+		local_population_capacity = 22 
+		local_building_slot = 2
+		local_nobles_desired_pop_ratio = 0.15
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.4
+		local_slaves_desired_pop_ratio = 0.15
+	}
+	color = hsv { 0.14 0.9 0.09 }
+	is_established_city = yes
+	holy_site_treasure_slots = 2
+}
+
+settlement_slaves_4 = {
+	rank_modifier = {
+		local_citizen_desired_pop_ratio = 0.025
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_output_modifier = -0.15
+		local_pop_promotion_speed_modifier = -0.25
+		local_goods_from_slaves = -5
+		local_country_civilization_value = -5
+		local_migration_attraction = -3
+		local_ship_recruit_speed = -0.5
+	}
+	color = hsv { 0.14 0.9 0.09 }
+	holy_site_treasure_slots = 1
+}
+
+city_metropolis_slaves_5 = {
+	rank_modifier = {
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_building_slot = 4
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+		base_resources = 1
+		local_state_trade_routes = 1
+		local_nobles_desired_pop_ratio = 0.1
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.3
+		local_slaves_desired_pop_ratio = 0.05
+	}
+	color = hsv { 0.14 0.9 0.11 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+
+city_slaves_5 = {
+	rank_modifier = {
+		local_population_capacity = 22 
+		local_building_slot = 2
+		local_nobles_desired_pop_ratio = 0.15
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.4
+		local_slaves_desired_pop_ratio = 0.15
+	}
+	color = hsv { 0.14 0.9 0.11 }
+	is_established_city = yes
+	holy_site_treasure_slots = 2
+}
+
+settlement_slaves_5 = {
+	rank_modifier = {
+		local_citizen_desired_pop_ratio = 0.025
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_output_modifier = -0.15
+		local_pop_promotion_speed_modifier = -0.25
+		local_goods_from_slaves = -5
+		local_country_civilization_value = -5
+		local_migration_attraction = -3
+		local_ship_recruit_speed = -0.5
+	}
+	color = hsv { 0.14 0.9 0.11 }
+	holy_site_treasure_slots = 1
+}
+
+city_metropolis_slaves_6 = {
+	rank_modifier = {
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_building_slot = 4
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+		base_resources = 1
+		local_state_trade_routes = 1
+		local_nobles_desired_pop_ratio = 0.1
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.3
+		local_slaves_desired_pop_ratio = 0.05
+	}
+	color = hsv { 0.14 0.9 0.13 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+
+city_slaves_6 = {
+	rank_modifier = {
+		local_population_capacity = 22 
+		local_building_slot = 2
+		local_nobles_desired_pop_ratio = 0.15
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.4
+		local_slaves_desired_pop_ratio = 0.15
+	}
+	color = hsv { 0.14 0.9 0.13 }
+	is_established_city = yes
+	holy_site_treasure_slots = 2
+}
+
+settlement_slaves_6 = {
+	rank_modifier = {
+		local_citizen_desired_pop_ratio = 0.025
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_output_modifier = -0.15
+		local_pop_promotion_speed_modifier = -0.25
+		local_goods_from_slaves = -5
+		local_country_civilization_value = -5
+		local_migration_attraction = -3
+		local_ship_recruit_speed = -0.5
+	}
+	color = hsv { 0.14 0.9 0.13 }
+	holy_site_treasure_slots = 1
+}
+
+city_metropolis_slaves_7 = {
+	rank_modifier = {
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_building_slot = 4
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+		base_resources = 1
+		local_state_trade_routes = 1
+		local_nobles_desired_pop_ratio = 0.1
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.3
+		local_slaves_desired_pop_ratio = 0.05
+	}
+	color = hsv { 0.14 0.9 0.15 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+
+city_slaves_7 = {
+	rank_modifier = {
+		local_population_capacity = 22 
+		local_building_slot = 2
+		local_nobles_desired_pop_ratio = 0.15
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.4
+		local_slaves_desired_pop_ratio = 0.15
+	}
+	color = hsv { 0.14 0.9 0.15 }
+	is_established_city = yes
+	holy_site_treasure_slots = 2
+}
+
+settlement_slaves_7 = {
+	rank_modifier = {
+		local_citizen_desired_pop_ratio = 0.025
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_output_modifier = -0.15
+		local_pop_promotion_speed_modifier = -0.25
+		local_goods_from_slaves = -5
+		local_country_civilization_value = -5
+		local_migration_attraction = -3
+		local_ship_recruit_speed = -0.5
+	}
+	color = hsv { 0.14 0.9 0.15 }
+	holy_site_treasure_slots = 1
+}
+
+city_metropolis_slaves_8 = {
+	rank_modifier = {
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_building_slot = 4
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+		base_resources = 1
+		local_state_trade_routes = 1
+		local_nobles_desired_pop_ratio = 0.1
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.3
+		local_slaves_desired_pop_ratio = 0.05
+	}
+	color = hsv { 0.14 0.9 0.17 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+
+city_slaves_8 = {
+	rank_modifier = {
+		local_population_capacity = 22 
+		local_building_slot = 2
+		local_nobles_desired_pop_ratio = 0.15
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.4
+		local_slaves_desired_pop_ratio = 0.15
+	}
+	color = hsv { 0.14 0.9 0.17 }
+	is_established_city = yes
+	holy_site_treasure_slots = 2
+}
+
+settlement_slaves_8 = {
+	rank_modifier = {
+		local_citizen_desired_pop_ratio = 0.025
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_output_modifier = -0.15
+		local_pop_promotion_speed_modifier = -0.25
+		local_goods_from_slaves = -5
+		local_country_civilization_value = -5
+		local_migration_attraction = -3
+		local_ship_recruit_speed = -0.5
+	}
+	color = hsv { 0.14 0.9 0.17 }
+	holy_site_treasure_slots = 1
+}
+
+city_metropolis_slaves_9 = {
+	rank_modifier = {
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_building_slot = 4
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+		base_resources = 1
+		local_state_trade_routes = 1
+		local_nobles_desired_pop_ratio = 0.1
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.3
+		local_slaves_desired_pop_ratio = 0.05
+	}
+	color = hsv { 0.14 0.9 0.19 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+
+city_slaves_9 = {
+	rank_modifier = {
+		local_population_capacity = 22 
+		local_building_slot = 2
+		local_nobles_desired_pop_ratio = 0.15
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.4
+		local_slaves_desired_pop_ratio = 0.15
+	}
+	color = hsv { 0.14 0.9 0.19 }
+	is_established_city = yes
+	holy_site_treasure_slots = 2
+}
+
+settlement_slaves_9 = {
+	rank_modifier = {
+		local_citizen_desired_pop_ratio = 0.025
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_output_modifier = -0.15
+		local_pop_promotion_speed_modifier = -0.25
+		local_goods_from_slaves = -5
+		local_country_civilization_value = -5
+		local_migration_attraction = -3
+		local_ship_recruit_speed = -0.5
+	}
+	color = hsv { 0.14 0.9 0.19 }
+	holy_site_treasure_slots = 1
+}
+
+city_metropolis_slaves_10 = {
+	rank_modifier = {
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_building_slot = 4
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+		base_resources = 1
+		local_state_trade_routes = 1
+		local_nobles_desired_pop_ratio = 0.1
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.3
+		local_slaves_desired_pop_ratio = 0.05
+	}
+	color = hsv { 0.14 0.9 0.21 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+
+city_slaves_10 = {
+	rank_modifier = {
+		local_population_capacity = 22 
+		local_building_slot = 2
+		local_nobles_desired_pop_ratio = 0.15
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.4
+		local_slaves_desired_pop_ratio = 0.15
+	}
+	color = hsv { 0.14 0.9 0.21 }
+	is_established_city = yes
+	holy_site_treasure_slots = 2
+}
+
+settlement_slaves_10 = {
+	rank_modifier = {
+		local_citizen_desired_pop_ratio = 0.025
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_output_modifier = -0.15
+		local_pop_promotion_speed_modifier = -0.25
+		local_goods_from_slaves = -5
+		local_country_civilization_value = -5
+		local_migration_attraction = -3
+		local_ship_recruit_speed = -0.5
+	}
+	color = hsv { 0.14 0.9 0.21 }
+	holy_site_treasure_slots = 1
+}
+
+city_metropolis_slaves_11 = {
+	rank_modifier = {
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_building_slot = 4
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+		base_resources = 1
+		local_state_trade_routes = 1
+		local_nobles_desired_pop_ratio = 0.1
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.3
+		local_slaves_desired_pop_ratio = 0.05
+	}
+	color = hsv { 0.14 0.9 0.23 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+
+city_slaves_11 = {
+	rank_modifier = {
+		local_population_capacity = 22 
+		local_building_slot = 2
+		local_nobles_desired_pop_ratio = 0.15
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.4
+		local_slaves_desired_pop_ratio = 0.15
+	}
+	color = hsv { 0.14 0.9 0.23 }
+	is_established_city = yes
+	holy_site_treasure_slots = 2
+}
+
+settlement_slaves_11 = {
+	rank_modifier = {
+		local_citizen_desired_pop_ratio = 0.025
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_output_modifier = -0.15
+		local_pop_promotion_speed_modifier = -0.25
+		local_goods_from_slaves = -5
+		local_country_civilization_value = -5
+		local_migration_attraction = -3
+		local_ship_recruit_speed = -0.5
+	}
+	color = hsv { 0.14 0.9 0.23 }
+	holy_site_treasure_slots = 1
+}
+
+city_metropolis_slaves_12 = {
+	rank_modifier = {
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_building_slot = 4
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+		base_resources = 1
+		local_state_trade_routes = 1
+		local_nobles_desired_pop_ratio = 0.1
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.3
+		local_slaves_desired_pop_ratio = 0.05
+	}
+	color = hsv { 0.14 0.9 0.25 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+
+city_slaves_12 = {
+	rank_modifier = {
+		local_population_capacity = 22 
+		local_building_slot = 2
+		local_nobles_desired_pop_ratio = 0.15
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.4
+		local_slaves_desired_pop_ratio = 0.15
+	}
+	color = hsv { 0.14 0.9 0.25 }
+	is_established_city = yes
+	holy_site_treasure_slots = 2
+}
+
+settlement_slaves_12 = {
+	rank_modifier = {
+		local_citizen_desired_pop_ratio = 0.025
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_output_modifier = -0.15
+		local_pop_promotion_speed_modifier = -0.25
+		local_goods_from_slaves = -5
+		local_country_civilization_value = -5
+		local_migration_attraction = -3
+		local_ship_recruit_speed = -0.5
+	}
+	color = hsv { 0.14 0.9 0.25 }
+	holy_site_treasure_slots = 1
+}
+
+city_metropolis_slaves_13 = {
+	rank_modifier = {
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_building_slot = 4
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+		base_resources = 1
+		local_state_trade_routes = 1
+		local_nobles_desired_pop_ratio = 0.1
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.3
+		local_slaves_desired_pop_ratio = 0.05
+	}
+	color = hsv { 0.14 0.9 0.27 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+
+city_slaves_13 = {
+	rank_modifier = {
+		local_population_capacity = 22 
+		local_building_slot = 2
+		local_nobles_desired_pop_ratio = 0.15
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.4
+		local_slaves_desired_pop_ratio = 0.15
+	}
+	color = hsv { 0.14 0.9 0.27 }
+	is_established_city = yes
+	holy_site_treasure_slots = 2
+}
+
+settlement_slaves_13 = {
+	rank_modifier = {
+		local_citizen_desired_pop_ratio = 0.025
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_output_modifier = -0.15
+		local_pop_promotion_speed_modifier = -0.25
+		local_goods_from_slaves = -5
+		local_country_civilization_value = -5
+		local_migration_attraction = -3
+		local_ship_recruit_speed = -0.5
+	}
+	color = hsv { 0.14 0.9 0.27 }
+	holy_site_treasure_slots = 1
+}
+
+city_metropolis_slaves_14 = {
+	rank_modifier = {
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_building_slot = 4
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+		base_resources = 1
+		local_state_trade_routes = 1
+		local_nobles_desired_pop_ratio = 0.1
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.3
+		local_slaves_desired_pop_ratio = 0.05
+	}
+	color = hsv { 0.14 0.9 0.29 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+
+city_slaves_14 = {
+	rank_modifier = {
+		local_population_capacity = 22 
+		local_building_slot = 2
+		local_nobles_desired_pop_ratio = 0.15
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.4
+		local_slaves_desired_pop_ratio = 0.15
+	}
+	color = hsv { 0.14 0.9 0.29 }
+	is_established_city = yes
+	holy_site_treasure_slots = 2
+}
+
+settlement_slaves_14 = {
+	rank_modifier = {
+		local_citizen_desired_pop_ratio = 0.025
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_output_modifier = -0.15
+		local_pop_promotion_speed_modifier = -0.25
+		local_goods_from_slaves = -5
+		local_country_civilization_value = -5
+		local_migration_attraction = -3
+		local_ship_recruit_speed = -0.5
+	}
+	color = hsv { 0.14 0.9 0.29 }
+	holy_site_treasure_slots = 1
+}
+
+city_metropolis_slaves_15 = {
+	rank_modifier = {
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_building_slot = 4
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+		base_resources = 1
+		local_state_trade_routes = 1
+		local_nobles_desired_pop_ratio = 0.1
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.3
+		local_slaves_desired_pop_ratio = 0.05
+	}
+	color = hsv { 0.14 0.9 0.31 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+
+city_slaves_15 = {
+	rank_modifier = {
+		local_population_capacity = 22 
+		local_building_slot = 2
+		local_nobles_desired_pop_ratio = 0.15
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.4
+		local_slaves_desired_pop_ratio = 0.15
+	}
+	color = hsv { 0.14 0.9 0.31 }
+	is_established_city = yes
+	holy_site_treasure_slots = 2
+}
+
+settlement_slaves_15 = {
+	rank_modifier = {
+		local_citizen_desired_pop_ratio = 0.025
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_output_modifier = -0.15
+		local_pop_promotion_speed_modifier = -0.25
+		local_goods_from_slaves = -5
+		local_country_civilization_value = -5
+		local_migration_attraction = -3
+		local_ship_recruit_speed = -0.5
+	}
+	color = hsv { 0.14 0.9 0.31 }
+	holy_site_treasure_slots = 1
+}
+
+city_metropolis_slaves_16 = {
+	rank_modifier = {
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_building_slot = 4
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+		base_resources = 1
+		local_state_trade_routes = 1
+		local_nobles_desired_pop_ratio = 0.1
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.3
+		local_slaves_desired_pop_ratio = 0.05
+	}
+	color = hsv { 0.14 0.9 0.33 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+
+city_slaves_16 = {
+	rank_modifier = {
+		local_population_capacity = 22 
+		local_building_slot = 2
+		local_nobles_desired_pop_ratio = 0.15
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.4
+		local_slaves_desired_pop_ratio = 0.15
+	}
+	color = hsv { 0.14 0.9 0.33 }
+	is_established_city = yes
+	holy_site_treasure_slots = 2
+}
+
+settlement_slaves_16 = {
+	rank_modifier = {
+		local_citizen_desired_pop_ratio = 0.025
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_output_modifier = -0.15
+		local_pop_promotion_speed_modifier = -0.25
+		local_goods_from_slaves = -5
+		local_country_civilization_value = -5
+		local_migration_attraction = -3
+		local_ship_recruit_speed = -0.5
+	}
+	color = hsv { 0.14 0.9 0.33 }
+	holy_site_treasure_slots = 1
+}
+
+city_metropolis_slaves_17 = {
+	rank_modifier = {
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_building_slot = 4
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+		base_resources = 1
+		local_state_trade_routes = 1
+		local_nobles_desired_pop_ratio = 0.1
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.3
+		local_slaves_desired_pop_ratio = 0.05
+	}
+	color = hsv { 0.14 0.9 0.35 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+
+city_slaves_17 = {
+	rank_modifier = {
+		local_population_capacity = 22 
+		local_building_slot = 2
+		local_nobles_desired_pop_ratio = 0.15
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.4
+		local_slaves_desired_pop_ratio = 0.15
+	}
+	color = hsv { 0.14 0.9 0.35 }
+	is_established_city = yes
+	holy_site_treasure_slots = 2
+}
+
+settlement_slaves_17 = {
+	rank_modifier = {
+		local_citizen_desired_pop_ratio = 0.025
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_output_modifier = -0.15
+		local_pop_promotion_speed_modifier = -0.25
+		local_goods_from_slaves = -5
+		local_country_civilization_value = -5
+		local_migration_attraction = -3
+		local_ship_recruit_speed = -0.5
+	}
+	color = hsv { 0.14 0.9 0.35 }
+	holy_site_treasure_slots = 1
+}
+
+city_metropolis_slaves_18 = {
+	rank_modifier = {
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_building_slot = 4
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+		base_resources = 1
+		local_state_trade_routes = 1
+		local_nobles_desired_pop_ratio = 0.1
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.3
+		local_slaves_desired_pop_ratio = 0.05
+	}
+	color = hsv { 0.14 0.9 0.37 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+
+city_slaves_18 = {
+	rank_modifier = {
+		local_population_capacity = 22 
+		local_building_slot = 2
+		local_nobles_desired_pop_ratio = 0.15
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.4
+		local_slaves_desired_pop_ratio = 0.15
+	}
+	color = hsv { 0.14 0.9 0.37 }
+	is_established_city = yes
+	holy_site_treasure_slots = 2
+}
+
+settlement_slaves_18 = {
+	rank_modifier = {
+		local_citizen_desired_pop_ratio = 0.025
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_output_modifier = -0.15
+		local_pop_promotion_speed_modifier = -0.25
+		local_goods_from_slaves = -5
+		local_country_civilization_value = -5
+		local_migration_attraction = -3
+		local_ship_recruit_speed = -0.5
+	}
+	color = hsv { 0.14 0.9 0.37 }
+	holy_site_treasure_slots = 1
+}
+
+city_metropolis_slaves_19 = {
+	rank_modifier = {
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_building_slot = 4
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+		base_resources = 1
+		local_state_trade_routes = 1
+		local_nobles_desired_pop_ratio = 0.1
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.3
+		local_slaves_desired_pop_ratio = 0.05
+	}
+	color = hsv { 0.14 0.9 0.39 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+
+city_slaves_19 = {
+	rank_modifier = {
+		local_population_capacity = 22 
+		local_building_slot = 2
+		local_nobles_desired_pop_ratio = 0.15
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.4
+		local_slaves_desired_pop_ratio = 0.15
+	}
+	color = hsv { 0.14 0.9 0.39 }
+	is_established_city = yes
+	holy_site_treasure_slots = 2
+}
+
+settlement_slaves_19 = {
+	rank_modifier = {
+		local_citizen_desired_pop_ratio = 0.025
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_output_modifier = -0.15
+		local_pop_promotion_speed_modifier = -0.25
+		local_goods_from_slaves = -5
+		local_country_civilization_value = -5
+		local_migration_attraction = -3
+		local_ship_recruit_speed = -0.5
+	}
+	color = hsv { 0.14 0.9 0.39 }
+	holy_site_treasure_slots = 1
+}
+
+city_metropolis_slaves_20 = {
+	rank_modifier = {
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_building_slot = 4
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+		base_resources = 1
+		local_state_trade_routes = 1
+		local_nobles_desired_pop_ratio = 0.1
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.3
+		local_slaves_desired_pop_ratio = 0.05
+	}
+	color = hsv { 0.14 0.9 0.41 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+
+city_slaves_20 = {
+	rank_modifier = {
+		local_population_capacity = 22 
+		local_building_slot = 2
+		local_nobles_desired_pop_ratio = 0.15
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.4
+		local_slaves_desired_pop_ratio = 0.15
+	}
+	color = hsv { 0.14 0.9 0.41 }
+	is_established_city = yes
+	holy_site_treasure_slots = 2
+}
+
+settlement_slaves_20 = {
+	rank_modifier = {
+		local_citizen_desired_pop_ratio = 0.025
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_output_modifier = -0.15
+		local_pop_promotion_speed_modifier = -0.25
+		local_goods_from_slaves = -5
+		local_country_civilization_value = -5
+		local_migration_attraction = -3
+		local_ship_recruit_speed = -0.5
+	}
+	color = hsv { 0.14 0.9 0.41 }
+	holy_site_treasure_slots = 1
+}
+
+city_metropolis_slaves_25 = {
+	rank_modifier = {
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_building_slot = 4
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+		base_resources = 1
+		local_state_trade_routes = 1
+		local_nobles_desired_pop_ratio = 0.1
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.3
+		local_slaves_desired_pop_ratio = 0.05
+	}
+	color = hsv { 0.14 0.9 0.51 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+
+city_slaves_25 = {
+	rank_modifier = {
+		local_population_capacity = 22 
+		local_building_slot = 2
+		local_nobles_desired_pop_ratio = 0.15
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.4
+		local_slaves_desired_pop_ratio = 0.15
+	}
+	color = hsv { 0.14 0.9 0.51 }
+	is_established_city = yes
+	holy_site_treasure_slots = 2
+}
+
+settlement_slaves_25 = {
+	rank_modifier = {
+		local_citizen_desired_pop_ratio = 0.025
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_output_modifier = -0.15
+		local_pop_promotion_speed_modifier = -0.25
+		local_goods_from_slaves = -5
+		local_country_civilization_value = -5
+		local_migration_attraction = -3
+		local_ship_recruit_speed = -0.5
+	}
+	color = hsv { 0.14 0.9 0.51 }
+	holy_site_treasure_slots = 1
+}
+
+city_metropolis_slaves_30 = {
+	rank_modifier = {
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_building_slot = 4
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+		base_resources = 1
+		local_state_trade_routes = 1
+		local_nobles_desired_pop_ratio = 0.1
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.3
+		local_slaves_desired_pop_ratio = 0.05
+	}
+	color = hsv { 0.14 0.9 0.61 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+
+city_slaves_30 = {
+	rank_modifier = {
+		local_population_capacity = 22 
+		local_building_slot = 2
+		local_nobles_desired_pop_ratio = 0.15
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.4
+		local_slaves_desired_pop_ratio = 0.15
+	}
+	color = hsv { 0.14 0.9 0.61 }
+	is_established_city = yes
+	holy_site_treasure_slots = 2
+}
+
+settlement_slaves_30 = {
+	rank_modifier = {
+		local_citizen_desired_pop_ratio = 0.025
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_output_modifier = -0.15
+		local_pop_promotion_speed_modifier = -0.25
+		local_goods_from_slaves = -5
+		local_country_civilization_value = -5
+		local_migration_attraction = -3
+		local_ship_recruit_speed = -0.5
+	}
+	color = hsv { 0.14 0.9 0.61 }
+	holy_site_treasure_slots = 1
+}
+
+city_metropolis_slaves_35 = {
+	rank_modifier = {
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_building_slot = 4
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+		base_resources = 1
+		local_state_trade_routes = 1
+		local_nobles_desired_pop_ratio = 0.1
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.3
+		local_slaves_desired_pop_ratio = 0.05
+	}
+	color = hsv { 0.14 0.9 0.71 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+
+city_slaves_35 = {
+	rank_modifier = {
+		local_population_capacity = 22 
+		local_building_slot = 2
+		local_nobles_desired_pop_ratio = 0.15
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.4
+		local_slaves_desired_pop_ratio = 0.15
+	}
+	color = hsv { 0.14 0.9 0.71 }
+	is_established_city = yes
+	holy_site_treasure_slots = 2
+}
+
+settlement_slaves_35 = {
+	rank_modifier = {
+		local_citizen_desired_pop_ratio = 0.025
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_output_modifier = -0.15
+		local_pop_promotion_speed_modifier = -0.25
+		local_goods_from_slaves = -5
+		local_country_civilization_value = -5
+		local_migration_attraction = -3
+		local_ship_recruit_speed = -0.5
+	}
+	color = hsv { 0.14 0.9 0.71 }
+	holy_site_treasure_slots = 1
+}
+
+city_metropolis_slaves_40 = {
+	rank_modifier = {
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_building_slot = 4
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+		base_resources = 1
+		local_state_trade_routes = 1
+		local_nobles_desired_pop_ratio = 0.1
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.3
+		local_slaves_desired_pop_ratio = 0.05
+	}
+	color = hsv { 0.14 0.9 0.81 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+
+city_slaves_40 = {
+	rank_modifier = {
+		local_population_capacity = 22 
+		local_building_slot = 2
+		local_nobles_desired_pop_ratio = 0.15
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.4
+		local_slaves_desired_pop_ratio = 0.15
+	}
+	color = hsv { 0.14 0.9 0.81 }
+	is_established_city = yes
+	holy_site_treasure_slots = 2
+}
+
+settlement_slaves_40 = {
+	rank_modifier = {
+		local_citizen_desired_pop_ratio = 0.025
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_output_modifier = -0.15
+		local_pop_promotion_speed_modifier = -0.25
+		local_goods_from_slaves = -5
+		local_country_civilization_value = -5
+		local_migration_attraction = -3
+		local_ship_recruit_speed = -0.5
+	}
+	color = hsv { 0.14 0.9 0.81 }
+	holy_site_treasure_slots = 1
+}
+
+city_metropolis_slaves_45 = {
+	rank_modifier = {
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_building_slot = 4
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+		base_resources = 1
+		local_state_trade_routes = 1
+		local_nobles_desired_pop_ratio = 0.1
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.3
+		local_slaves_desired_pop_ratio = 0.05
+	}
+	color = hsv { 0.14 0.9 0.91 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+
+city_slaves_45 = {
+	rank_modifier = {
+		local_population_capacity = 22 
+		local_building_slot = 2
+		local_nobles_desired_pop_ratio = 0.15
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.4
+		local_slaves_desired_pop_ratio = 0.15
+	}
+	color = hsv { 0.14 0.9 0.91 }
+	is_established_city = yes
+	holy_site_treasure_slots = 2
+}
+
+settlement_slaves_45 = {
+	rank_modifier = {
+		local_citizen_desired_pop_ratio = 0.025
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_output_modifier = -0.15
+		local_pop_promotion_speed_modifier = -0.25
+		local_goods_from_slaves = -5
+		local_country_civilization_value = -5
+		local_migration_attraction = -3
+		local_ship_recruit_speed = -0.5
+	}
+	color = hsv { 0.14 0.9 0.91 }
+	holy_site_treasure_slots = 1
+}
+
+city_metropolis_slaves_50 = {
+	rank_modifier = {
+		local_population_capacity = 30
+		local_population_capacity_modifier = 0.1
+		local_building_slot = 4
+		local_pop_promotion_speed_modifier = 0.10
+		local_migration_attraction = 2
+		base_resources = 1
+		local_state_trade_routes = 1
+		local_nobles_desired_pop_ratio = 0.1
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.3
+		local_slaves_desired_pop_ratio = 0.05
+	}
+	color = hsv { 0.14 0.9 1.00 }
+	is_established_city = yes
+	holy_site_treasure_slots = 3
+}
+
+city_slaves_50 = {
+	rank_modifier = {
+		local_population_capacity = 22 
+		local_building_slot = 2
+		local_nobles_desired_pop_ratio = 0.15
+		local_citizen_desired_pop_ratio = 0.3
+		local_freemen_desired_pop_ratio = 0.4
+		local_slaves_desired_pop_ratio = 0.15
+	}
+	color = hsv { 0.14 0.9 1.00 }
+	is_established_city = yes
+	holy_site_treasure_slots = 2
+}
+
+settlement_slaves_50 = {
+	rank_modifier = {
+		local_citizen_desired_pop_ratio = 0.025
+		local_population_capacity = 5
+		local_migration_speed_modifier = -0.75
+		local_output_modifier = -0.15
+		local_pop_promotion_speed_modifier = -0.25
+		local_goods_from_slaves = -5
+		local_country_civilization_value = -5
+		local_migration_attraction = -3
+		local_ship_recruit_speed = -0.5
+	}
+	color = hsv { 0.14 0.9 1.00 }
+	holy_site_treasure_slots = 1
+}

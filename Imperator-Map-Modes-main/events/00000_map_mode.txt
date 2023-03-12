@@ -1,0 +1,3556 @@
+﻿namespace = map_modes
+
+# Pop Map Modes
+map_modes.1 = {
+    type = country_event
+    title = map_modes.1.t
+    desc = map_modes.1.desc
+    picture = aqueducts
+    
+    trigger = {
+    	NOT = { has_variable = mapmode_enabled }
+    }
+
+    immediate = {
+    	set_variable = in_map_modes
+    }
+
+    # Nobles
+    option = {
+    	name = "Nobles Map Mode"
+    	trigger_event = map_modes.5
+    }
+    # Citizens
+	option = {
+	    name = "Citizen Map Mode"
+	    trigger_event = map_modes.4
+	}
+	# Freemen
+    option = {
+        name = "Freemen Map Mode"
+        trigger_event = map_modes.3
+    }
+    # Tribesmen
+    option = {
+    	name = "Tribesmen Map Mode"
+    	trigger_event = map_modes.6
+    }
+    # Slaves
+    option = {
+      	name = "Slaves Map Mode"
+      	trigger_event = map_modes.2
+    }
+    # Military Technology
+    option = {
+    	name = "Military Technology Map Mode"
+    	trigger_event = map_modes.7
+    }
+    # Relative Strength
+    option = {
+    	name = "Relative Strength Map Mode"
+    	trigger_event = map_modes.8
+    }
+    # War
+    option = {
+    	name = "War Map Mode"
+    	trigger_event = map_modes.9
+    }
+    # Goods Produced
+    option = {
+    	name = "Goods Produced Map Mode"
+    	trigger_event = map_modes.10
+    }
+    # TODO
+    #province_income
+    #province_manpower_income
+    #state_loyalty
+}
+
+# Slaves
+map_modes.2 = {
+    type = country_event
+    hidden = yes
+
+    immediate = {
+    	hidden_effect = {
+	      # Settlement
+	      every_settlement = {
+	    	set_variable = {
+	    	  name = p_rank
+	    	  value = 1
+	    	}
+	    	if = {
+	    	  limit = {
+	    		num_of_slaves = 0
+	    	  }
+	    	  set_city_status = settlement_slaves_0
+	    	}
+
+	    	else_if = {
+	    	  limit = { num_of_slaves = 1 }
+	    	  set_city_status = settlement_slaves_1
+	    	}
+
+	    	else_if = {
+	    	  limit = { num_of_slaves = 2 }
+	    	  set_city_status = settlement_slaves_2
+	    	}
+
+	    	else_if = {
+	    	  limit = { num_of_slaves = 3 }
+	    	  set_city_status = settlement_slaves_3
+	    	}
+
+	    	else_if = {
+	    	  limit = { num_of_slaves = 4 }
+	    	  set_city_status = settlement_slaves_4
+	    	}
+
+	    	else_if = {
+	    	  limit = { num_of_slaves = 5 }
+	    	  set_city_status = settlement_slaves_5
+	    	}
+
+	    	else_if = {
+	    	  limit = { num_of_slaves = 6 }
+	    	  set_city_status = settlement_slaves_6
+	    	}
+
+	    	else_if = {
+	    	  limit = { num_of_slaves = 7 }
+	    	  set_city_status = settlement_slaves_7
+	    	}
+
+	    	else_if = {
+	    	  limit = { num_of_slaves = 8 }
+	    	  set_city_status = settlement_slaves_8
+	    	}
+
+	    	else_if = {
+	    	  limit = { num_of_slaves = 9 }
+	    	  set_city_status = settlement_slaves_9
+	    	}
+
+	    	else_if = {
+	    	  limit = { num_of_slaves = 10 }
+	    	  set_city_status = settlement_slaves_10
+	    	}
+
+	    	else_if = {
+	    	  limit = { num_of_slaves = 11 }
+	    	  set_city_status = settlement_slaves_11
+	    	}
+
+	    	else_if = {
+	    	  limit = { num_of_slaves = 12 }
+	    	  set_city_status = settlement_slaves_12
+	    	}
+
+	    	else_if = {
+	    	  limit = { num_of_slaves = 13 }
+	    	  set_city_status = settlement_slaves_13
+	    	}
+
+	    	else_if = {
+	    	  limit = { num_of_slaves = 14 }
+	    	  set_city_status = settlement_slaves_14
+	    	}
+
+	    	else_if = {
+	    	  limit = { num_of_slaves = 15 }
+	    	  set_city_status = settlement_slaves_15
+	    	}
+
+	    	else_if = {
+	    	  limit = { num_of_slaves = 16 }
+	    	  set_city_status = settlement_slaves_16
+	    	}
+
+	    	else_if = {
+	    	  limit = { num_of_slaves = 17 }
+	    	  set_city_status = settlement_slaves_17
+	    	}
+
+	    	else_if = {
+	    	  limit = { num_of_slaves = 18 }
+	    	  set_city_status = settlement_slaves_18
+	    	}
+
+	    	else_if = {
+	    	  limit = { num_of_slaves = 19 }
+	    	  set_city_status = settlement_slaves_19
+	    	}
+
+	    	else_if = {
+	    	  limit = { num_of_slaves = 20 }
+	    	  set_city_status = settlement_slaves_20
+	    	}
+
+	    	else_if = {
+	    	  limit = { num_of_slaves <= 25 }
+	    	  set_city_status = settlement_slaves_25
+	    	}
+
+	    	else_if = {
+	    	  limit = { num_of_slaves <= 30 }
+	    	  set_city_status = settlement_slaves_30
+	    	}
+
+	    	else_if = {
+	    	  limit = { num_of_slaves <= 35 }
+	    	  set_city_status = settlement_slaves_35
+	    	}
+
+	    	else_if = {
+	    	  limit = { num_of_slaves <= 40 }
+	    	  set_city_status = settlement_slaves_40
+	    	}
+
+	    	else_if = {
+	    	  limit = { num_of_slaves <= 45 }
+	    	  set_city_status = settlement_slaves_45
+	    	}
+
+	    	else = {
+	    	  set_city_status = settlement_slaves_50
+	    	}
+	      }
+	      # Cities
+	      every_city = {
+	      	set_variable = {
+	      	  name = p_rank
+	      	  value = 2
+	      	}
+	      	if = {
+	      	  limit = {
+	      		num_of_slaves = 0
+	      	  }
+	      	  set_city_status = city_slaves_0
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 1 }
+	      	  set_city_status = city_slaves_1
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 2 }
+	      	  set_city_status = city_slaves_2
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 3 }
+	      	  set_city_status = city_slaves_3
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 4 }
+	      	  set_city_status = city_slaves_4
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 5 }
+	      	  set_city_status = city_slaves_5
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 6 }
+	      	  set_city_status = city_slaves_6
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 7 }
+	      	  set_city_status = city_slaves_7
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 8 }
+	      	  set_city_status = city_slaves_8
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 9 }
+	      	  set_city_status = city_slaves_9
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 10 }
+	      	  set_city_status = city_slaves_10
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 11 }
+	      	  set_city_status = city_slaves_11
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 12 }
+	      	  set_city_status = city_slaves_12
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 13 }
+	      	  set_city_status = city_slaves_13
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 14 }
+	      	  set_city_status = city_slaves_14
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 15 }
+	      	  set_city_status = city_slaves_15
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 16 }
+	      	  set_city_status = city_slaves_16
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 17 }
+	      	  set_city_status = city_slaves_17
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 18 }
+	      	  set_city_status = city_slaves_18
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 19 }
+	      	  set_city_status = city_slaves_19
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 20 }
+	      	  set_city_status = city_slaves_20
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves <= 25 }
+	      	  set_city_status = city_slaves_25
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves <= 30 }
+	      	  set_city_status = city_slaves_30
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves <= 35 }
+	      	  set_city_status = city_slaves_35
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves <= 40 }
+	      	  set_city_status = city_slaves_40
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves <= 45 }
+	      	  set_city_status = city_slaves_45
+	      	}
+
+	      	else = {
+	      	  set_city_status = city_slaves_50
+	      	}
+	      }
+	      # Metropolis
+	      every_metropolis = {
+	      	set_variable = {
+	      	  name = p_rank
+	      	  value = 3
+	      	}
+	      	if = {
+	      	  limit = {
+	      		num_of_slaves = 0
+	      	  }
+	      	  set_city_status = city_metropolis_slaves_0
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 1 }
+	      	  set_city_status = city_metropolis_slaves_1
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 2 }
+	      	  set_city_status = city_metropolis_slaves_2
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 3 }
+	      	  set_city_status = city_metropolis_slaves_3
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 4 }
+	      	  set_city_status = city_metropolis_slaves_4
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 5 }
+	      	  set_city_status = city_metropolis_slaves_5
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 6 }
+	      	  set_city_status = city_metropolis_slaves_6
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 7 }
+	      	  set_city_status = city_metropolis_slaves_7
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 8 }
+	      	  set_city_status = city_metropolis_slaves_8
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 9 }
+	      	  set_city_status = city_metropolis_slaves_9
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 10 }
+	      	  set_city_status = city_metropolis_slaves_10
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 11 }
+	      	  set_city_status = city_metropolis_slaves_11
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 12 }
+	      	  set_city_status = city_metropolis_slaves_12
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 13 }
+	      	  set_city_status = city_metropolis_slaves_13
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 14 }
+	      	  set_city_status = city_metropolis_slaves_14
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 15 }
+	      	  set_city_status = city_metropolis_slaves_15
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 16 }
+	      	  set_city_status = city_metropolis_slaves_16
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 17 }
+	      	  set_city_status = city_metropolis_slaves_17
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 18 }
+	      	  set_city_status = city_metropolis_slaves_18
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 19 }
+	      	  set_city_status = city_metropolis_slaves_19
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves = 20 }
+	      	  set_city_status = city_metropolis_slaves_20
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves <= 25 }
+	      	  set_city_status = city_metropolis_slaves_25
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves <= 30 }
+	      	  set_city_status = city_metropolis_slaves_30
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves <= 35 }
+	      	  set_city_status = city_metropolis_slaves_35
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves <= 40 }
+	      	  set_city_status = city_metropolis_slaves_40
+	      	}
+
+	      	else_if = {
+	      	  limit = { num_of_slaves <= 45 }
+	      	  set_city_status = city_metropolis_slaves_45
+	      	}
+
+	      	else = {
+	      	  set_city_status = city_metropolis_slaves_50
+	      	}
+	      }
+	  }
+	  trigger_event = map_modes.1000
+    }
+}
+# Freemen
+map_modes.3 = {
+    type = country_event
+    hidden = yes
+    immediate = {
+    	hidden_effect = {
+		    # Settlement
+		    every_settlement = {
+		    	set_variable = {
+		    		name = p_rank
+		    		value = 1
+		    	}
+		    	if = {
+		    		limit = {
+		    			num_of_freemen = 0
+		    		}
+		    		set_city_status = settlement_freemen_0
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 1 }
+		    		set_city_status = settlement_freemen_1
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 2 }
+		    		set_city_status = settlement_freemen_2
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 3 }
+		    		set_city_status = settlement_freemen_3
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 4 }
+		    		set_city_status = settlement_freemen_4
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 5 }
+		    		set_city_status = settlement_freemen_5
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 6 }
+		    		set_city_status = settlement_freemen_6
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 7 }
+		    		set_city_status = settlement_freemen_7
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 8 }
+		    		set_city_status = settlement_freemen_8
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 9 }
+		    		set_city_status = settlement_freemen_9
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 10 }
+		    		set_city_status = settlement_freemen_10
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 11 }
+		    		set_city_status = settlement_freemen_11
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 12 }
+		    		set_city_status = settlement_freemen_12
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 13 }
+		    		set_city_status = settlement_freemen_13
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 14 }
+		    		set_city_status = settlement_freemen_14
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 15 }
+		    		set_city_status = settlement_freemen_15
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 16 }
+		    		set_city_status = settlement_freemen_16
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 17 }
+		    		set_city_status = settlement_freemen_17
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 18 }
+		    		set_city_status = settlement_freemen_18
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 19 }
+		    		set_city_status = settlement_freemen_19
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 20 }
+		    		set_city_status = settlement_freemen_20
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen <= 25 }
+		    		set_city_status = settlement_freemen_25
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen <= 30 }
+		    		set_city_status = settlement_freemen_30
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen <= 35 }
+		    		set_city_status = settlement_freemen_35
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen <= 40 }
+		    		set_city_status = settlement_freemen_40
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen <= 45 }
+		    		set_city_status = settlement_freemen_45
+		    	}
+
+		    	else = {
+		    		set_city_status = settlement_freemen_50
+		    	}
+		    }
+		    # City
+		    every_city = {
+		    	set_variable = {
+		    		name = p_rank
+		    		value = 2
+		    	}
+		    	if = {
+		    		limit = {
+		    			num_of_freemen = 0
+		    		}
+		    		set_city_status = city_freemen_0
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 1 }
+		    		set_city_status = city_freemen_1
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 2 }
+		    		set_city_status = city_freemen_2
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 3 }
+		    		set_city_status = city_freemen_3
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 4 }
+		    		set_city_status = city_freemen_4
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 5 }
+		    		set_city_status = city_freemen_5
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 6 }
+		    		set_city_status = city_freemen_6
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 7 }
+		    		set_city_status = city_freemen_7
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 8 }
+		    		set_city_status = city_freemen_8
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 9 }
+		    		set_city_status = city_freemen_9
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 10 }
+		    		set_city_status = city_freemen_10
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 11 }
+		    		set_city_status = city_freemen_11
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 12 }
+		    		set_city_status = city_freemen_12
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 13 }
+		    		set_city_status = city_freemen_13
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 14 }
+		    		set_city_status = city_freemen_14
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 15 }
+		    		set_city_status = city_freemen_15
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 16 }
+		    		set_city_status = city_freemen_16
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 17 }
+		    		set_city_status = city_freemen_17
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 18 }
+		    		set_city_status = city_freemen_18
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 19 }
+		    		set_city_status = city_freemen_19
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 20 }
+		    		set_city_status = city_freemen_20
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen <= 25 }
+		    		set_city_status = city_freemen_25
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen <= 30 }
+		    		set_city_status = city_freemen_30
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen <= 35 }
+		    		set_city_status = city_freemen_35
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen <= 40 }
+		    		set_city_status = city_freemen_40
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen <= 45 }
+		    		set_city_status = city_freemen_45
+		    	}
+
+		    	else = {
+		    		set_city_status = city_freemen_50
+		    	}
+		    }
+		    # Metropolis
+		    every_metropolis = {
+		    	set_variable = {
+		    		name = p_rank
+		    		value = 3
+		    	}
+		    	if = {
+		    		limit = {
+		    			num_of_freemen = 0
+		    		}
+		    		set_city_status = city_metropolis_freemen_0
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 1 }
+		    		set_city_status = city_metropolis_freemen_1
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 2 }
+		    		set_city_status = city_metropolis_freemen_2
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 3 }
+		    		set_city_status = city_metropolis_freemen_3
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 4 }
+		    		set_city_status = city_metropolis_freemen_4
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 5 }
+		    		set_city_status = city_metropolis_freemen_5
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 6 }
+		    		set_city_status = city_metropolis_freemen_6
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 7 }
+		    		set_city_status = city_metropolis_freemen_7
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 8 }
+		    		set_city_status = city_metropolis_freemen_8
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 9 }
+		    		set_city_status = city_metropolis_freemen_9
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 10 }
+		    		set_city_status = city_metropolis_freemen_10
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 11 }
+		    		set_city_status = city_metropolis_freemen_11
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 12 }
+		    		set_city_status = city_metropolis_freemen_12
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 13 }
+		    		set_city_status = city_metropolis_freemen_13
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 14 }
+		    		set_city_status = city_metropolis_freemen_14
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 15 }
+		    		set_city_status = city_metropolis_freemen_15
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 16 }
+		    		set_city_status = city_metropolis_freemen_16
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 17 }
+		    		set_city_status = city_metropolis_freemen_17
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 18 }
+		    		set_city_status = city_metropolis_freemen_18
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 19 }
+		    		set_city_status = city_metropolis_freemen_19
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen = 20 }
+		    		set_city_status = city_metropolis_freemen_20
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen <= 25 }
+		    		set_city_status = city_metropolis_freemen_25
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen <= 30 }
+		    		set_city_status = city_metropolis_freemen_30
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen <= 35 }
+		    		set_city_status = city_metropolis_freemen_35
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen <= 40 }
+		    		set_city_status = city_metropolis_freemen_40
+		    	}
+
+		    	else_if = {
+		    		limit = { num_of_freemen <= 45 }
+		    		set_city_status = city_metropolis_freemen_45
+		    	}
+
+		    	else = {
+		    		set_city_status = city_metropolis_freemen_50
+		    	}
+		    }
+	    }
+	    trigger_event = map_modes.1000
+    }
+}
+# Citizens
+map_modes.4 = {
+    type = country_event
+    hidden = yes
+    immediate = {
+    	hidden_effect = {
+			# Settlement
+			every_settlement = {
+				set_variable = {
+					name = p_rank
+					value = 1
+				}
+				if = {
+					limit = {
+						num_of_citizen = 0
+					}
+					set_city_status = settlement_citizens_0
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 1 }
+					set_city_status = settlement_citizens_1
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 2 }
+					set_city_status = settlement_citizens_2
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 3 }
+					set_city_status = settlement_citizens_3
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 4 }
+					set_city_status = settlement_citizens_4
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 5 }
+					set_city_status = settlement_citizens_5
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 6 }
+					set_city_status = settlement_citizens_6
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 7 }
+					set_city_status = settlement_citizens_7
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 8 }
+					set_city_status = settlement_citizens_8
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 9 }
+					set_city_status = settlement_citizens_9
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 10 }
+					set_city_status = settlement_citizens_10
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 11 }
+					set_city_status = settlement_citizens_11
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 12 }
+					set_city_status = settlement_citizens_12
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 13 }
+					set_city_status = settlement_citizens_13
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 14 }
+					set_city_status = settlement_citizens_14
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 15 }
+					set_city_status = settlement_citizens_15
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 16 }
+					set_city_status = settlement_citizens_16
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 17 }
+					set_city_status = settlement_citizens_17
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 18 }
+					set_city_status = settlement_citizens_18
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 19 }
+					set_city_status = settlement_citizens_19
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 20 }
+					set_city_status = settlement_citizens_20
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 25 }
+					set_city_status = settlement_citizens_25
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 30 }
+					set_city_status = settlement_citizens_30
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 35 }
+					set_city_status = settlement_citizens_35
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 40 }
+					set_city_status = settlement_citizens_40
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 45 }
+					set_city_status = settlement_citizens_45
+				}
+
+				else = {
+					set_city_status = settlement_citizens_50
+				}
+			}
+			# City
+			every_city = {
+				set_variable = {
+					name = p_rank
+					value = 2
+				}
+				if = {
+					limit = {
+						num_of_citizen = 0
+					}
+					set_city_status = city_citizens_0
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 1 }
+					set_city_status = city_citizens_1
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 2 }
+					set_city_status = city_citizens_2
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 3 }
+					set_city_status = city_citizens_3
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 4 }
+					set_city_status = city_citizens_4
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 5 }
+					set_city_status = city_citizens_5
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 6 }
+					set_city_status = city_citizens_6
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 7 }
+					set_city_status = city_citizens_7
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 8 }
+					set_city_status = city_citizens_8
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 9 }
+					set_city_status = city_citizens_9
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 10 }
+					set_city_status = city_citizens_10
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 11 }
+					set_city_status = city_citizens_11
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 12 }
+					set_city_status = city_citizens_12
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 13 }
+					set_city_status = city_citizens_13
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 14 }
+					set_city_status = city_citizens_14
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 15 }
+					set_city_status = city_citizens_15
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 16 }
+					set_city_status = city_citizens_16
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 17 }
+					set_city_status = city_citizens_17
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 18 }
+					set_city_status = city_citizens_18
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 19 }
+					set_city_status = city_citizens_19
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 20 }
+					set_city_status = city_citizens_20
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 25 }
+					set_city_status = city_citizens_25
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 30 }
+					set_city_status = city_citizens_30
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 35 }
+					set_city_status = city_citizens_35
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 40 }
+					set_city_status = city_citizens_40
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 45 }
+					set_city_status = city_citizens_45
+				}
+
+				else = {
+					set_city_status = city_citizens_50
+				}
+			}
+			# Metropolis
+			every_metropolis = {
+				set_variable = {
+					name = p_rank
+					value = 3
+				}
+				if = {
+					limit = {
+						num_of_citizen = 0
+					}
+					set_city_status = city_metropolis_citizens_0
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 1 }
+					set_city_status = city_metropolis_citizens_1
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 2 }
+					set_city_status = city_metropolis_citizens_2
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 3 }
+					set_city_status = city_metropolis_citizens_3
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 4 }
+					set_city_status = city_metropolis_citizens_4
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 5 }
+					set_city_status = city_metropolis_citizens_5
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 6 }
+					set_city_status = city_metropolis_citizens_6
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 7 }
+					set_city_status = city_metropolis_citizens_7
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 8 }
+					set_city_status = city_metropolis_citizens_8
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 9 }
+					set_city_status = city_metropolis_citizens_9
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 10 }
+					set_city_status = city_metropolis_citizens_10
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 11 }
+					set_city_status = city_metropolis_citizens_11
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 12 }
+					set_city_status = city_metropolis_citizens_12
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 13 }
+					set_city_status = city_metropolis_citizens_13
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 14 }
+					set_city_status = city_metropolis_citizens_14
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 15 }
+					set_city_status = city_metropolis_citizens_15
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 16 }
+					set_city_status = city_metropolis_citizens_16
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 17 }
+					set_city_status = city_metropolis_citizens_17
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 18 }
+					set_city_status = city_metropolis_citizens_18
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 19 }
+					set_city_status = city_metropolis_citizens_19
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 20 }
+					set_city_status = city_metropolis_citizens_20
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 25 }
+					set_city_status = city_metropolis_citizens_25
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 30 }
+					set_city_status = city_metropolis_citizens_30
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 35 }
+					set_city_status = city_metropolis_citizens_35
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 40 }
+					set_city_status = city_metropolis_citizens_40
+				}
+
+				else_if = {
+					limit = { num_of_citizen <= 45 }
+					set_city_status = city_metropolis_citizens_45
+				}
+
+				else = {
+					set_city_status = city_metropolis_citizens_50
+				}
+			}
+			set_variable = mapmode_enabled
+		}
+		trigger_event = map_modes.1000
+    }
+}
+# Nobles
+map_modes.5 = {
+    type = country_event
+    hidden = yes
+    immediate = {
+    	hidden_effect = {
+			# Settlement
+			every_settlement = {
+				set_variable = {
+					name = p_rank
+					value = 1
+				}
+				if = {
+					limit = {
+						num_of_nobles = 0
+					}
+					set_city_status = settlement_nobles_0
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 1 }
+					set_city_status = settlement_nobles_1
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 2 }
+					set_city_status = settlement_nobles_2
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 3 }
+					set_city_status = settlement_nobles_3
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 4 }
+					set_city_status = settlement_nobles_4
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 5 }
+					set_city_status = settlement_nobles_5
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 6 }
+					set_city_status = settlement_nobles_6
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 7 }
+					set_city_status = settlement_nobles_7
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 8 }
+					set_city_status = settlement_nobles_8
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 9 }
+					set_city_status = settlement_nobles_9
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 10 }
+					set_city_status = settlement_nobles_10
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 11 }
+					set_city_status = settlement_nobles_11
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 12 }
+					set_city_status = settlement_nobles_12
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 13 }
+					set_city_status = settlement_nobles_13
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 14 }
+					set_city_status = settlement_nobles_14
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 15 }
+					set_city_status = settlement_nobles_15
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 16 }
+					set_city_status = settlement_nobles_16
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 17 }
+					set_city_status = settlement_nobles_17
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 18 }
+					set_city_status = settlement_nobles_18
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 19 }
+					set_city_status = settlement_nobles_19
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 20 }
+					set_city_status = settlement_nobles_20
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 25 }
+					set_city_status = settlement_nobles_25
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 30 }
+					set_city_status = settlement_nobles_30
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 35 }
+					set_city_status = settlement_nobles_35
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 40 }
+					set_city_status = settlement_nobles_40
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 45 }
+					set_city_status = settlement_nobles_45
+				}
+
+				else = {
+					set_city_status = settlement_nobles_50
+				}
+			}
+			# City
+			every_city = {
+				set_variable = {
+					name = p_rank
+					value = 2
+				}
+				if = {
+					limit = {
+						num_of_nobles = 0
+					}
+					set_city_status = city_nobles_0
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 1 }
+					set_city_status = city_nobles_1
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 2 }
+					set_city_status = city_nobles_2
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 3 }
+					set_city_status = city_nobles_3
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 4 }
+					set_city_status = city_nobles_4
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 5 }
+					set_city_status = city_nobles_5
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 6 }
+					set_city_status = city_nobles_6
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 7 }
+					set_city_status = city_nobles_7
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 8 }
+					set_city_status = city_nobles_8
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 9 }
+					set_city_status = city_nobles_9
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 10 }
+					set_city_status = city_nobles_10
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 11 }
+					set_city_status = city_nobles_11
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 12 }
+					set_city_status = city_nobles_12
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 13 }
+					set_city_status = city_nobles_13
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 14 }
+					set_city_status = city_nobles_14
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 15 }
+					set_city_status = city_nobles_15
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 16 }
+					set_city_status = city_nobles_16
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 17 }
+					set_city_status = city_nobles_17
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 18 }
+					set_city_status = city_nobles_18
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 19 }
+					set_city_status = city_nobles_19
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 20 }
+					set_city_status = city_nobles_20
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 25 }
+					set_city_status = city_nobles_25
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 30 }
+					set_city_status = city_nobles_30
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 35 }
+					set_city_status = city_nobles_35
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 40 }
+					set_city_status = city_nobles_40
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 45 }
+					set_city_status = city_nobles_45
+				}
+
+				else = {
+					set_city_status = city_nobles_50
+				}
+			}
+			# Metropolis
+			every_metropolis = {
+				set_variable = {
+					name = p_rank
+					value = 3
+				}
+				if = {
+					limit = {
+						num_of_nobles = 0
+					}
+					set_city_status = city_metropolis_nobles_0
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 1 }
+					set_city_status = city_metropolis_nobles_1
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 2 }
+					set_city_status = city_metropolis_nobles_2
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 3 }
+					set_city_status = city_metropolis_nobles_3
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 4 }
+					set_city_status = city_metropolis_nobles_4
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 5 }
+					set_city_status = city_metropolis_nobles_5
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 6 }
+					set_city_status = city_metropolis_nobles_6
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 7 }
+					set_city_status = city_metropolis_nobles_7
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 8 }
+					set_city_status = city_metropolis_nobles_8
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 9 }
+					set_city_status = city_metropolis_nobles_9
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 10 }
+					set_city_status = city_metropolis_nobles_10
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 11 }
+					set_city_status = city_metropolis_nobles_11
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 12 }
+					set_city_status = city_metropolis_nobles_12
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 13 }
+					set_city_status = city_metropolis_nobles_13
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 14 }
+					set_city_status = city_metropolis_nobles_14
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 15 }
+					set_city_status = city_metropolis_nobles_15
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 16 }
+					set_city_status = city_metropolis_nobles_16
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 17 }
+					set_city_status = city_metropolis_nobles_17
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 18 }
+					set_city_status = city_metropolis_nobles_18
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 19 }
+					set_city_status = city_metropolis_nobles_19
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 20 }
+					set_city_status = city_metropolis_nobles_20
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 25 }
+					set_city_status = city_metropolis_nobles_25
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 30 }
+					set_city_status = city_metropolis_nobles_30
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 35 }
+					set_city_status = city_metropolis_nobles_35
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 40 }
+					set_city_status = city_metropolis_nobles_40
+				}
+
+				else_if = {
+					limit = { num_of_nobles <= 45 }
+					set_city_status = city_metropolis_nobles_45
+				}
+
+				else = {
+					set_city_status = city_metropolis_nobles_50
+				}
+			}
+			set_variable = mapmode_enabled
+		}
+		trigger_event = map_modes.1000
+    }
+}
+# Tribesmen
+map_modes.6 = {
+    type = country_event
+    hidden = yes
+    immediate = {
+    	hidden_effect = {
+			# Settlement
+			every_settlement = {
+				set_variable = {
+					name = p_rank
+					value = 1
+				}
+				if = {
+					limit = {
+						num_of_tribesmen = 0
+					}
+					set_city_status = settlement_tribesmen_0
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 1 }
+					set_city_status = settlement_tribesmen_1
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 2 }
+					set_city_status = settlement_tribesmen_2
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 3 }
+					set_city_status = settlement_tribesmen_3
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 4 }
+					set_city_status = settlement_tribesmen_4
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 5 }
+					set_city_status = settlement_tribesmen_5
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 6 }
+					set_city_status = settlement_tribesmen_6
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 7 }
+					set_city_status = settlement_tribesmen_7
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 8 }
+					set_city_status = settlement_tribesmen_8
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 9 }
+					set_city_status = settlement_tribesmen_9
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 10 }
+					set_city_status = settlement_tribesmen_10
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 11 }
+					set_city_status = settlement_tribesmen_11
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 12 }
+					set_city_status = settlement_tribesmen_12
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 13 }
+					set_city_status = settlement_tribesmen_13
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 14 }
+					set_city_status = settlement_tribesmen_14
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 15 }
+					set_city_status = settlement_tribesmen_15
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 16 }
+					set_city_status = settlement_tribesmen_16
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 17 }
+					set_city_status = settlement_tribesmen_17
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 18 }
+					set_city_status = settlement_tribesmen_18
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 19 }
+					set_city_status = settlement_tribesmen_19
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 20 }
+					set_city_status = settlement_tribesmen_20
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 25 }
+					set_city_status = settlement_tribesmen_25
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 30 }
+					set_city_status = settlement_tribesmen_30
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 35 }
+					set_city_status = settlement_tribesmen_35
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 40 }
+					set_city_status = settlement_tribesmen_40
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 45 }
+					set_city_status = settlement_tribesmen_45
+				}
+
+				else = {
+					set_city_status = settlement_tribesmen_50
+				}
+			}
+			# City
+			every_city = {
+				set_variable = {
+					name = p_rank
+					value = 2
+				}
+				if = {
+					limit = {
+						num_of_tribesmen = 0
+					}
+					set_city_status = city_tribesmen_0
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 1 }
+					set_city_status = city_tribesmen_1
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 2 }
+					set_city_status = city_tribesmen_2
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 3 }
+					set_city_status = city_tribesmen_3
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 4 }
+					set_city_status = city_tribesmen_4
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 5 }
+					set_city_status = city_tribesmen_5
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 6 }
+					set_city_status = city_tribesmen_6
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 7 }
+					set_city_status = city_tribesmen_7
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 8 }
+					set_city_status = city_tribesmen_8
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 9 }
+					set_city_status = city_tribesmen_9
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 10 }
+					set_city_status = city_tribesmen_10
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 11 }
+					set_city_status = city_tribesmen_11
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 12 }
+					set_city_status = city_tribesmen_12
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 13 }
+					set_city_status = city_tribesmen_13
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 14 }
+					set_city_status = city_tribesmen_14
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 15 }
+					set_city_status = city_tribesmen_15
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 16 }
+					set_city_status = city_tribesmen_16
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 17 }
+					set_city_status = city_tribesmen_17
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 18 }
+					set_city_status = city_tribesmen_18
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 19 }
+					set_city_status = city_tribesmen_19
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 20 }
+					set_city_status = city_tribesmen_20
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 25 }
+					set_city_status = city_tribesmen_25
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 30 }
+					set_city_status = city_tribesmen_30
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 35 }
+					set_city_status = city_tribesmen_35
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 40 }
+					set_city_status = city_tribesmen_40
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 45 }
+					set_city_status = city_tribesmen_45
+				}
+
+				else = {
+					set_city_status = city_tribesmen_50
+				}
+			}
+			# Metropolis
+			every_metropolis = {
+				set_variable = {
+					name = p_rank
+					value = 3
+				}
+				if = {
+					limit = {
+						num_of_tribesmen = 0
+					}
+					set_city_status = city_metropolis_tribesmen_0
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 1 }
+					set_city_status = city_metropolis_tribesmen_1
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 2 }
+					set_city_status = city_metropolis_tribesmen_2
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 3 }
+					set_city_status = city_metropolis_tribesmen_3
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 4 }
+					set_city_status = city_metropolis_tribesmen_4
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 5 }
+					set_city_status = city_metropolis_tribesmen_5
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 6 }
+					set_city_status = city_metropolis_tribesmen_6
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 7 }
+					set_city_status = city_metropolis_tribesmen_7
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 8 }
+					set_city_status = city_metropolis_tribesmen_8
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 9 }
+					set_city_status = city_metropolis_tribesmen_9
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 10 }
+					set_city_status = city_metropolis_tribesmen_10
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 11 }
+					set_city_status = city_metropolis_tribesmen_11
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 12 }
+					set_city_status = city_metropolis_tribesmen_12
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 13 }
+					set_city_status = city_metropolis_tribesmen_13
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 14 }
+					set_city_status = city_metropolis_tribesmen_14
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 15 }
+					set_city_status = city_metropolis_tribesmen_15
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 16 }
+					set_city_status = city_metropolis_tribesmen_16
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 17 }
+					set_city_status = city_metropolis_tribesmen_17
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 18 }
+					set_city_status = city_metropolis_tribesmen_18
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 19 }
+					set_city_status = city_metropolis_tribesmen_19
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 20 }
+					set_city_status = city_metropolis_tribesmen_20
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 25 }
+					set_city_status = city_metropolis_tribesmen_25
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 30 }
+					set_city_status = city_metropolis_tribesmen_30
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 35 }
+					set_city_status = city_metropolis_tribesmen_35
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 40 }
+					set_city_status = city_metropolis_tribesmen_40
+				}
+
+				else_if = {
+					limit = { num_of_tribesmen <= 45 }
+					set_city_status = city_metropolis_tribesmen_45
+				}
+
+				else = {
+					set_city_status = city_metropolis_tribesmen_50
+				}
+			}
+			set_variable = mapmode_enabled
+		}
+		trigger_event = map_modes.1000
+    }
+}
+# Technology
+map_modes.7 = {
+    type = country_event
+    hidden = yes
+    immediate = {
+    	hidden_effect = {
+    		every_settlement = {
+    			limit = {
+    				has_owner = no
+    			}
+    			set_variable = {
+    				name = p_rank
+    				value = 1
+    			}
+    			set_city_status = settlement_empty
+    		}
+
+    		every_city = {
+    			limit = {
+    				has_owner = no
+    			}
+    			set_variable = {
+    				name = p_rank
+    				value = 2
+    			}
+    			set_city_status = city_empty
+    		}
+
+    		every_metropolis = {
+    			limit = {
+    				has_owner = no
+    			}
+    			set_variable = {
+    				name = p_rank
+    				value = 3
+    			}
+    			set_city_status = city_metropolis_empty
+    		}
+
+    		every_country = {
+    			
+    			if = {
+    				limit = {
+    					military_tech = 0
+    				}
+    				every_owned_settlement = {
+    					set_variable = {
+    						name = p_rank
+    						value = 1
+    					}
+    					set_city_status = settlement_tech_0
+    				}
+    				every_owned_city = {
+    					set_variable = {
+    						name = p_rank
+    						value = 2
+    					}
+    					set_city_status = city_tech_0
+    				}
+    				every_owned_metropolis = {
+    					set_variable = {
+    						name = p_rank
+    						value = 3
+    					}
+    					set_city_status = city_metropolis_tech_0
+    				}
+    			}
+
+    			if = {
+    				limit = {
+    					military_tech = 1
+    				}
+    				every_owned_settlement = {
+    					set_variable = {
+    						name = p_rank
+    						value = 1
+    					}
+    					set_city_status = settlement_tech_1
+    				}
+    				every_owned_city = {
+    					set_variable = {
+    						name = p_rank
+    						value = 2
+    					}
+    					set_city_status = city_tech_1
+    				}
+    				every_owned_metropolis = {
+    					set_variable = {
+    						name = p_rank
+    						value = 3
+    					}
+    					set_city_status = city_metropolis_tech_1
+    				}
+    			}
+
+    			if = {
+    				limit = {
+    					military_tech = 2
+    				}
+    				every_owned_settlement = {
+    					set_variable = {
+    						name = p_rank
+    						value = 1
+    					}
+    					set_city_status = settlement_tech_2
+    				}
+    				every_owned_city = {
+    					set_variable = {
+    						name = p_rank
+    						value = 2
+    					}
+    					set_city_status = city_tech_2
+    				}
+    				every_owned_metropolis = {
+    					set_variable = {
+    						name = p_rank
+    						value = 3
+    					}
+    					set_city_status = city_metropolis_tech_2
+    				}
+    			}
+
+    			if = {
+    				limit = {
+    					military_tech = 3
+    				}
+    				every_owned_settlement = {
+    					set_variable = {
+    						name = p_rank
+    						value = 1
+    					}
+    					set_city_status = settlement_tech_3
+    				}
+    				every_owned_city = {
+    					set_variable = {
+    						name = p_rank
+    						value = 2
+    					}
+    					set_city_status = city_tech_3
+    				}
+    				every_owned_metropolis = {
+    					set_variable = {
+    						name = p_rank
+    						value = 3
+    					}
+    					set_city_status = city_metropolis_tech_3
+    				}
+    			}
+
+    			if = {
+    				limit = {
+    					military_tech = 4
+    				}
+    				every_owned_settlement = {
+    					set_variable = {
+    						name = p_rank
+    						value = 1
+    					}
+    					set_city_status = settlement_tech_4
+    				}
+    				every_owned_city = {
+    					set_variable = {
+    						name = p_rank
+    						value = 2
+    					}
+    					set_city_status = city_tech_4
+    				}
+    				every_owned_metropolis = {
+    					set_variable = {
+    						name = p_rank
+    						value = 3
+    					}
+    					set_city_status = city_metropolis_tech_4
+    				}
+    			}
+
+    			if = {
+    				limit = {
+    					military_tech = 5
+    				}
+    				every_owned_settlement = {
+    					set_variable = {
+    						name = p_rank
+    						value = 1
+    					}
+    					set_city_status = settlement_tech_5
+    				}
+    				every_owned_city = {
+    					set_variable = {
+    						name = p_rank
+    						value = 2
+    					}
+    					set_city_status = city_tech_5
+    				}
+    				every_owned_metropolis = {
+    					set_variable = {
+    						name = p_rank
+    						value = 3
+    					}
+    					set_city_status = city_metropolis_tech_5
+    				}
+    			}
+
+    			if = {
+    				limit = {
+    					military_tech = 6
+    				}
+    				every_owned_settlement = {
+    					set_variable = {
+    						name = p_rank
+    						value = 1
+    					}
+    					set_city_status = settlement_tech_6
+    				}
+    				every_owned_city = {
+    					set_variable = {
+    						name = p_rank
+    						value = 2
+    					}
+    					set_city_status = city_tech_6
+    				}
+    				every_owned_metropolis = {
+    					set_variable = {
+    						name = p_rank
+    						value = 3
+    					}
+    					set_city_status = city_metropolis_tech_6
+    				}
+    			}
+
+    			if = {
+    				limit = {
+    					military_tech = 7
+    				}
+    				every_owned_settlement = {
+    					set_variable = {
+    						name = p_rank
+    						value = 1
+    					}
+    					set_city_status = settlement_tech_7
+    				}
+    				every_owned_city = {
+    					set_variable = {
+    						name = p_rank
+    						value = 2
+    					}
+    					set_city_status = city_tech_7
+    				}
+    				every_owned_metropolis = {
+    					set_variable = {
+    						name = p_rank
+    						value = 3
+    					}
+    					set_city_status = city_metropolis_tech_7
+    				}
+    			}
+
+    			if = {
+    				limit = {
+    					military_tech = 8
+    				}
+    				every_owned_settlement = {
+    					set_variable = {
+    						name = p_rank
+    						value = 1
+    					}
+    					set_city_status = settlement_tech_8
+    				}
+    				every_owned_city = {
+    					set_variable = {
+    						name = p_rank
+    						value = 2
+    					}
+    					set_city_status = city_tech_8
+    				}
+    				every_owned_metropolis = {
+    					set_variable = {
+    						name = p_rank
+    						value = 3
+    					}
+    					set_city_status = city_metropolis_tech_8
+    				}
+    			}
+
+    			if = {
+    				limit = {
+    					military_tech = 9
+    				}
+    				every_owned_settlement = {
+    					set_variable = {
+    						name = p_rank
+    						value = 1
+    					}
+    					set_city_status = settlement_tech_9
+    				}
+    				every_owned_city = {
+    					set_variable = {
+    						name = p_rank
+    						value = 2
+    					}
+    					set_city_status = city_tech_9
+    				}
+    				every_owned_metropolis = {
+    					set_variable = {
+    						name = p_rank
+    						value = 3
+    					}
+    					set_city_status = city_metropolis_tech_9
+    				}
+    			}
+
+    			if = {
+    				limit = {
+    					military_tech = 10
+    				}
+    				every_owned_settlement = {
+    					set_variable = {
+    						name = p_rank
+    						value = 1
+    					}
+    					set_city_status = settlement_tech_10
+    				}
+    				every_owned_city = {
+    					set_variable = {
+    						name = p_rank
+    						value = 2
+    					}
+    					set_city_status = city_tech_10
+    				}
+    				every_owned_metropolis = {
+    					set_variable = {
+    						name = p_rank
+    						value = 3
+    					}
+    					set_city_status = city_metropolis_tech_10
+    				}
+    			}
+
+    			if = {
+    				limit = {
+    					military_tech = 11
+    				}
+    				every_owned_settlement = {
+    					set_variable = {
+    						name = p_rank
+    						value = 1
+    					}
+    					set_city_status = settlement_tech_11
+    				}
+    				every_owned_city = {
+    					set_variable = {
+    						name = p_rank
+    						value = 2
+    					}
+    					set_city_status = city_tech_11
+    				}
+    				every_owned_metropolis = {
+    					set_variable = {
+    						name = p_rank
+    						value = 3
+    					}
+    					set_city_status = city_metropolis_tech_11
+    				}
+    			}
+
+    			if = {
+    				limit = {
+    					military_tech = 12
+    				}
+    				every_owned_settlement = {
+    					set_variable = {
+    						name = p_rank
+    						value = 1
+    					}
+    					set_city_status = settlement_tech_12
+    				}
+    				every_owned_city = {
+    					set_variable = {
+    						name = p_rank
+    						value = 2
+    					}
+    					set_city_status = city_tech_12
+    				}
+    				every_owned_metropolis = {
+    					set_variable = {
+    						name = p_rank
+    						value = 3
+    					}
+    					set_city_status = city_metropolis_tech_12
+    				}
+    			}
+
+    			if = {
+    				limit = {
+    					military_tech = 13
+    				}
+    				every_owned_settlement = {
+    					set_variable = {
+    						name = p_rank
+    						value = 1
+    					}
+    					set_city_status = settlement_tech_13
+    				}
+    				every_owned_city = {
+    					set_variable = {
+    						name = p_rank
+    						value = 2
+    					}
+    					set_city_status = city_tech_13
+    				}
+    				every_owned_metropolis = {
+    					set_variable = {
+    						name = p_rank
+    						value = 3
+    					}
+    					set_city_status = city_metropolis_tech_13
+    				}
+    			}
+
+    			if = {
+    				limit = {
+    					military_tech = 14
+    				}
+    				every_owned_settlement = {
+    					set_variable = {
+    						name = p_rank
+    						value = 1
+    					}
+    					set_city_status = settlement_tech_14
+    				}
+    				every_owned_city = {
+    					set_variable = {
+    						name = p_rank
+    						value = 2
+    					}
+    					set_city_status = city_tech_14
+    				}
+    				every_owned_metropolis = {
+    					set_variable = {
+    						name = p_rank
+    						value = 3
+    					}
+    					set_city_status = city_metropolis_tech_14
+    				}
+    			}
+
+    			if = {
+    				limit = {
+    					military_tech = 15
+    				}
+    				every_owned_settlement = {
+    					set_variable = {
+    						name = p_rank
+    						value = 1
+    					}
+    					set_city_status = settlement_tech_15
+    				}
+    				every_owned_city = {
+    					set_variable = {
+    						name = p_rank
+    						value = 2
+    					}
+    					set_city_status = city_tech_15
+    				}
+    				every_owned_metropolis = {
+    					set_variable = {
+    						name = p_rank
+    						value = 3
+    					}
+    					set_city_status = city_metropolis_tech_15
+    				}
+    			}
+
+    			if = {
+    				limit = {
+    					military_tech = 16
+    				}
+    				every_owned_settlement = {
+    					set_variable = {
+    						name = p_rank
+    						value = 1
+    					}
+    					set_city_status = settlement_tech_16
+    				}
+    				every_owned_city = {
+    					set_variable = {
+    						name = p_rank
+    						value = 2
+    					}
+    					set_city_status = city_tech_16
+    				}
+    				every_owned_metropolis = {
+    					set_variable = {
+    						name = p_rank
+    						value = 3
+    					}
+    					set_city_status = city_metropolis_tech_16
+    				}
+    			}
+
+    			if = {
+    				limit = {
+    					military_tech = 17
+    				}
+    				every_owned_settlement = {
+    					set_variable = {
+    						name = p_rank
+    						value = 1
+    					}
+    					set_city_status = settlement_tech_17
+    				}
+    				every_owned_city = {
+    					set_variable = {
+    						name = p_rank
+    						value = 2
+    					}
+    					set_city_status = city_tech_17
+    				}
+    				every_owned_metropolis = {
+    					set_variable = {
+    						name = p_rank
+    						value = 3
+    					}
+    					set_city_status = city_metropolis_tech_17
+    				}
+    			}
+
+    			if = {
+    				limit = {
+    					military_tech = 18
+    				}
+    				every_owned_settlement = {
+    					set_variable = {
+    						name = p_rank
+    						value = 1
+    					}
+    					set_city_status = settlement_tech_18
+    				}
+    				every_owned_city = {
+    					set_variable = {
+    						name = p_rank
+    						value = 2
+    					}
+    					set_city_status = city_tech_18
+    				}
+    				every_owned_metropolis = {
+    					set_variable = {
+    						name = p_rank
+    						value = 3
+    					}
+    					set_city_status = city_metropolis_tech_18
+    				}
+    			}
+
+    			if = {
+    				limit = {
+    					military_tech = 19
+    				}
+    				every_owned_settlement = {
+    					set_variable = {
+    						name = p_rank
+    						value = 1
+    					}
+    					set_city_status = settlement_tech_19
+    				}
+    				every_owned_city = {
+    					set_variable = {
+    						name = p_rank
+    						value = 2
+    					}
+    					set_city_status = city_tech_19
+    				}
+    				every_owned_metropolis = {
+    					set_variable = {
+    						name = p_rank
+    						value = 3
+    					}
+    					set_city_status = city_metropolis_tech_19
+    				}
+    			}
+
+    			if = {
+    				limit = {
+    					military_tech = 20
+    				}
+    				every_owned_settlement = {
+    					set_variable = {
+    						name = p_rank
+    						value = 1
+    					}
+    					set_city_status = settlement_tech_20
+    				}
+    				every_owned_city = {
+    					set_variable = {
+    						name = p_rank
+    						value = 2
+    					}
+    					set_city_status = city_tech_20
+    				}
+    				every_owned_metropolis = {
+    					set_variable = {
+    						name = p_rank
+    						value = 3
+    					}
+    					set_city_status = city_metropolis_tech_20
+    				}
+    			}
+    		}
+    		set_variable = mapmode_enabled
+    	}
+    	trigger_event = map_modes.1000
+    }
+}
+# Relative Strength
+map_modes.8 = {
+    type = country_event
+    hidden = yes
+    immediate = {
+    	hidden_effect = {
+    		every_settlement = {
+    			limit = {
+    				has_owner = no
+    			}
+    			set_variable = {
+    				name = p_rank
+    				value = 1
+    			}
+    			set_city_status = settlement_empty
+    		}
+
+    		every_city = {
+    			limit = {
+    				has_owner = no
+    			}
+    			set_variable = {
+    				name = p_rank
+    				value = 2
+    			}
+    			set_city_status = city_empty
+    		}
+
+    		every_metropolis = {
+    			limit = {
+    				has_owner = no
+    			}
+    			set_variable = {
+    				name = p_rank
+    				value = 3
+    			}
+    			set_city_status = city_metropolis_empty
+    		}
+    		if = {
+    			limit = { num_of_cohorts > 0 }
+
+    			set_variable = {
+    				name = much_weaker
+    				value = this.num_of_cohorts
+    			}
+
+    			change_variable = {
+    				name = much_weaker
+    				divide = 3
+    			}
+
+    			set_variable = {
+    				name = weaker
+    				value = this.num_of_cohorts
+    			}
+
+    			change_variable = {
+    				name = weaker
+    				divide = 1.3
+    			}
+
+    			set_variable = {
+    				name = equal
+    				value = this.num_of_cohorts
+    			}
+
+    			set_variable = {
+    				name = stronger
+    				value = this.num_of_cohorts
+    			}
+
+    			change_variable = {
+    				name = stronger
+    				multiply = 1.3
+    			}
+
+    			set_variable = {
+    				name = much_stronger
+    				value = this.num_of_cohorts
+    			}
+
+    			change_variable = {
+    				name = much_stronger
+    				multiply = 3
+    			}
+
+    			every_country = {
+    				if = {
+    					limit = {
+    						root = {
+    							prev.num_of_cohorts <= var:much_weaker
+    						}
+    					}
+    					every_owned_settlement = {
+    						set_variable = {
+    							name = p_rank
+    							value = 1
+    						}
+    						set_city_status = settlement_much_weaker
+    					}
+    					every_owned_city = {
+    						set_variable = {
+    							name = p_rank
+    							value = 2
+    						}
+    						set_city_status = city_much_weaker
+    					}
+    					every_owned_metropolis = {
+    						set_variable = {
+    							name = p_rank
+    							value = 3
+    						}
+    						set_city_status = city_metropolis_much_weaker
+    					}
+    				}
+
+    				else_if = {
+    					limit = {
+    						root = {
+    							prev.num_of_cohorts <= var:weaker
+    						}
+    					}
+    					every_owned_settlement = {
+    						set_variable = {
+    							name = p_rank
+    							value = 1
+    						}
+    						set_city_status = settlement_weaker
+    					}
+    					every_owned_city = {
+    						set_variable = {
+    							name = p_rank
+    							value = 2
+    						}
+    						set_city_status = city_weaker
+    					}
+    					every_owned_metropolis = {
+    						set_variable = {
+    							name = p_rank
+    							value = 3
+    						}
+    						set_city_status = city_metropolis_weaker
+    					}
+    				}
+
+    				else_if = {
+    					limit = {
+    						root = {
+    							prev.num_of_cohorts >= var:much_stronger
+    						}
+    					}
+    					every_owned_settlement = {
+    						set_variable = {
+    							name = p_rank
+    							value = 1
+    						}
+    						set_city_status = settlement_much_stronger
+    					}
+    					every_owned_city = {
+    						set_variable = {
+    							name = p_rank
+    							value = 2
+    						}
+    						set_city_status = city_much_stronger
+    					}
+    					every_owned_metropolis = {
+    						set_variable = {
+    							name = p_rank
+    							value = 3
+    						}
+    						set_city_status = city_metropolis_much_stronger
+    					}
+    				}
+
+    				else_if = {
+    					limit = {
+    						root = {
+    							prev.num_of_cohorts >= var:stronger
+    						}
+    					}
+    					every_owned_settlement = {
+    						set_variable = {
+    							name = p_rank
+    							value = 1
+    						}
+    						set_city_status = settlement_stronger
+    					}
+    					every_owned_city = {
+    						set_variable = {
+    							name = p_rank
+    							value = 2
+    						}
+    						set_city_status = city_stronger
+    					}
+    					every_owned_metropolis = {
+    						set_variable = {
+    							name = p_rank
+    							value = 3
+    						}
+    						set_city_status = city_metropolis_stronger
+    					}
+    				}
+
+    				else = {
+    					every_owned_settlement = {
+    						set_variable = {
+    							name = p_rank
+    							value = 1
+    						}
+    						set_city_status = settlement_equal
+    					}
+    					every_owned_city = {
+    						set_variable = {
+    							name = p_rank
+    							value = 2
+    						}
+    						set_city_status = city_equal
+    					}
+    					every_owned_metropolis = {
+    						set_variable = {
+    							name = p_rank
+    							value = 3
+    						}
+    						set_city_status = city_metropolis_equal
+    					}
+    				}
+    			}
+    		}
+    		else = {
+    			every_country = {
+    				limit = {
+    					num_of_cohorts > 0
+    				}
+    				every_owned_settlement = {
+    					set_variable = {
+    						name = p_rank
+    						value = 1
+    					}
+    					set_city_status = settlement_stronger
+    				}
+    				every_owned_city = {
+    					set_variable = {
+    						name = p_rank
+    						value = 2
+    					}
+    					set_city_status = city_stronger
+    				}
+    				every_owned_metropolis = {
+    					set_variable = {
+    						name = p_rank
+    						value = 3
+    					}
+    					set_city_status = city_metropolis_stronger
+    				}
+    			}
+    			every_country = {
+    				limit = {
+    					num_of_cohorts = 0
+    				}
+    				every_owned_settlement = {
+    					set_variable = {
+    						name = p_rank
+    						value = 1
+    					}
+    					set_city_status = settlement_equal
+    				}
+    				every_owned_city = {
+    					set_variable = {
+    						name = p_rank
+    						value = 2
+    					}
+    					set_city_status = city_equal
+    				}
+    				every_owned_metropolis = {
+    					set_variable = {
+    						name = p_rank
+    						value = 3
+    					}
+    					set_city_status = city_metropolis_equal
+    				}
+    			}
+    		}
+    		set_variable = mapmode_enabled
+    	}
+    	trigger_event = map_modes.1000
+    }
+}
+# War
+map_modes.9 = {
+    type = country_event
+    hidden = yes
+    immediate = {
+    	hidden_effect = {
+    		every_settlement = {
+    			limit = {
+    				has_owner = no
+    			}
+    			set_variable = {
+    				name = p_rank
+    				value = 1
+    			}
+    			set_city_status = settlement_empty
+    		}
+
+    		every_city = {
+    			limit = {
+    				has_owner = no
+    			}
+    			set_variable = {
+    				name = p_rank
+    				value = 2
+    			}
+    			set_city_status = city_empty
+    		}
+
+    		every_metropolis = {
+    			limit = {
+    				has_owner = no
+    			}
+    			set_variable = {
+    				name = p_rank
+    				value = 3
+    			}
+    			set_city_status = city_metropolis_empty
+    		}
+
+    		every_country = {
+    			if = {
+    				limit = { war = yes }
+    				every_owned_settlement = {
+    					set_variable = {
+    						name = p_rank
+    						value = 1
+    					}
+    					set_city_status = settlement_war
+    				}
+
+    				every_owned_city = {
+    					set_variable = {
+    						name = p_rank
+    						value = 2
+    					}
+    					set_city_status = city_war
+    				}
+
+    				every_owned_metropolis = {
+    					set_variable = {
+    						name = p_rank
+    						value = 3
+    					}
+    					set_city_status = city_metropolis_war
+    				}
+    			}
+    			else = {
+    				every_owned_settlement = {
+    					set_variable = {
+    						name = p_rank
+    						value = 1
+    					}
+    					set_city_status = settlement_empty
+    				}
+
+    				every_owned_city = {
+    					set_variable = {
+    						name = p_rank
+    						value = 2
+    					}
+    					set_city_status = city_empty
+    				}
+
+    				every_owned_metropolis = {
+    					set_variable = {
+    						name = p_rank
+    						value = 3
+    					}
+    					set_city_status = city_metropolis_empty
+    				}
+    			}
+    		}
+    		set_variable = mapmode_enabled
+    	}
+    	trigger_event = map_modes.1000
+    }
+}
+
+# Goods Produced
+map_modes.10 = {
+	type = country_event
+	hidden = yes
+	immediate = {
+		hidden_effect = {
+			every_settlement = {
+				set_variable = {
+					name = p_rank
+					value = 1
+				}
+				if = {
+					limit = {
+						num_goods_produced = 0
+					}
+					set_city_status = settlement_goods_0
+				}
+				if = {
+					limit = {
+						num_goods_produced = 1
+					}
+					set_city_status = settlement_goods_1
+				}
+				if = {
+					limit = {
+						num_goods_produced = 2
+					}
+					set_city_status = settlement_goods_2
+				}
+				if = {
+					limit = {
+						num_goods_produced = 3
+					}
+					set_city_status = settlement_goods_3
+				}
+				if = {
+					limit = {
+						num_goods_produced = 4
+					}
+					set_city_status = settlement_goods_4
+				}
+				if = {
+					limit = {
+						num_goods_produced = 5
+					}
+					set_city_status = settlement_goods_5
+				}
+				if = {
+					limit = {
+						num_goods_produced = 6
+					}
+					set_city_status = settlement_goods_6
+				}
+				if = {
+					limit = {
+						num_goods_produced = 7
+					}
+					set_city_status = settlement_goods_7
+				}
+				if = {
+					limit = {
+						num_goods_produced = 8
+					}
+					set_city_status = settlement_goods_8
+				}
+				if = {
+					limit = {
+						num_goods_produced = 9
+					}
+					set_city_status = settlement_goods_9
+				}
+				if = {
+					limit = {
+						num_goods_produced >= 10
+					}
+					set_city_status = settlement_goods_10
+				}
+			}
+
+			every_city = {
+				set_variable = {
+					name = p_rank
+					value = 2
+				}
+				if = {
+					limit = {
+						num_goods_produced = 0
+					}
+					set_city_status = city_goods_0
+				}
+				if = {
+					limit = {
+						num_goods_produced = 1
+					}
+					set_city_status = city_goods_1
+				}
+				if = {
+					limit = {
+						num_goods_produced = 2
+					}
+					set_city_status = city_goods_2
+				}
+				if = {
+					limit = {
+						num_goods_produced = 3
+					}
+					set_city_status = city_goods_3
+				}
+				if = {
+					limit = {
+						num_goods_produced = 4
+					}
+					set_city_status = city_goods_4
+				}
+				if = {
+					limit = {
+						num_goods_produced = 5
+					}
+					set_city_status = city_goods_5
+				}
+				if = {
+					limit = {
+						num_goods_produced = 6
+					}
+					set_city_status = city_goods_6
+				}
+				if = {
+					limit = {
+						num_goods_produced = 7
+					}
+					set_city_status = city_goods_7
+				}
+				if = {
+					limit = {
+						num_goods_produced = 8
+					}
+					set_city_status = city_goods_8
+				}
+				if = {
+					limit = {
+						num_goods_produced = 9
+					}
+					set_city_status = city_goods_9
+				}
+				if = {
+					limit = {
+						num_goods_produced = 10
+					}
+					set_city_status = city_goods_10
+				}
+			}
+
+			every_metropolis = {
+				set_variable = {
+					name = p_rank
+					value = 3
+				}
+				if = {
+					limit = {
+						num_goods_produced = 0
+					}
+					set_city_status = city_metropolis_goods_0
+				}
+				if = {
+					limit = {
+						num_goods_produced = 1
+					}
+					set_city_status = city_metropolis_goods_1
+				}
+				if = {
+					limit = {
+						num_goods_produced = 2
+					}
+					set_city_status = city_metropolis_goods_2
+				}
+				if = {
+					limit = {
+						num_goods_produced = 3
+					}
+					set_city_status = city_metropolis_goods_3
+				}
+				if = {
+					limit = {
+						num_goods_produced = 4
+					}
+					set_city_status = city_metropolis_goods_4
+				}
+				if = {
+					limit = {
+						num_goods_produced = 5
+					}
+					set_city_status = city_metropolis_goods_5
+				}
+				if = {
+					limit = {
+						num_goods_produced = 6
+					}
+					set_city_status = city_metropolis_goods_6
+				}
+				if = {
+					limit = {
+						num_goods_produced = 7
+					}
+					set_city_status = city_metropolis_goods_7
+				}
+				if = {
+					limit = {
+						num_goods_produced = 8
+					}
+					set_city_status = city_metropolis_goods_8
+				}
+				if = {
+					limit = {
+						num_goods_produced = 9
+					}
+					set_city_status = city_metropolis_goods_9
+				}
+				if = {
+					limit = {
+						num_goods_produced = 10
+					}
+					set_city_status = city_metropolis_goods_10
+				}
+			}
+			set_variable = mapmode_enabled
+		}
+		trigger_event = map_modes.1000
+	}
+}
+
+# Clear/Reset
+map_modes.1000 = {
+    type = country_event
+    title = map_modes.1000.t
+    desc = map_modes.1000.desc
+    picture = aqueducts
+
+    option = {
+    	name = "Look at More Map Modes"
+    	hidden_effect = {
+        	every_province = {
+	        	limit = {
+	        		is_inhabitable = yes
+	        	}
+        		if = {
+        			limit = { has_variable = p_rank }
+	        		if = {
+	        			limit = {
+	        				var:p_rank = 1
+	        			}
+	        			set_city_status = settlement
+	        		}
+	        		else_if = {
+	        			limit = {
+	        				var:p_rank = 2
+	        			}
+	        			set_city_status = city
+	        		}
+	        		else_if = {
+	        			limit = {
+	        				var:p_rank = 3
+	        			}
+	        			set_city_status = city_metropolis
+	        		}
+	        		remove_variable = p_rank
+        		}
+        	}
+	    }
+	    remove_variable = mapmode_enabled
+	    trigger_event = map_modes.1
+    }
+    option = { 
+        name = "Click to leave map modes"
+        hidden_effect = {
+        	every_province = {
+	        	limit = {
+	        		is_inhabitable = yes
+	        	}
+        		if = {
+        			limit = { has_variable = p_rank }
+	        		if = {
+	        			limit = {
+	        				var:p_rank = 1
+	        			}
+	        			set_city_status = settlement
+	        		}
+	        		else_if = {
+	        			limit = {
+	        				var:p_rank = 2
+	        			}
+	        			set_city_status = city
+	        		}
+	        		else_if = {
+	        			limit = {
+	        				var:p_rank = 3
+	        			}
+	        			set_city_status = city_metropolis
+	        		}
+	        		remove_variable = p_rank
+        		}
+        	}
+	    }
+        remove_variable = mapmode_enabled
+        remove_variable = in_map_modes
+    }
+}

@@ -1,0 +1,142 @@
+@mmi_width = 38
+@mmi_height = 32
+
+base_window = {
+	gfxtype = windowgfx
+	name = "select_map_modes"
+	position = { -370 1 }
+	parentanchor = bottom|right
+	widgetanchor = bottom|right
+	size = { 400 287 }
+	
+	layer = top
+	
+	secondary_header = {
+		size = { 100% 32 }
+		position = { 0 0 }
+		
+		blockoverride "Title_text" { text = "SELECT_MAPMODES_HEADER" }
+		blockoverride "White_buttons" 
+		{
+			button_close = {
+				onclick = "[SelectMapModesView.OnClose]"
+				tooltip = "CLOSE"
+				shortcut = "close_window"
+				alwaystransparent = no
+			}
+		}
+	}
+
+	textbox = {
+		name = "Drag_Instructions"
+		position = { 12 12 }
+		size = { 388 60 }
+		multiline = yes								
+		align = left
+		text = "DRAG_DROP_TOOLTIP"
+		elide = right
+		using = BaseFontS
+		using = Black_FontColor
+	}
+	
+	scrollarea = {
+		position = { 10 70 }
+		size = { 378 204 }
+		scrollbarpolicy_horizontal = always_off
+		
+		using = VerticalScrollAreaCutOff
+
+		scrollbar_vertical = {
+			using = VerticalScrollBar
+		}
+		
+		scrollwidget = {
+			dynamicgridbox = {
+				position = { 8 2 }
+				size = { 340 323 }
+				datamodel = "[SelectMapModesView.GetMapModes]"
+				
+				item = {
+					widget = {
+						size = { 340 36 }
+						container = {
+							visible = "[Not(GameIsMultiplayer)]"
+							list_button = {
+								visible = "[EqualTo_string(SelectMapModesGlue.GetMapModeKey, 'custom_mode')]"
+								size = { 353 34 }
+								position = { 0 0 }
+								parentanchor = vcenter
+								down = "[IsMapMode( SelectMapModesGlue.GetMapModeKey )]"
+								onclick = "[GetScriptedGui('show_custom_mapmodes').Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+								onclick = "[SelectMapModesGlue.OnClick]"
+								tooltip = "[SelectMapModesGlue.GetMapModeDesc]"
+							}
+							textbox = {
+								visible = "[EqualTo_string(SelectMapModesGlue.GetMapModeKey, 'custom_mode')]"
+								position = { 0 -2 }
+								autoresize = yes
+								size = { 200 30 }
+								parentanchor = center
+								text = "[SelectMapModesGlue.GetMapModeName]"
+								using = BaseFontM
+								using = Black_FontColor
+							}
+						}
+						# DEFUALT MAP MODES #
+						list_button = {
+							visible = "[Not(EqualTo_string(SelectMapModesGlue.GetMapModeKey, 'custom_mode'))]"
+							size = { 314 34 }
+							position = { 40 0 }
+							parentanchor = vcenter
+							down = "[IsMapMode( SelectMapModesGlue.GetMapModeKey )]"
+							onclick = "[SelectMapModesGlue.OnClick]"
+							
+						}
+						icon = {
+							visible = "[Not(EqualTo_string(SelectMapModesGlue.GetMapModeKey, 'custom_mode'))]"
+							size = { @mmi_width @mmi_height }
+							using = button_tiled_texture
+							framesize = { 200 200 }
+							frame = 2
+							using = border_slightly_torn_alpha
+							parentanchor = vcenter
+						}
+						
+						dragdropicon = {
+							visible = "[Not(EqualTo_string(SelectMapModesGlue.GetMapModeKey, 'custom_mode'))]"
+							position = { 0 0 }
+							parentanchor = vcenter
+							size = { @mmi_width 29 }
+							texture = "[SelectMapModesGlue.GetMapModeIcon]"
+							framesize = { 86 64 }
+							dragdropid = "map_mode" 
+							dragdropargs = "[SelectMapModesGlue.GetMapModeKey]"
+							tooltip = "[SelectMapModesGlue.GetMapModeDesc]"
+							using = tooltip_es
+						}
+					
+						textbox = {
+							visible = "[Not(EqualTo_string(SelectMapModesGlue.GetMapModeKey, 'custom_mode'))]"
+							position = { 52 -2 }
+							autoresize = yes
+							size = { 200 30 }
+							parentanchor = vcenter
+							text = "[SelectMapModesGlue.GetMapModeName]"
+							using = BaseFontM
+							using = Black_FontColor
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	state = {
+		name = close_mapmode_selector
+		
+		on_finish = "[SelectMapModesView.OnClose]"
+		
+	}
+	
+}
+

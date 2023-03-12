@@ -1,0 +1,44 @@
+﻿city = { # Creates any/every/random/ordered_city
+	base = province
+	conditions = {
+		is_inhabitable = yes
+		has_province_rank = city
+	}
+}
+
+metropolis = { # Creates any/every/random/ordered_metropolis
+	base = province
+	conditions = {
+		is_inhabitable = yes
+		has_province_rank = city_metropolis
+	}
+}
+
+settlement = { # Creates any/every/random/ordered_settlement
+	base = province
+	conditions = {
+		is_inhabitable = yes
+		has_province_rank = settlement
+	}
+}
+
+owned_city = { # Creates any/every/random/ordered_owned_city
+	base = owned_province
+	conditions = {
+		has_province_rank = city
+	}
+}
+
+owned_metropolis = { # Creates any/every/random/ordered_owned_metropolis
+	base = owned_province
+	conditions = {
+		has_province_rank = city_metropolis
+	}
+}
+
+owned_settlement = { # Creates any/every/random/ordered_owned_settlement
+	base = owned_province
+	conditions = {
+		has_province_rank = settlement
+	}
+}

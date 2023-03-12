@@ -1,9 +1,11 @@
 namespace = map
 
 map.999 = { # TEST
+  hidden = yes
+  type = country_event
   immediate = {
     MAPMODE_enable_special_mapmode = {
-      mapmode = governorship_total_wealth
+      mapmode = governorship_per_capita_wealth
     }
   }
 }
@@ -15,16 +17,14 @@ map.11 = { # store the city ranks
   immediate = {
     if = {
       limit = {
-        NOT = {
-          has_global_variable = mapmode
-        }
+        always = yes
       }
 
       every_province = {
         limit = { is_inhabitable = yes }
 
         if = {
-          limit = { rank = settlement }
+          limit = { has_province_rank = settlement }
           set_variable = {
             name = province_rank
             value = 1
@@ -32,18 +32,18 @@ map.11 = { # store the city ranks
         }
 
         else_if = {
-          limit = { rank = city }
-          set_variable = {
-            name = province_rank
-            value = 1
-          }
-        }
-
-        else_if = {
-          limit = { rank = city_metropolis }
+          limit = { has_province_rank = city }
           set_variable = {
             name = province_rank
             value = 2
+          }
+        }
+
+        else_if = {
+          limit = { has_province_rank = city_metropolis }
+          set_variable = {
+            name = province_rank
+            value = 3
           }
         }
 
@@ -54,38 +54,44 @@ map.11 = { # store the city ranks
 }
 
 map.100 = { # restore the city ranks
-  hidden = yes
-  type = country_event
+    type = country_event
+    title = map_modes.1000.t
+    desc = map_modes.1000.desc
+    picture = aqueducts
 
-  immediate = {
-    if = {
-      limit = { has_global_variable = mapmode }
-      every_province = {
-        limit = { is_inhabitable = yes }
-
-        if = {
-          limit = { has_variable = province_rank var:province_rank = 0 }
-
-          set_city_status = settlement
-        }
-
-        else_if = {
-          limit = { has_variable = province_rank var:province_rank = 1 }
-
-          set_city_status = city
-        }
-
-        else_if = {
-          limit = { has_variable = province_rank var:province_rank = 2 }
-
-          set_city_status = city_metropolis
-        }
-
+    option = { 
+        name = "Click to leave map modes"
+        hidden_effect = {
+          every_province = {
+            limit = {
+              is_inhabitable = yes
+            }
+            if = {
+              limit = { has_variable = province_rank }
+              if = {
+                limit = {
+                  var:province_rank = 1
+                }
+                set_city_status = settlement
+              }
+              else_if = {
+                limit = {
+                  var:province_rank = 2
+                }
+                set_city_status = city
+              }
+              else_if = {
+                limit = {
+                  var:province_rank = 3
+                }
+                set_city_status = city_metropolis
+              }
+              remove_variable = province_rank
+            }
+          }
       }
-
       remove_global_variable = mapmode
     }
-  }
 }
 
 map.1 = { # government types
